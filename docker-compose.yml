@@ -1,0 +1,13 @@
+version: "3.9"
+services:
+  google-messages-sender:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/app
+      - /dev/shm:/dev/shm # Necessário para otimizar o uso do ChromeDriver no Docker
+    environment:
+      - DISPLAY=:99 # Configuração para rodar interface gráfica
+    ports:
+      - "8080:8080"

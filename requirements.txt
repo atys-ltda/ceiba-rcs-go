@@ -1,0 +1,6 @@
+tk
+Pillow
+selenium
+webdriver-manager
+pyautogui
+openpyxl
