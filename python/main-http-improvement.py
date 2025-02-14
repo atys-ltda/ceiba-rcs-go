@@ -48,6 +48,7 @@ class GoogleMessagesSender:
     UNABLE_ENTER_RECIPIENT = 3
     UNABLE_FIND_TEXTAREA = 4
 
+    # principal functions
     def __init__(self):
         self.root = tk.Tk()
         self.root.title("Google Messages Sender")
@@ -65,7 +66,6 @@ class GoogleMessagesSender:
         self.image_path = None
         self.access_token = ""
         self.user_data = False
-
 
     def setup_messages_tab(self):
         # 1. autenticar a aplicação
@@ -226,9 +226,17 @@ class GoogleMessagesSender:
                 return
             
         if len(self.messages):
-            messages_chunks = [self.messages[i::len(self.drivers)] for i in range(len(self.drivers))]
+            # messages_chunks = [self.messages[i::len(self.drivers)] for i in range(len(self.drivers))]
+            for i in range(len(self.enabled_instances)):
+                if (time.time() - self.enabled_instances[i]) / 1800 > 1:
+                    logger.info(f"Worker {self.worker_name}, instance {i}, has been unlocked after sleep 1/2 hour.")
+                    self.enabled_instances[i] = 0
+    
+            num_zeros = self.enabled_instances.count(0)
+            messages_chunks = [self.messages[i::num_zeros] for i in range(num_zeros)]
             threads = []
             has_credit = self.credit.get()
+
             flag = False
             for i, messages_chunk in enumerate(messages_chunks):
                 if self.enabled_instances[i] == 0:
@@ -236,12 +244,10 @@ class GoogleMessagesSender:
                     thread = threading.Thread(target=self.send_messages_chunk, args=(self.drivers[i], messages_chunk, self.text_message, has_credit, i))
                     threads.append(thread)
                     thread.start()
-                else:
-                    if (time.time() - self.enabled_instances[i]) / 3600 > 2:
-                        self.enabled_instances[i] = 0
-                        flag = True
+
             for thread in threads:
                 thread.join()
+
             if not flag:
                 logger.info(f"Worker {self.worker_name}, info: worker is sleeping 25 minutes because all drivers are unable.")
                 time.sleep(25 * 60)
@@ -272,22 +278,11 @@ class GoogleMessagesSender:
                 time.sleep(15) # ainda não sei o que fazer nestes dois caso
             elif resp == self.UNABLE_FIND_TEXTAREA:
                 self.enabled_instances[i] = time.time()
+                logger.info(f"Worker {self.worker_name}, instance {i}, phone {message.get('contact').get('phone')}, info: message {message.get('id') } this instance will be lock by UNABLE_FIND_TEXTAREA.")
                 for k in range(j, len(messages_chunk)):
                     messages_chunk[k]['status_id'] = 1
                 break
         self.sincronize_message_status(messages_chunk, i)
-
-    def sincronize_message_status(self, messages_chunk, i):
-        url = "https://rcs-back.atys.pro/api/update-campaign-processed-messages"
-        payload = json.dumps({
-          "messages": messages_chunk
-        })        
-        headers = {
-            "Authorization": f"Bearer {self.access_token}",
-            'Content-Type': 'application/json'
-        }
-        requests.post(url, headers=headers, data=payload)
-        logger.info(f"Worker {self.worker_name}, instance {i}, info: status of messages has been updated on the server.")
 
     def send_single_message(self, driver, message, text_message, i):
         logger.info(f"Worker {self.worker_name}, instance {i}, phone {message.get('contact').get('phone')}, info: starting sending message -------------------------------------------------------.")
@@ -295,6 +290,7 @@ class GoogleMessagesSender:
             self.navigate_to_new_conversation(driver)
         except Exception:
             logger.error(f"Worker {self.worker_name}, instance {i}, phone {message.get('contact').get('phone')}, info: UNABLE_NEW_CONVERSATION.")
+            self.capture_screenshot(driver, "error_send_single_message")
             return self.UNABLE_NEW_CONVERSATION
         logger.info(f"Worker {self.worker_name}, instance {i}, phone {message.get('contact').get('phone')}, info: new conversation page loaded.")
         
@@ -302,6 +298,7 @@ class GoogleMessagesSender:
             self.enter_recipient(driver, message.get('contact').get('phone'))
         except Exception:
             logger.error(f"Worker {self.worker_name}, instance {i}, phone {message.get('contact').get('phone')}, info: UNABLE_ENTER_RECIPIENT.")
+            self.capture_screenshot(driver, "error_enter_recipient")
             return self.UNABLE_ENTER_RECIPIENT
         logger.info(f"Worker {self.worker_name}, instance {i}, phone {message.get('contact').get('phone')}, info: recipient entered.")
         
@@ -311,6 +308,7 @@ class GoogleMessagesSender:
         try:
             driver.find_element(By.XPATH, "//*[contains(text(), 'Aguarde antes de criar mais conversas.')]")
             logger.error(f"Worker {self.worker_name}, instance {i}, phone {message.get('contact').get('phone')}, info: UNABLE_FIND_TEXTAREA by Aguarde antes de criar mais conversas.")
+            self.capture_screenshot(driver, "UNABLE_FIND_TEXTAREA_by_Aguarde_antes_de_criar_mais_conversas")
             return self.UNABLE_FIND_TEXTAREA
         except Exception:
             pass
@@ -322,7 +320,8 @@ class GoogleMessagesSender:
             textarea = driver.find_element(By.CSS_SELECTOR, "textarea.input")
             text = textarea.get_attribute("aria-label")
         except Exception as e:
-            logger.error(f"Worker {self.worker_name}, instance {i}, phone {message.get('contact').get('phone')}, info: UNABLE_FIND_TEXTAREA by CSS_SELECTOR. Execption is: {str(e)}")
+            self.capture_screenshot(driver, "UNABLE_FIND_TEXTAREA_by_CSS_SELECTOR")
+            logger.error(f"Worker {self.worker_name}, instance {i}, phone {message.get('contact').get('phone')}, info: UNABLE_FIND_TEXTAREA by CSS_SELECTOR. Exception is: {str(e.__traceback__)}")
             return self.UNABLE_FIND_TEXTAREA
         
         is_rcs = False
@@ -367,28 +366,31 @@ class GoogleMessagesSender:
         except Exception:
             return False
         
-    # async def send_image(self, driver, caption, file_path):
-    #     try:
-    #         self.copy_file_to_clipboard(file_path)
-    #         driver.find_element(By.CSS_SELECTOR, "textarea.input").send_keys(Keys.CONTROL, 'v')
-    #         await asyncio.sleep(5)
-    #         driver.find_element(By.CSS_SELECTOR, "textarea.input").send_keys(caption + Keys.ENTER)
-    #         logger.info("Imagem enviada com sucesso")
-    #     except Exception as e:
-    #         logger.error(f"Erro ao enviar imagem: {e}")
-    #         raise
+    '''
+    async def send_image(self, driver, caption, file_path):
+        try:
+            self.copy_file_to_clipboard(file_path)
+            driver.find_element(By.CSS_SELECTOR, "textarea.input").send_keys(Keys.CONTROL, 'v')
+            await asyncio.sleep(5)
+            driver.find_element(By.CSS_SELECTOR, "textarea.input").send_keys(caption + Keys.ENTER)
+            logger.info("Imagem enviada com sucesso")
+        except Exception as e:
+            logger.error(f"Erro ao enviar imagem: {e}")
+            raise
         
-    # def copy_file_to_clipboard(self, file_path):
-    #     image = Image.open(file_path)
-    #     output = BytesIO()
-    #     image.convert("RGB").save(output, "BMP")
-    #     data = output.getvalue()[14:]
-    #     output.close()
-    #     win32clipboard.OpenClipboard()
-    #     win32clipboard.EmptyClipboard()
-    #     win32clipboard.SetClipboardData(win32clipboard.CF_DIB, data)
-    #     win32clipboard.CloseClipboard()
+    def copy_file_to_clipboard(self, file_path):
+        image = Image.open(file_path)
+        output = BytesIO()
+        image.convert("RGB").save(output, "BMP")
+        data = output.getvalue()[14:]
+        output.close()
+        win32clipboard.OpenClipboard()
+        win32clipboard.EmptyClipboard()
+        win32clipboard.SetClipboardData(win32clipboard.CF_DIB, data)
+        win32clipboard.CloseClipboard()
+    '''
 
+    # auxiliar functions
     def navigate_to_new_conversation(self, driver):
         driver.get("https://messages.google.com/web/conversations/new")
         WebDriverWait(driver, 30).until(
@@ -408,7 +410,7 @@ class GoogleMessagesSender:
             recipient_input.send_keys(Keys.ENTER)
             time.sleep(1)
         except Exception as e:
-            raise Exception(f"error entering recipient, execption is: {str(e)}")
+            raise Exception(f"error entering recipient, exception is: {str(e)}")
 
     def verify_message_sent(self, driver):
         try:
@@ -444,6 +446,18 @@ class GoogleMessagesSender:
                 raise Exception("pop-up or overlay detected")
         except Exception as e:
             raise e
+    
+    def sincronize_message_status(self, messages_chunk, i):
+        url = "https://rcs-back.atys.pro/api/update-campaign-processed-messages"
+        payload = json.dumps({
+          "messages": messages_chunk
+        })        
+        headers = {
+            "Authorization": f"Bearer {self.access_token}",
+            'Content-Type': 'application/json'
+        }
+        requests.post(url, headers=headers, data=payload)
+        logger.info(f"Worker {self.worker_name}, instance {i}, info: status of messages has been updated on the server.")
 
     def capture_screenshot(self, driver, name):
         screenshot_path = f"{name}_{int(time.time())}.png"
