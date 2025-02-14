@@ -1,0 +1,6 @@
+2025/02/13-15:55:31.535 4 Reusing MANIFEST /var/www/html/rcs/ceiba-rcs-go/python/google_messages_sessions/instance_0/Default/Local Storage/leveldb/MANIFEST-000001
+2025/02/13-15:55:31.540 4 Recovering log #3
+2025/02/13-15:55:31.541 4 Reusing old log /var/www/html/rcs/ceiba-rcs-go/python/google_messages_sessions/instance_0/Default/Local Storage/leveldb/000003.log 
+2025/02/13-16:05:32.117 5 Level-0 table #5: started
+2025/02/13-16:05:32.123 5 Level-0 table #5: 17708 bytes OK
+2025/02/13-16:05:32.127 5 Delete type=0 #3

@@ -1,0 +1,1587 @@
+2025-02-13 16:20:03,958 - INFO - Worker worker1, instance 1, phone 5511982574933, info: recipient entered.
+2025-02-13 16:20:04,087 - INFO - Worker worker1, instance 0, phone 5511982572381, info: recipient entered.
+2025-02-13 16:20:06,014 - INFO - Worker worker1, instance 1, phone 5511982574933, info: unable to send RCS to this contact *********.
+2025-02-13 16:20:06,132 - INFO - Worker worker1, instance 0, phone 5511982572381, info: unable to send RCS to this contact *********.
+2025-02-13 16:20:11,019 - INFO - Worker worker1, instance 1, phone 5511982574933, info: message 231940 will be tryied as SMS.
+2025-02-13 16:20:11,019 - INFO - Worker worker1, instance 1, phone 5517988038128, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:20:11,137 - INFO - Worker worker1, instance 0, phone 5511982572381, info: message 231928 will be tryied as SMS.
+2025-02-13 16:20:11,137 - INFO - Worker worker1, instance 0, phone 5511984797247, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:20:11,446 - INFO - Worker worker1, instance 1, phone 5517988038128, info: new conversation page loaded.
+2025-02-13 16:20:11,572 - INFO - Worker worker1, instance 0, phone 5511984797247, info: new conversation page loaded.
+2025-02-13 16:20:14,882 - INFO - Worker worker1, instance 1, phone 5517988038128, info: recipient entered.
+2025-02-13 16:20:15,132 - INFO - Worker worker1, instance 0, phone 5511984797247, info: recipient entered.
+2025-02-13 16:20:30,039 - INFO - Worker worker1, instance 1, phone 5517988038128, info: message 231942 was sended as RCS.
+2025-02-13 16:20:30,039 - INFO - Worker worker1, instance 1, phone 5511982147283, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:20:30,356 - INFO - Worker worker1, instance 0, phone 5511984797247, info: message 231941 was sended as RCS.
+2025-02-13 16:20:30,356 - INFO - Worker worker1, instance 0, phone 5511982145411, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:20:30,421 - INFO - Worker worker1, instance 1, phone 5511982147283, info: new conversation page loaded.
+2025-02-13 16:20:30,808 - INFO - Worker worker1, instance 0, phone 5511982145411, info: new conversation page loaded.
+2025-02-13 16:20:34,070 - INFO - Worker worker1, instance 1, phone 5511982147283, info: recipient entered.
+2025-02-13 16:20:34,407 - INFO - Worker worker1, instance 0, phone 5511982145411, info: recipient entered.
+2025-02-13 16:20:36,122 - INFO - Worker worker1, instance 1, phone 5511982147283, info: unable to send RCS to this contact *********.
+2025-02-13 16:20:36,458 - INFO - Worker worker1, instance 0, phone 5511982145411, info: unable to send RCS to this contact *********.
+2025-02-13 16:20:41,126 - INFO - Worker worker1, instance 1, phone 5511982147283, info: message 231944 will be tryied as SMS.
+2025-02-13 16:20:41,126 - INFO - Worker worker1, instance 1, phone 5511984800603, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:20:41,463 - INFO - Worker worker1, instance 0, phone 5511982145411, info: message 231943 will be tryied as SMS.
+2025-02-13 16:20:41,463 - INFO - Worker worker1, instance 0, phone 5511984798596, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:20:41,501 - INFO - Worker worker1, instance 1, phone 5511984800603, info: new conversation page loaded.
+2025-02-13 16:20:41,890 - INFO - Worker worker1, instance 0, phone 5511984798596, info: new conversation page loaded.
+2025-02-13 16:20:45,157 - INFO - Worker worker1, instance 1, phone 5511984800603, info: recipient entered.
+2025-02-13 16:20:45,637 - INFO - Worker worker1, instance 0, phone 5511984798596, info: recipient entered.
+2025-02-13 16:21:00,247 - INFO - Worker worker1, instance 1, phone 5511984800603, info: message 231946 was sended as RCS.
+2025-02-13 16:21:00,248 - INFO - Worker worker1, instance 1, phone 5514997779578, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:21:00,671 - INFO - Worker worker1, instance 1, phone 5514997779578, info: new conversation page loaded.
+2025-02-13 16:21:00,686 - INFO - Worker worker1, instance 0, phone 5511984798596, info: message 231945 was sended as RCS.
+2025-02-13 16:21:00,686 - INFO - Worker worker1, instance 0, phone 5511982148697, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:21:01,061 - INFO - Worker worker1, instance 0, phone 5511982148697, info: new conversation page loaded.
+2025-02-13 16:21:04,264 - INFO - Worker worker1, instance 1, phone 5514997779578, info: recipient entered.
+2025-02-13 16:21:04,442 - INFO - Worker worker1, instance 0, phone 5511982148697, info: recipient entered.
+2025-02-13 16:21:06,529 - INFO - Worker worker1, instance 0, phone 5511982148697, info: unable to send RCS to this contact *********.
+2025-02-13 16:21:11,534 - INFO - Worker worker1, instance 0, phone 5511982148697, info: message 231947 will be tryied as SMS.
+2025-02-13 16:21:11,896 - INFO - Worker worker1, instance 0, info: status of messages has been updated on the server.
+2025-02-13 16:21:19,280 - INFO - Worker worker1, instance 1, phone 5514997779578, info: message 231948 was sended as RCS.
+2025-02-13 16:21:19,506 - INFO - Worker worker1, instance 1, info: status of messages has been updated on the server.
+2025-02-13 16:21:19,506 - INFO - Worker worker1, info: messages were processed, all threads are finished.
+2025-02-13 16:21:19,507 - INFO - Worker worker1, info: requesting new messages from server.
+2025-02-13 16:21:19,759 - INFO - Worker worker1, info: where obtained 10 messages from server.
+2025-02-13 16:21:19,759 - INFO - Worker worker1, instance 0, info: actual chunk length is 5.
+2025-02-13 16:21:19,759 - INFO - Worker worker1, instance 0, phone 5512997975535, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:21:19,761 - INFO - Worker worker1, instance 1, info: actual chunk length is 5.
+2025-02-13 16:21:19,761 - INFO - Worker worker1, instance 1, phone 5513981063640, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:21:20,166 - INFO - Worker worker1, instance 0, phone 5512997975535, info: new conversation page loaded.
+2025-02-13 16:21:20,255 - INFO - Worker worker1, instance 1, phone 5513981063640, info: new conversation page loaded.
+2025-02-13 16:21:23,847 - INFO - Worker worker1, instance 1, phone 5513981063640, info: recipient entered.
+2025-02-13 16:21:23,872 - INFO - Worker worker1, instance 0, phone 5512997975535, info: recipient entered.
+2025-02-13 16:21:25,908 - INFO - Worker worker1, instance 0, phone 5512997975535, info: unable to send RCS to this contact *********.
+2025-02-13 16:21:30,913 - INFO - Worker worker1, instance 0, phone 5512997975535, info: message 231949 will be tryied as SMS.
+2025-02-13 16:21:30,913 - INFO - Worker worker1, instance 0, phone 5511982576440, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:21:31,347 - INFO - Worker worker1, instance 0, phone 5511982576440, info: new conversation page loaded.
+2025-02-13 16:21:34,924 - INFO - Worker worker1, instance 0, phone 5511982576440, info: recipient entered.
+2025-02-13 16:21:38,939 - INFO - Worker worker1, instance 1, phone 5513981063640, info: message 231950 was sended as RCS.
+2025-02-13 16:21:38,939 - INFO - Worker worker1, instance 1, phone 5511982492397, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:21:39,330 - INFO - Worker worker1, instance 1, phone 5511982492397, info: new conversation page loaded.
+2025-02-13 16:21:42,815 - INFO - Worker worker1, instance 1, phone 5511982492397, info: recipient entered.
+2025-02-13 16:21:49,955 - INFO - Worker worker1, instance 0, phone 5511982576440, info: message 231951 was sended as RCS.
+2025-02-13 16:21:49,956 - INFO - Worker worker1, instance 0, phone 5511982578164, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:21:50,341 - INFO - Worker worker1, instance 0, phone 5511982578164, info: new conversation page loaded.
+2025-02-13 16:21:54,004 - INFO - Worker worker1, instance 0, phone 5511982578164, info: recipient entered.
+2025-02-13 16:21:57,858 - INFO - Worker worker1, instance 1, phone 5511982492397, info: message 231952 was sended as RCS.
+2025-02-13 16:21:57,858 - INFO - Worker worker1, instance 1, phone 5511984802169, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:21:58,251 - INFO - Worker worker1, instance 1, phone 5511984802169, info: new conversation page loaded.
+2025-02-13 16:22:01,834 - INFO - Worker worker1, instance 1, phone 5511984802169, info: recipient entered.
+2025-02-13 16:22:03,875 - INFO - Worker worker1, instance 1, phone 5511984802169, info: unable to send RCS to this contact *********.
+2025-02-13 16:22:08,880 - INFO - Worker worker1, instance 1, phone 5511984802169, info: message 231954 will be tryied as SMS.
+2025-02-13 16:22:08,880 - INFO - Worker worker1, instance 1, phone 5513981069583, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:22:08,998 - INFO - Worker worker1, instance 0, phone 5511982578164, info: message 231953 was sended as RCS.
+2025-02-13 16:22:08,998 - INFO - Worker worker1, instance 0, phone 5513981066390, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:22:09,344 - INFO - Worker worker1, instance 1, phone 5513981069583, info: new conversation page loaded.
+2025-02-13 16:22:09,501 - INFO - Worker worker1, instance 0, phone 5513981066390, info: new conversation page loaded.
+2025-02-13 16:22:12,879 - INFO - Worker worker1, instance 1, phone 5513981069583, info: recipient entered.
+2025-02-13 16:22:13,178 - INFO - Worker worker1, instance 0, phone 5513981066390, info: recipient entered.
+2025-02-13 16:22:14,923 - INFO - Worker worker1, instance 1, phone 5513981069583, info: unable to send RCS to this contact *********.
+2025-02-13 16:22:15,205 - INFO - Worker worker1, instance 0, phone 5513981066390, info: unable to send RCS to this contact *********.
+2025-02-13 16:22:19,928 - INFO - Worker worker1, instance 1, phone 5513981069583, info: message 231956 will be tryied as SMS.
+2025-02-13 16:22:19,928 - INFO - Worker worker1, instance 1, phone 5517982293031, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:22:20,210 - INFO - Worker worker1, instance 0, phone 5513981066390, info: message 231955 will be tryied as SMS.
+2025-02-13 16:22:20,210 - INFO - Worker worker1, instance 0, phone 5511982151261, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:22:20,409 - INFO - Worker worker1, instance 1, phone 5517982293031, info: new conversation page loaded.
+2025-02-13 16:22:20,666 - INFO - Worker worker1, instance 0, phone 5511982151261, info: new conversation page loaded.
+2025-02-13 16:22:23,897 - INFO - Worker worker1, instance 1, phone 5517982293031, info: recipient entered.
+2025-02-13 16:22:24,508 - INFO - Worker worker1, instance 0, phone 5511982151261, info: recipient entered.
+2025-02-13 16:22:25,939 - INFO - Worker worker1, instance 1, phone 5517982293031, info: unable to send RCS to this contact *********.
+2025-02-13 16:22:26,560 - INFO - Worker worker1, instance 0, phone 5511982151261, info: unable to send RCS to this contact *********.
+2025-02-13 16:22:30,944 - INFO - Worker worker1, instance 1, phone 5517982293031, info: message 231958 will be tryied as SMS.
+2025-02-13 16:22:31,163 - INFO - Worker worker1, instance 1, info: status of messages has been updated on the server.
+2025-02-13 16:22:31,564 - INFO - Worker worker1, instance 0, phone 5511982151261, info: message 231957 will be tryied as SMS.
+2025-02-13 16:22:31,796 - INFO - Worker worker1, instance 0, info: status of messages has been updated on the server.
+2025-02-13 16:22:31,796 - INFO - Worker worker1, info: messages were processed, all threads are finished.
+2025-02-13 16:22:31,796 - INFO - Worker worker1, info: requesting new messages from server.
+2025-02-13 16:22:32,039 - INFO - Worker worker1, info: where obtained 10 messages from server.
+2025-02-13 16:22:32,040 - INFO - Worker worker1, instance 0, info: actual chunk length is 5.
+2025-02-13 16:22:32,040 - INFO - Worker worker1, instance 0, phone 5511982579616, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:22:32,040 - INFO - Worker worker1, instance 1, info: actual chunk length is 5.
+2025-02-13 16:22:32,040 - INFO - Worker worker1, instance 1, phone 5511984804547, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:22:32,453 - INFO - Worker worker1, instance 0, phone 5511982579616, info: new conversation page loaded.
+2025-02-13 16:22:32,560 - INFO - Worker worker1, instance 1, phone 5511984804547, info: new conversation page loaded.
+2025-02-13 16:22:36,273 - INFO - Worker worker1, instance 1, phone 5511984804547, info: recipient entered.
+2025-02-13 16:22:36,275 - INFO - Worker worker1, instance 0, phone 5511982579616, info: recipient entered.
+2025-02-13 16:22:38,328 - INFO - Worker worker1, instance 0, phone 5511982579616, info: unable to send RCS to this contact *********.
+2025-02-13 16:22:43,333 - INFO - Worker worker1, instance 0, phone 5511982579616, info: message 231959 will be tryied as SMS.
+2025-02-13 16:22:43,333 - INFO - Worker worker1, instance 0, phone 5511982149908, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:22:43,722 - INFO - Worker worker1, instance 0, phone 5511982149908, info: new conversation page loaded.
+2025-02-13 16:22:47,316 - INFO - Worker worker1, instance 0, phone 5511982149908, info: recipient entered.
+2025-02-13 16:22:49,347 - INFO - Worker worker1, instance 0, phone 5511982149908, info: unable to send RCS to this contact *********.
+2025-02-13 16:22:51,292 - INFO - Worker worker1, instance 1, phone 5511984804547, info: message 231960 was sended as RCS.
+2025-02-13 16:22:51,292 - INFO - Worker worker1, instance 1, phone 5517982303366, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:22:51,678 - INFO - Worker worker1, instance 1, phone 5517982303366, info: new conversation page loaded.
+2025-02-13 16:22:54,352 - INFO - Worker worker1, instance 0, phone 5511982149908, info: message 231961 will be tryied as SMS.
+2025-02-13 16:22:54,353 - INFO - Worker worker1, instance 0, phone 5512991847259, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:22:54,753 - INFO - Worker worker1, instance 0, phone 5512991847259, info: new conversation page loaded.
+2025-02-13 16:22:55,131 - INFO - Worker worker1, instance 1, phone 5517982303366, info: recipient entered.
+2025-02-13 16:22:57,164 - INFO - Worker worker1, instance 1, phone 5517982303366, info: unable to send RCS to this contact *********.
+2025-02-13 16:22:58,483 - INFO - Worker worker1, instance 0, phone 5512991847259, info: recipient entered.
+2025-02-13 16:23:02,169 - INFO - Worker worker1, instance 1, phone 5517982303366, info: message 231962 will be tryied as SMS.
+2025-02-13 16:23:02,169 - INFO - Worker worker1, instance 1, phone 5512997976887, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:23:02,556 - INFO - Worker worker1, instance 1, phone 5512997976887, info: new conversation page loaded.
+2025-02-13 16:23:06,064 - INFO - Worker worker1, instance 1, phone 5512997976887, info: recipient entered.
+2025-02-13 16:23:08,106 - INFO - Worker worker1, instance 1, phone 5512997976887, info: unable to send RCS to this contact *********.
+2025-02-13 16:23:13,109 - INFO - Worker worker1, instance 1, phone 5512997976887, info: message 231964 will be tryied as SMS.
+2025-02-13 16:23:13,109 - INFO - Worker worker1, instance 1, phone 5512997979202, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:23:13,470 - INFO - Worker worker1, instance 0, phone 5512991847259, info: message 231963 was sended as RCS.
+2025-02-13 16:23:13,470 - INFO - Worker worker1, instance 0, phone 5517982311127, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:23:13,476 - INFO - Worker worker1, instance 1, phone 5512997979202, info: new conversation page loaded.
+2025-02-13 16:23:13,877 - INFO - Worker worker1, instance 0, phone 5517982311127, info: new conversation page loaded.
+2025-02-13 16:23:17,070 - INFO - Worker worker1, instance 1, phone 5512997979202, info: recipient entered.
+2025-02-13 16:23:17,584 - INFO - Worker worker1, instance 0, phone 5517982311127, info: recipient entered.
+2025-02-13 16:23:32,224 - INFO - Worker worker1, instance 1, phone 5512997979202, info: message 231966 was sended as RCS.
+2025-02-13 16:23:32,225 - INFO - Worker worker1, instance 1, phone 5511982580873, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:23:32,624 - INFO - Worker worker1, instance 1, phone 5511982580873, info: new conversation page loaded.
+2025-02-13 16:23:32,680 - INFO - Worker worker1, instance 0, phone 5517982311127, info: message 231965 was sended as RCS.
+2025-02-13 16:23:32,680 - INFO - Worker worker1, instance 0, phone 5514997780851, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:23:33,106 - INFO - Worker worker1, instance 0, phone 5514997780851, info: new conversation page loaded.
+2025-02-13 16:23:35,664 - INFO - Worker worker1, instance 1, phone 5511982580873, info: recipient entered.
+2025-02-13 16:23:36,849 - INFO - Worker worker1, instance 0, phone 5514997780851, info: recipient entered.
+2025-02-13 16:23:38,884 - INFO - Worker worker1, instance 0, phone 5514997780851, info: unable to send RCS to this contact *********.
+2025-02-13 16:23:43,889 - INFO - Worker worker1, instance 0, phone 5514997780851, info: message 231967 will be tryied as SMS.
+2025-02-13 16:23:44,116 - INFO - Worker worker1, instance 0, info: status of messages has been updated on the server.
+2025-02-13 16:23:50,676 - INFO - Worker worker1, instance 1, phone 5511982580873, info: message 231968 was sended as RCS.
+2025-02-13 16:23:50,926 - INFO - Worker worker1, instance 1, info: status of messages has been updated on the server.
+2025-02-13 16:23:50,926 - INFO - Worker worker1, info: messages were processed, all threads are finished.
+2025-02-13 16:23:50,927 - INFO - Worker worker1, info: requesting new messages from server.
+2025-02-13 16:23:51,150 - INFO - Worker worker1, info: where obtained 10 messages from server.
+2025-02-13 16:23:51,151 - INFO - Worker worker1, instance 0, info: actual chunk length is 5.
+2025-02-13 16:23:51,151 - INFO - Worker worker1, instance 0, phone 5511982493949, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:23:51,151 - INFO - Worker worker1, instance 1, info: actual chunk length is 5.
+2025-02-13 16:23:51,152 - INFO - Worker worker1, instance 1, phone 5514997782398, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:23:51,617 - INFO - Worker worker1, instance 1, phone 5514997782398, info: new conversation page loaded.
+2025-02-13 16:23:51,626 - INFO - Worker worker1, instance 0, phone 5511982493949, info: new conversation page loaded.
+2025-02-13 16:23:55,176 - INFO - Worker worker1, instance 1, phone 5514997782398, info: recipient entered.
+2025-02-13 16:23:55,322 - INFO - Worker worker1, instance 0, phone 5511982493949, info: recipient entered.
+2025-02-13 16:23:57,206 - INFO - Worker worker1, instance 1, phone 5514997782398, info: unable to send RCS to this contact *********.
+2025-02-13 16:23:57,377 - INFO - Worker worker1, instance 0, phone 5511982493949, info: unable to send RCS to this contact *********.
+2025-02-13 16:24:02,211 - INFO - Worker worker1, instance 1, phone 5514997782398, info: message 231970 will be tryied as SMS.
+2025-02-13 16:24:02,211 - INFO - Worker worker1, instance 1, phone 5512997980675, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:24:02,382 - INFO - Worker worker1, instance 0, phone 5511982493949, info: message 231969 will be tryied as SMS.
+2025-02-13 16:24:02,382 - INFO - Worker worker1, instance 0, phone 5511982495999, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:24:02,623 - INFO - Worker worker1, instance 1, phone 5512997980675, info: new conversation page loaded.
+2025-02-13 16:24:02,864 - INFO - Worker worker1, instance 0, phone 5511982495999, info: new conversation page loaded.
+2025-02-13 16:24:05,854 - INFO - Worker worker1, instance 1, phone 5512997980675, info: recipient entered.
+2025-02-13 16:24:06,430 - INFO - Worker worker1, instance 0, phone 5511982495999, info: recipient entered.
+2025-02-13 16:24:07,886 - INFO - Worker worker1, instance 1, phone 5512997980675, info: unable to send RCS to this contact *********.
+2025-02-13 16:24:08,477 - INFO - Worker worker1, instance 0, phone 5511982495999, info: unable to send RCS to this contact *********.
+2025-02-13 16:24:12,891 - INFO - Worker worker1, instance 1, phone 5512997980675, info: message 231972 will be tryied as SMS.
+2025-02-13 16:24:12,891 - INFO - Worker worker1, instance 1, phone 5514997783857, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:24:13,301 - INFO - Worker worker1, instance 1, phone 5514997783857, info: new conversation page loaded.
+2025-02-13 16:24:13,482 - INFO - Worker worker1, instance 0, phone 5511982495999, info: message 231971 will be tryied as SMS.
+2025-02-13 16:24:13,482 - INFO - Worker worker1, instance 0, phone 5513981079975, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:24:13,904 - INFO - Worker worker1, instance 0, phone 5513981079975, info: new conversation page loaded.
+2025-02-13 16:24:16,954 - INFO - Worker worker1, instance 1, phone 5514997783857, info: recipient entered.
+2025-02-13 16:24:17,681 - INFO - Worker worker1, instance 0, phone 5513981079975, info: recipient entered.
+2025-02-13 16:24:32,022 - INFO - Worker worker1, instance 1, phone 5514997783857, info: message 231974 was sended as RCS.
+2025-02-13 16:24:32,022 - INFO - Worker worker1, instance 1, phone 5517982318254, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:24:32,403 - INFO - Worker worker1, instance 1, phone 5517982318254, info: new conversation page loaded.
+2025-02-13 16:24:32,761 - INFO - Worker worker1, instance 0, phone 5513981079975, info: message 231973 was sended as RCS.
+2025-02-13 16:24:32,761 - INFO - Worker worker1, instance 0, phone 5511982582347, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:24:33,179 - INFO - Worker worker1, instance 0, phone 5511982582347, info: new conversation page loaded.
+2025-02-13 16:24:36,001 - INFO - Worker worker1, instance 1, phone 5517982318254, info: recipient entered.
+2025-02-13 16:24:36,807 - INFO - Worker worker1, instance 0, phone 5511982582347, info: recipient entered.
+2025-02-13 16:24:38,040 - INFO - Worker worker1, instance 1, phone 5517982318254, info: unable to send RCS to this contact *********.
+2025-02-13 16:24:43,045 - INFO - Worker worker1, instance 1, phone 5517982318254, info: message 231976 will be tryied as SMS.
+2025-02-13 16:24:43,045 - INFO - Worker worker1, instance 1, phone 5511982152635, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:24:43,416 - INFO - Worker worker1, instance 1, phone 5511982152635, info: new conversation page loaded.
+2025-02-13 16:24:46,957 - INFO - Worker worker1, instance 1, phone 5511982152635, info: recipient entered.
+2025-02-13 16:24:51,834 - INFO - Worker worker1, instance 0, phone 5511982582347, info: message 231975 was sended as RCS.
+2025-02-13 16:24:51,834 - INFO - Worker worker1, instance 0, phone 5511984806366, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:24:52,231 - INFO - Worker worker1, instance 0, phone 5511984806366, info: new conversation page loaded.
+2025-02-13 16:24:55,879 - INFO - Worker worker1, instance 0, phone 5511984806366, info: recipient entered.
+2025-02-13 16:25:02,005 - INFO - Worker worker1, instance 1, phone 5511982152635, info: message 231978 was sended as RCS.
+2025-02-13 16:25:02,226 - INFO - Worker worker1, instance 1, info: status of messages has been updated on the server.
+2025-02-13 16:25:10,847 - INFO - Worker worker1, instance 0, phone 5511984806366, info: message 231977 was sended as RCS.
+2025-02-13 16:25:11,069 - INFO - Worker worker1, instance 0, info: status of messages has been updated on the server.
+2025-02-13 16:25:11,070 - INFO - Worker worker1, info: messages were processed, all threads are finished.
+2025-02-13 16:25:11,070 - INFO - Worker worker1, info: requesting new messages from server.
+2025-02-13 16:25:11,309 - INFO - Worker worker1, info: where obtained 10 messages from server.
+2025-02-13 16:25:11,309 - INFO - Worker worker1, instance 0, info: actual chunk length is 5.
+2025-02-13 16:25:11,310 - INFO - Worker worker1, instance 0, phone 5517988001297, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:25:11,311 - INFO - Worker worker1, instance 1, info: actual chunk length is 5.
+2025-02-13 16:25:11,311 - INFO - Worker worker1, instance 1, phone 5512997982149, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:25:11,740 - INFO - Worker worker1, instance 0, phone 5517988001297, info: new conversation page loaded.
+2025-02-13 16:25:11,781 - INFO - Worker worker1, instance 1, phone 5512997982149, info: new conversation page loaded.
+2025-02-13 16:25:15,387 - INFO - Worker worker1, instance 1, phone 5512997982149, info: recipient entered.
+2025-02-13 16:25:15,397 - INFO - Worker worker1, instance 0, phone 5517988001297, info: recipient entered.
+2025-02-13 16:25:17,427 - INFO - Worker worker1, instance 0, phone 5517988001297, info: unable to send RCS to this contact *********.
+2025-02-13 16:25:22,433 - INFO - Worker worker1, instance 0, phone 5517988001297, info: message 231979 will be tryied as SMS.
+2025-02-13 16:25:22,433 - INFO - Worker worker1, instance 0, phone 5511982153875, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:25:22,805 - INFO - Worker worker1, instance 0, phone 5511982153875, info: new conversation page loaded.
+2025-02-13 16:25:26,492 - INFO - Worker worker1, instance 0, phone 5511982153875, info: recipient entered.
+2025-02-13 16:25:30,396 - INFO - Worker worker1, instance 1, phone 5512997982149, info: message 231980 was sended as RCS.
+2025-02-13 16:25:30,396 - INFO - Worker worker1, instance 1, phone 5513981083339, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:25:30,775 - INFO - Worker worker1, instance 1, phone 5513981083339, info: new conversation page loaded.
+2025-02-13 16:25:34,296 - INFO - Worker worker1, instance 1, phone 5513981083339, info: recipient entered.
+2025-02-13 16:25:36,335 - INFO - Worker worker1, instance 1, phone 5513981083339, info: unable to send RCS to this contact *********.
+2025-02-13 16:25:41,341 - INFO - Worker worker1, instance 1, phone 5513981083339, info: message 231982 will be tryied as SMS.
+2025-02-13 16:25:41,341 - INFO - Worker worker1, instance 1, phone 5512997983723, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:25:41,511 - INFO - Worker worker1, instance 0, phone 5511982153875, info: message 231981 was sended as RCS.
+2025-02-13 16:25:41,512 - INFO - Worker worker1, instance 0, phone 5511982783035, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:25:41,743 - INFO - Worker worker1, instance 1, phone 5512997983723, info: new conversation page loaded.
+2025-02-13 16:25:41,959 - INFO - Worker worker1, instance 0, phone 5511982783035, info: new conversation page loaded.
+2025-02-13 16:25:45,234 - INFO - Worker worker1, instance 1, phone 5512997983723, info: recipient entered.
+2025-02-13 16:25:45,584 - INFO - Worker worker1, instance 0, phone 5511982783035, info: recipient entered.
+2025-02-13 16:25:47,619 - INFO - Worker worker1, instance 0, phone 5511982783035, info: unable to send RCS to this contact *********.
+2025-02-13 16:25:52,624 - INFO - Worker worker1, instance 0, phone 5511982783035, info: message 231983 will be tryied as SMS.
+2025-02-13 16:25:52,625 - INFO - Worker worker1, instance 0, phone 5514997784903, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:25:52,987 - INFO - Worker worker1, instance 0, phone 5514997784903, info: new conversation page loaded.
+2025-02-13 16:25:56,616 - INFO - Worker worker1, instance 0, phone 5514997784903, info: recipient entered.
+2025-02-13 16:26:00,243 - INFO - Worker worker1, instance 1, phone 5512997983723, info: message 231984 was sended as RCS.
+2025-02-13 16:26:00,243 - INFO - Worker worker1, instance 1, phone 5511982583741, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:26:00,608 - INFO - Worker worker1, instance 1, phone 5511982583741, info: new conversation page loaded.
+2025-02-13 16:26:04,093 - INFO - Worker worker1, instance 1, phone 5511982583741, info: recipient entered.
+2025-02-13 16:26:11,637 - INFO - Worker worker1, instance 0, phone 5514997784903, info: message 231985 was sended as RCS.
+2025-02-13 16:26:11,637 - INFO - Worker worker1, instance 0, phone 5512991848789, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:26:12,036 - INFO - Worker worker1, instance 0, phone 5512991848789, info: new conversation page loaded.
+2025-02-13 16:26:15,640 - INFO - Worker worker1, instance 0, phone 5512991848789, info: recipient entered.
+2025-02-13 16:26:17,689 - INFO - Worker worker1, instance 0, phone 5512991848789, info: unable to send RCS to this contact *********.
+2025-02-13 16:26:19,122 - INFO - Worker worker1, instance 1, phone 5511982583741, info: message 231986 was sended as RCS.
+2025-02-13 16:26:19,122 - INFO - Worker worker1, instance 1, phone 5512997985572, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:26:19,512 - INFO - Worker worker1, instance 1, phone 5512997985572, info: new conversation page loaded.
+2025-02-13 16:26:22,694 - INFO - Worker worker1, instance 0, phone 5512991848789, info: message 231987 will be tryied as SMS.
+2025-02-13 16:26:22,923 - INFO - Worker worker1, instance 0, info: status of messages has been updated on the server.
+2025-02-13 16:26:22,962 - INFO - Worker worker1, instance 1, phone 5512997985572, info: recipient entered.
+2025-02-13 16:26:37,955 - INFO - Worker worker1, instance 1, phone 5512997985572, info: message 231988 was sended as RCS.
+2025-02-13 16:26:38,180 - INFO - Worker worker1, instance 1, info: status of messages has been updated on the server.
+2025-02-13 16:26:38,181 - INFO - Worker worker1, info: messages were processed, all threads are finished.
+2025-02-13 16:26:38,181 - INFO - Worker worker1, info: requesting new messages from server.
+2025-02-13 16:26:38,425 - INFO - Worker worker1, info: where obtained 10 messages from server.
+2025-02-13 16:26:38,426 - INFO - Worker worker1, instance 0, info: actual chunk length is 5.
+2025-02-13 16:26:38,426 - INFO - Worker worker1, instance 0, phone 5517988003498, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:26:38,427 - INFO - Worker worker1, instance 1, info: actual chunk length is 5.
+2025-02-13 16:26:38,427 - INFO - Worker worker1, instance 1, phone 5513981086945, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:26:38,875 - INFO - Worker worker1, instance 0, phone 5517988003498, info: new conversation page loaded.
+2025-02-13 16:26:38,895 - INFO - Worker worker1, instance 1, phone 5513981086945, info: new conversation page loaded.
+2025-02-13 16:26:42,387 - INFO - Worker worker1, instance 1, phone 5513981086945, info: recipient entered.
+2025-02-13 16:26:42,469 - INFO - Worker worker1, instance 0, phone 5517988003498, info: recipient entered.
+2025-02-13 16:26:44,439 - INFO - Worker worker1, instance 1, phone 5513981086945, info: unable to send RCS to this contact *********.
+2025-02-13 16:26:44,524 - INFO - Worker worker1, instance 0, phone 5517988003498, info: unable to send RCS to this contact *********.
+2025-02-13 16:26:49,445 - INFO - Worker worker1, instance 1, phone 5513981086945, info: message 231990 will be tryied as SMS.
+2025-02-13 16:26:49,445 - INFO - Worker worker1, instance 1, phone 5511984807864, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:26:49,529 - INFO - Worker worker1, instance 0, phone 5517988003498, info: message 231989 will be tryied as SMS.
+2025-02-13 16:26:49,529 - INFO - Worker worker1, instance 0, phone 5514997785976, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:26:49,866 - INFO - Worker worker1, instance 1, phone 5511984807864, info: new conversation page loaded.
+2025-02-13 16:26:49,962 - INFO - Worker worker1, instance 0, phone 5514997785976, info: new conversation page loaded.
+2025-02-13 16:26:53,531 - INFO - Worker worker1, instance 1, phone 5511984807864, info: recipient entered.
+2025-02-13 16:26:53,803 - INFO - Worker worker1, instance 0, phone 5514997785976, info: recipient entered.
+2025-02-13 16:26:55,580 - INFO - Worker worker1, instance 1, phone 5511984807864, info: unable to send RCS to this contact *********.
+2025-02-13 16:26:55,854 - INFO - Worker worker1, instance 0, phone 5514997785976, info: unable to send RCS to this contact *********.
+2025-02-13 16:27:00,585 - INFO - Worker worker1, instance 1, phone 5511984807864, info: message 231992 will be tryied as SMS.
+2025-02-13 16:27:00,585 - INFO - Worker worker1, instance 1, phone 5512997990349, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:27:00,859 - INFO - Worker worker1, instance 0, phone 5514997785976, info: message 231991 will be tryied as SMS.
+2025-02-13 16:27:00,859 - INFO - Worker worker1, instance 0, phone 5511982584989, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:27:00,993 - INFO - Worker worker1, instance 1, phone 5512997990349, info: new conversation page loaded.
+2025-02-13 16:27:01,274 - INFO - Worker worker1, instance 0, phone 5511982584989, info: new conversation page loaded.
+2025-02-13 16:27:04,579 - INFO - Worker worker1, instance 1, phone 5512997990349, info: recipient entered.
+2025-02-13 16:27:04,974 - INFO - Worker worker1, instance 0, phone 5511982584989, info: recipient entered.
+2025-02-13 16:27:07,012 - INFO - Worker worker1, instance 0, phone 5511982584989, info: unable to send RCS to this contact *********.
+2025-02-13 16:27:12,016 - INFO - Worker worker1, instance 0, phone 5511982584989, info: message 231993 will be tryied as SMS.
+2025-02-13 16:27:12,016 - INFO - Worker worker1, instance 0, phone 5512997987852, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:27:12,410 - INFO - Worker worker1, instance 0, phone 5512997987852, info: new conversation page loaded.
+2025-02-13 16:27:15,981 - INFO - Worker worker1, instance 0, phone 5512997987852, info: recipient entered.
+2025-02-13 16:27:19,653 - INFO - Worker worker1, instance 1, phone 5512997990349, info: message 231994 was sended as RCS.
+2025-02-13 16:27:19,653 - INFO - Worker worker1, instance 1, phone 5514997787281, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:27:20,067 - INFO - Worker worker1, instance 1, phone 5514997787281, info: new conversation page loaded.
+2025-02-13 16:27:23,473 - INFO - Worker worker1, instance 1, phone 5514997787281, info: recipient entered.
+2025-02-13 16:27:31,031 - INFO - Worker worker1, instance 0, phone 5512997987852, info: message 231995 was sended as RCS.
+2025-02-13 16:27:31,031 - INFO - Worker worker1, instance 0, phone 5517988006110, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:27:31,411 - INFO - Worker worker1, instance 0, phone 5517988006110, info: new conversation page loaded.
+2025-02-13 16:27:35,073 - INFO - Worker worker1, instance 0, phone 5517988006110, info: recipient entered.
+2025-02-13 16:27:37,120 - INFO - Worker worker1, instance 0, phone 5517988006110, info: unable to send RCS to this contact *********.
+2025-02-13 16:27:38,478 - INFO - Worker worker1, instance 1, phone 5514997787281, info: message 231996 was sended as RCS.
+2025-02-13 16:27:38,479 - INFO - Worker worker1, instance 1, phone 5511982586397, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:27:38,855 - INFO - Worker worker1, instance 1, phone 5511982586397, info: new conversation page loaded.
+2025-02-13 16:27:42,125 - INFO - Worker worker1, instance 0, phone 5517988006110, info: message 231997 will be tryied as SMS.
+2025-02-13 16:27:42,317 - INFO - Worker worker1, instance 1, phone 5511982586397, info: recipient entered.
+2025-02-13 16:27:42,378 - INFO - Worker worker1, instance 0, info: status of messages has been updated on the server.
+2025-02-13 16:27:57,328 - INFO - Worker worker1, instance 1, phone 5511982586397, info: message 231998 was sended as RCS.
+2025-02-13 16:27:57,556 - INFO - Worker worker1, instance 1, info: status of messages has been updated on the server.
+2025-02-13 16:27:57,557 - INFO - Worker worker1, info: messages were processed, all threads are finished.
+2025-02-13 16:27:57,557 - INFO - Worker worker1, info: requesting new messages from server.
+2025-02-13 16:27:57,814 - INFO - Worker worker1, info: where obtained 10 messages from server.
+2025-02-13 16:27:57,815 - INFO - Worker worker1, instance 0, info: actual chunk length is 5.
+2025-02-13 16:27:57,815 - INFO - Worker worker1, instance 1, info: actual chunk length is 5.
+2025-02-13 16:27:57,815 - INFO - Worker worker1, instance 0, phone 5511982154960, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:27:57,815 - INFO - Worker worker1, instance 1, phone 5511982784612, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:27:58,244 - INFO - Worker worker1, instance 0, phone 5511982154960, info: new conversation page loaded.
+2025-02-13 16:27:58,275 - INFO - Worker worker1, instance 1, phone 5511982784612, info: new conversation page loaded.
+2025-02-13 16:28:01,805 - INFO - Worker worker1, instance 1, phone 5511982784612, info: recipient entered.
+2025-02-13 16:28:01,839 - INFO - Worker worker1, instance 0, phone 5511982154960, info: recipient entered.
+2025-02-13 16:28:03,873 - INFO - Worker worker1, instance 0, phone 5511982154960, info: unable to send RCS to this contact *********.
+2025-02-13 16:28:08,877 - INFO - Worker worker1, instance 0, phone 5511982154960, info: message 231999 will be tryied as SMS.
+2025-02-13 16:28:08,877 - INFO - Worker worker1, instance 0, phone 5511984809885, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:28:09,249 - INFO - Worker worker1, instance 0, phone 5511984809885, info: new conversation page loaded.
+2025-02-13 16:28:12,805 - INFO - Worker worker1, instance 0, phone 5511984809885, info: recipient entered.
+2025-02-13 16:28:14,843 - INFO - Worker worker1, instance 0, phone 5511984809885, info: unable to send RCS to this contact *********.
+2025-02-13 16:28:16,792 - INFO - Worker worker1, instance 1, phone 5511982784612, info: message 232000 was sended as RCS.
+2025-02-13 16:28:16,792 - INFO - Worker worker1, instance 1, phone 5512997991740, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:28:17,168 - INFO - Worker worker1, instance 1, phone 5512997991740, info: new conversation page loaded.
+2025-02-13 16:28:19,848 - INFO - Worker worker1, instance 0, phone 5511984809885, info: message 232001 will be tryied as SMS.
+2025-02-13 16:28:19,848 - INFO - Worker worker1, instance 0, phone 5513981091290, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:28:20,230 - INFO - Worker worker1, instance 0, phone 5513981091290, info: new conversation page loaded.
+2025-02-13 16:28:20,588 - INFO - Worker worker1, instance 1, phone 5512997991740, info: recipient entered.
+2025-02-13 16:28:22,624 - INFO - Worker worker1, instance 1, phone 5512997991740, info: unable to send RCS to this contact *********.
+2025-02-13 16:28:23,716 - INFO - Worker worker1, instance 0, phone 5513981091290, info: recipient entered.
+2025-02-13 16:28:25,762 - INFO - Worker worker1, instance 0, phone 5513981091290, info: unable to send RCS to this contact *********.
+2025-02-13 16:28:27,629 - INFO - Worker worker1, instance 1, phone 5512997991740, info: message 232002 will be tryied as SMS.
+2025-02-13 16:28:27,629 - INFO - Worker worker1, instance 1, phone 5511982787271, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:28:28,012 - INFO - Worker worker1, instance 1, phone 5511982787271, info: new conversation page loaded.
+2025-02-13 16:28:30,767 - INFO - Worker worker1, instance 0, phone 5513981091290, info: message 232003 will be tryied as SMS.
+2025-02-13 16:28:30,767 - INFO - Worker worker1, instance 0, phone 5511982156702, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:28:31,145 - INFO - Worker worker1, instance 0, phone 5511982156702, info: new conversation page loaded.
+2025-02-13 16:28:31,478 - INFO - Worker worker1, instance 1, phone 5511982787271, info: recipient entered.
+2025-02-13 16:28:33,515 - INFO - Worker worker1, instance 1, phone 5511982787271, info: unable to send RCS to this contact *********.
+2025-02-13 16:28:34,668 - INFO - Worker worker1, instance 0, phone 5511982156702, info: recipient entered.
+2025-02-13 16:28:36,710 - INFO - Worker worker1, instance 0, phone 5511982156702, info: unable to send RCS to this contact *********.
+2025-02-13 16:28:38,521 - INFO - Worker worker1, instance 1, phone 5511982787271, info: message 232004 will be tryied as SMS.
+2025-02-13 16:28:38,521 - INFO - Worker worker1, instance 1, phone 5512991850023, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:28:38,905 - INFO - Worker worker1, instance 1, phone 5512991850023, info: new conversation page loaded.
+2025-02-13 16:28:41,715 - INFO - Worker worker1, instance 0, phone 5511982156702, info: message 232005 will be tryied as SMS.
+2025-02-13 16:28:41,715 - INFO - Worker worker1, instance 0, phone 5517988007417, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:28:42,098 - INFO - Worker worker1, instance 0, phone 5517988007417, info: new conversation page loaded.
+2025-02-13 16:28:42,405 - INFO - Worker worker1, instance 1, phone 5512991850023, info: recipient entered.
+2025-02-13 16:28:44,443 - INFO - Worker worker1, instance 1, phone 5512991850023, info: unable to send RCS to this contact *********.
+2025-02-13 16:28:45,575 - INFO - Worker worker1, instance 0, phone 5517988007417, info: recipient entered.
+2025-02-13 16:28:47,621 - INFO - Worker worker1, instance 0, phone 5517988007417, info: unable to send RCS to this contact *********.
+2025-02-13 16:28:49,448 - INFO - Worker worker1, instance 1, phone 5512991850023, info: message 232006 will be tryied as SMS.
+2025-02-13 16:28:49,448 - INFO - Worker worker1, instance 1, phone 5514997788627, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:28:49,844 - INFO - Worker worker1, instance 1, phone 5514997788627, info: new conversation page loaded.
+2025-02-13 16:28:52,627 - INFO - Worker worker1, instance 0, phone 5517988007417, info: message 232007 will be tryied as SMS.
+2025-02-13 16:28:52,861 - INFO - Worker worker1, instance 0, info: status of messages has been updated on the server.
+2025-02-13 16:28:53,327 - INFO - Worker worker1, instance 1, phone 5514997788627, info: recipient entered.
+2025-02-13 16:29:08,355 - INFO - Worker worker1, instance 1, phone 5514997788627, info: message 232008 was sended as RCS.
+2025-02-13 16:29:08,601 - INFO - Worker worker1, instance 1, info: status of messages has been updated on the server.
+2025-02-13 16:29:08,601 - INFO - Worker worker1, info: messages were processed, all threads are finished.
+2025-02-13 16:29:08,601 - INFO - Worker worker1, info: requesting new messages from server.
+2025-02-13 16:29:08,876 - INFO - Worker worker1, info: where obtained 10 messages from server.
+2025-02-13 16:29:08,877 - INFO - Worker worker1, instance 0, info: actual chunk length is 5.
+2025-02-13 16:29:08,877 - INFO - Worker worker1, instance 0, phone 5511984811524, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:29:08,878 - INFO - Worker worker1, instance 1, info: actual chunk length is 5.
+2025-02-13 16:29:08,878 - INFO - Worker worker1, instance 1, phone 5512997993470, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:29:09,290 - INFO - Worker worker1, instance 0, phone 5511984811524, info: new conversation page loaded.
+2025-02-13 16:29:09,325 - INFO - Worker worker1, instance 1, phone 5512997993470, info: new conversation page loaded.
+2025-02-13 16:29:12,759 - INFO - Worker worker1, instance 0, phone 5511984811524, info: recipient entered.
+2025-02-13 16:29:12,878 - INFO - Worker worker1, instance 1, phone 5512997993470, info: recipient entered.
+2025-02-13 16:29:14,910 - INFO - Worker worker1, instance 1, phone 5512997993470, info: unable to send RCS to this contact *********.
+2025-02-13 16:29:19,915 - INFO - Worker worker1, instance 1, phone 5512997993470, info: message 232010 will be tryied as SMS.
+2025-02-13 16:29:19,916 - INFO - Worker worker1, instance 1, phone 5511984813248, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:29:20,289 - INFO - Worker worker1, instance 1, phone 5511984813248, info: new conversation page loaded.
+2025-02-13 16:29:23,290 - INFO - Worker worker1, instance 1, phone 5511984813248, info: recipient entered.
+2025-02-13 16:29:27,679 - INFO - Worker worker1, instance 0, phone 5511984811524, info: message 232009 was sended as RCS.
+2025-02-13 16:29:27,680 - INFO - Worker worker1, instance 0, phone 5511982788638, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:29:28,032 - INFO - Worker worker1, instance 0, phone 5511982788638, info: new conversation page loaded.
+2025-02-13 16:29:31,580 - INFO - Worker worker1, instance 0, phone 5511982788638, info: recipient entered.
+2025-02-13 16:29:38,411 - INFO - Worker worker1, instance 1, phone 5511984813248, info: message 232012 was sended as RCS.
+2025-02-13 16:29:38,411 - INFO - Worker worker1, instance 1, phone 5511982158243, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:29:38,786 - INFO - Worker worker1, instance 1, phone 5511982158243, info: new conversation page loaded.
+2025-02-13 16:29:42,289 - INFO - Worker worker1, instance 1, phone 5511982158243, info: recipient entered.
+2025-02-13 16:29:46,537 - INFO - Worker worker1, instance 0, phone 5511982788638, info: message 232011 was sended as RCS.
+2025-02-13 16:29:46,537 - INFO - Worker worker1, instance 0, phone 5512991851564, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:29:46,902 - INFO - Worker worker1, instance 0, phone 5512991851564, info: new conversation page loaded.
+2025-02-13 16:29:50,400 - INFO - Worker worker1, instance 0, phone 5512991851564, info: recipient entered.
+2025-02-13 16:29:57,360 - INFO - Worker worker1, instance 1, phone 5511982158243, info: message 232014 was sended as RCS.
+2025-02-13 16:29:57,360 - INFO - Worker worker1, instance 1, phone 5513981093792, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:29:57,769 - INFO - Worker worker1, instance 1, phone 5513981093792, info: new conversation page loaded.
+2025-02-13 16:30:01,293 - INFO - Worker worker1, instance 1, phone 5513981093792, info: recipient entered.
+2025-02-13 16:30:05,404 - INFO - Worker worker1, instance 0, phone 5512991851564, info: message 232013 was sended as RCS.
+2025-02-13 16:30:05,404 - INFO - Worker worker1, instance 0, phone 5511982587808, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:30:05,813 - INFO - Worker worker1, instance 0, phone 5511982587808, info: new conversation page loaded.
+2025-02-13 16:30:09,439 - INFO - Worker worker1, instance 0, phone 5511982587808, info: recipient entered.
+2025-02-13 16:30:16,344 - INFO - Worker worker1, instance 1, phone 5513981093792, info: message 232016 was sended as RCS.
+2025-02-13 16:30:16,344 - INFO - Worker worker1, instance 1, phone 5511982589563, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:30:16,726 - INFO - Worker worker1, instance 1, phone 5511982589563, info: new conversation page loaded.
+2025-02-13 16:30:20,186 - INFO - Worker worker1, instance 1, phone 5511982589563, info: recipient entered.
+2025-02-13 16:30:24,456 - INFO - Worker worker1, instance 0, phone 5511982587808, info: message 232015 was sended as RCS.
+2025-02-13 16:30:24,457 - INFO - Worker worker1, instance 0, phone 5511982161179, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:30:24,864 - INFO - Worker worker1, instance 0, phone 5511982161179, info: new conversation page loaded.
+2025-02-13 16:30:27,794 - INFO - Worker worker1, instance 0, phone 5511982161179, info: recipient entered.
+2025-02-13 16:30:35,234 - INFO - Worker worker1, instance 1, phone 5511982589563, info: message 232018 was sended as RCS.
+2025-02-13 16:30:35,461 - INFO - Worker worker1, instance 1, info: status of messages has been updated on the server.
+2025-02-13 16:30:42,891 - INFO - Worker worker1, instance 0, phone 5511982161179, info: message 232017 was sended as RCS.
+2025-02-13 16:30:43,123 - INFO - Worker worker1, instance 0, info: status of messages has been updated on the server.
+2025-02-13 16:30:43,124 - INFO - Worker worker1, info: messages were processed, all threads are finished.
+2025-02-13 16:30:43,124 - INFO - Worker worker1, info: requesting new messages from server.
+2025-02-13 16:30:43,511 - INFO - Worker worker1, info: where obtained 10 messages from server.
+2025-02-13 16:30:43,512 - INFO - Worker worker1, instance 0, info: actual chunk length is 5.
+2025-02-13 16:30:43,513 - INFO - Worker worker1, instance 1, info: actual chunk length is 5.
+2025-02-13 16:30:43,513 - INFO - Worker worker1, instance 0, phone 5511982790350, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:30:43,513 - INFO - Worker worker1, instance 1, phone 5511984816733, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:30:43,927 - INFO - Worker worker1, instance 1, phone 5511984816733, info: new conversation page loaded.
+2025-02-13 16:30:43,957 - INFO - Worker worker1, instance 0, phone 5511982790350, info: new conversation page loaded.
+2025-02-13 16:30:47,511 - INFO - Worker worker1, instance 1, phone 5511984816733, info: recipient entered.
+2025-02-13 16:30:47,560 - INFO - Worker worker1, instance 0, phone 5511982790350, info: recipient entered.
+2025-02-13 16:30:49,540 - INFO - Worker worker1, instance 1, phone 5511984816733, info: unable to send RCS to this contact *********.
+2025-02-13 16:30:49,600 - INFO - Worker worker1, instance 0, phone 5511982790350, info: unable to send RCS to this contact *********.
+2025-02-13 16:30:54,543 - INFO - Worker worker1, instance 1, phone 5511984816733, info: message 232020 will be tryied as SMS.
+2025-02-13 16:30:54,543 - INFO - Worker worker1, instance 1, phone 5511984814993, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:30:54,605 - INFO - Worker worker1, instance 0, phone 5511982790350, info: message 232019 will be tryied as SMS.
+2025-02-13 16:30:54,605 - INFO - Worker worker1, instance 0, phone 5517988009039, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:30:54,990 - INFO - Worker worker1, instance 1, phone 5511984814993, info: new conversation page loaded.
+2025-02-13 16:30:55,090 - INFO - Worker worker1, instance 0, phone 5517988009039, info: new conversation page loaded.
+2025-02-13 16:30:58,491 - INFO - Worker worker1, instance 1, phone 5511984814993, info: recipient entered.
+2025-02-13 16:30:58,650 - INFO - Worker worker1, instance 0, phone 5517988009039, info: recipient entered.
+2025-02-13 16:31:00,682 - INFO - Worker worker1, instance 0, phone 5517988009039, info: unable to send RCS to this contact *********.
+2025-02-13 16:31:05,687 - INFO - Worker worker1, instance 0, phone 5517988009039, info: message 232021 will be tryied as SMS.
+2025-02-13 16:31:05,687 - INFO - Worker worker1, instance 0, phone 5513981099034, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:31:06,071 - INFO - Worker worker1, instance 0, phone 5513981099034, info: new conversation page loaded.
+2025-02-13 16:31:09,596 - INFO - Worker worker1, instance 0, phone 5513981099034, info: recipient entered.
+2025-02-13 16:31:11,643 - INFO - Worker worker1, instance 0, phone 5513981099034, info: unable to send RCS to this contact *********.
+2025-02-13 16:31:13,490 - INFO - Worker worker1, instance 1, phone 5511984814993, info: message 232022 was sended as RCS.
+2025-02-13 16:31:13,490 - INFO - Worker worker1, instance 1, phone 5513981102674, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:31:13,924 - INFO - Worker worker1, instance 1, phone 5513981102674, info: new conversation page loaded.
+2025-02-13 16:31:16,649 - INFO - Worker worker1, instance 0, phone 5513981099034, info: message 232023 will be tryied as SMS.
+2025-02-13 16:31:16,650 - INFO - Worker worker1, instance 0, phone 5512997995688, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:31:17,063 - INFO - Worker worker1, instance 0, phone 5512997995688, info: new conversation page loaded.
+2025-02-13 16:31:17,383 - INFO - Worker worker1, instance 1, phone 5513981102674, info: recipient entered.
+2025-02-13 16:31:19,422 - INFO - Worker worker1, instance 1, phone 5513981102674, info: unable to send RCS to this contact *********.
+2025-02-13 16:31:20,482 - INFO - Worker worker1, instance 0, phone 5512997995688, info: recipient entered.
+2025-02-13 16:31:24,427 - INFO - Worker worker1, instance 1, phone 5513981102674, info: message 232024 will be tryied as SMS.
+2025-02-13 16:31:24,427 - INFO - Worker worker1, instance 1, phone 5517988012601, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:31:24,799 - INFO - Worker worker1, instance 1, phone 5517988012601, info: new conversation page loaded.
+2025-02-13 16:31:28,267 - INFO - Worker worker1, instance 1, phone 5517988012601, info: recipient entered.
+2025-02-13 16:31:35,538 - INFO - Worker worker1, instance 0, phone 5512997995688, info: message 232025 was sended as RCS.
+2025-02-13 16:31:35,538 - INFO - Worker worker1, instance 0, phone 5511982591062, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:31:35,893 - INFO - Worker worker1, instance 0, phone 5511982591062, info: new conversation page loaded.
+2025-02-13 16:31:39,329 - INFO - Worker worker1, instance 0, phone 5511982591062, info: recipient entered.
+2025-02-13 16:31:41,364 - INFO - Worker worker1, instance 0, phone 5511982591062, info: unable to send RCS to this contact *********.
+2025-02-13 16:31:43,374 - INFO - Worker worker1, instance 1, phone 5517988012601, info: message 232026 was sended as RCS.
+2025-02-13 16:31:43,375 - INFO - Worker worker1, instance 1, phone 5511982159806, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:31:43,785 - INFO - Worker worker1, instance 1, phone 5511982159806, info: new conversation page loaded.
+2025-02-13 16:31:46,369 - INFO - Worker worker1, instance 0, phone 5511982591062, info: message 232027 will be tryied as SMS.
+2025-02-13 16:31:46,720 - INFO - Worker worker1, instance 0, info: status of messages has been updated on the server.
+2025-02-13 16:31:47,299 - INFO - Worker worker1, instance 1, phone 5511982159806, info: recipient entered.
+2025-02-13 16:32:02,289 - INFO - Worker worker1, instance 1, phone 5511982159806, info: message 232028 was sended as RCS.
+2025-02-13 16:32:02,570 - INFO - Worker worker1, instance 1, info: status of messages has been updated on the server.
+2025-02-13 16:32:02,570 - INFO - Worker worker1, info: messages were processed, all threads are finished.
+2025-02-13 16:32:02,570 - INFO - Worker worker1, info: requesting new messages from server.
+2025-02-13 16:32:02,798 - INFO - Worker worker1, info: where obtained 10 messages from server.
+2025-02-13 16:32:02,799 - INFO - Worker worker1, instance 0, info: actual chunk length is 5.
+2025-02-13 16:32:02,799 - INFO - Worker worker1, instance 1, info: actual chunk length is 5.
+2025-02-13 16:32:02,800 - INFO - Worker worker1, instance 0, phone 5513981106772, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:32:02,800 - INFO - Worker worker1, instance 1, phone 5512991852880, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:32:03,194 - INFO - Worker worker1, instance 1, phone 5512991852880, info: new conversation page loaded.
+2025-02-13 16:32:03,229 - INFO - Worker worker1, instance 0, phone 5513981106772, info: new conversation page loaded.
+2025-02-13 16:32:06,705 - INFO - Worker worker1, instance 1, phone 5512991852880, info: recipient entered.
+2025-02-13 16:32:06,773 - INFO - Worker worker1, instance 0, phone 5513981106772, info: recipient entered.
+2025-02-13 16:32:21,721 - INFO - Worker worker1, instance 1, phone 5512991852880, info: message 232030 was sended as RCS.
+2025-02-13 16:32:21,722 - INFO - Worker worker1, instance 1, phone 5511982162065, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:32:21,792 - INFO - Worker worker1, instance 0, phone 5513981106772, info: message 232029 was sended as RCS.
+2025-02-13 16:32:21,792 - INFO - Worker worker1, instance 0, phone 5511982592888, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:32:22,204 - INFO - Worker worker1, instance 1, phone 5511982162065, info: new conversation page loaded.
+2025-02-13 16:32:22,380 - INFO - Worker worker1, instance 0, phone 5511982592888, info: new conversation page loaded.
+2025-02-13 16:32:25,650 - INFO - Worker worker1, instance 1, phone 5511982162065, info: recipient entered.
+2025-02-13 16:32:25,954 - INFO - Worker worker1, instance 0, phone 5511982592888, info: recipient entered.
+2025-02-13 16:32:27,697 - INFO - Worker worker1, instance 1, phone 5511982162065, info: unable to send RCS to this contact *********.
+2025-02-13 16:32:28,005 - INFO - Worker worker1, instance 0, phone 5511982592888, info: unable to send RCS to this contact *********.
+2025-02-13 16:32:32,702 - INFO - Worker worker1, instance 1, phone 5511982162065, info: message 232032 will be tryied as SMS.
+2025-02-13 16:32:32,702 - INFO - Worker worker1, instance 1, phone 5513981110804, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:32:33,010 - INFO - Worker worker1, instance 0, phone 5511982592888, info: message 232031 will be tryied as SMS.
+2025-02-13 16:32:33,010 - INFO - Worker worker1, instance 0, phone 5517988014370, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:32:33,083 - INFO - Worker worker1, instance 1, phone 5513981110804, info: new conversation page loaded.
+2025-02-13 16:32:33,407 - INFO - Worker worker1, instance 0, phone 5517988014370, info: new conversation page loaded.
+2025-02-13 16:32:36,612 - INFO - Worker worker1, instance 1, phone 5513981110804, info: recipient entered.
+2025-02-13 16:32:37,057 - INFO - Worker worker1, instance 0, phone 5517988014370, info: recipient entered.
+2025-02-13 16:32:38,650 - INFO - Worker worker1, instance 1, phone 5513981110804, info: unable to send RCS to this contact *********.
+2025-02-13 16:32:43,655 - INFO - Worker worker1, instance 1, phone 5513981110804, info: message 232034 will be tryied as SMS.
+2025-02-13 16:32:43,656 - INFO - Worker worker1, instance 1, phone 5511982594115, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:32:44,044 - INFO - Worker worker1, instance 1, phone 5511982594115, info: new conversation page loaded.
+2025-02-13 16:32:47,605 - INFO - Worker worker1, instance 1, phone 5511982594115, info: recipient entered.
+2025-02-13 16:32:49,653 - INFO - Worker worker1, instance 1, phone 5511982594115, info: unable to send RCS to this contact *********.
+2025-02-13 16:32:52,166 - INFO - Worker worker1, instance 0, phone 5517988014370, info: message 232033 was sended as RCS.
+2025-02-13 16:32:52,166 - INFO - Worker worker1, instance 0, phone 5517988016399, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:32:52,523 - INFO - Worker worker1, instance 0, phone 5517988016399, info: new conversation page loaded.
+2025-02-13 16:32:54,658 - INFO - Worker worker1, instance 1, phone 5511982594115, info: message 232036 will be tryied as SMS.
+2025-02-13 16:32:54,658 - INFO - Worker worker1, instance 1, phone 5513981112221, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:32:55,071 - INFO - Worker worker1, instance 1, phone 5513981112221, info: new conversation page loaded.
+2025-02-13 16:32:55,939 - INFO - Worker worker1, instance 0, phone 5517988016399, info: recipient entered.
+2025-02-13 16:32:58,489 - INFO - Worker worker1, instance 1, phone 5513981112221, info: recipient entered.
+2025-02-13 16:33:11,123 - INFO - Worker worker1, instance 0, phone 5517988016399, info: message 232035 was sended as RCS.
+2025-02-13 16:33:11,123 - INFO - Worker worker1, instance 0, phone 5514997789756, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:33:11,471 - INFO - Worker worker1, instance 0, phone 5514997789756, info: new conversation page loaded.
+2025-02-13 16:33:13,477 - INFO - Worker worker1, instance 1, phone 5513981112221, info: message 232038 was sended as RCS.
+2025-02-13 16:33:13,733 - INFO - Worker worker1, instance 1, info: status of messages has been updated on the server.
+2025-02-13 16:33:15,053 - INFO - Worker worker1, instance 0, phone 5514997789756, info: recipient entered.
+2025-02-13 16:33:30,087 - INFO - Worker worker1, instance 0, phone 5514997789756, info: message 232037 was sended as RCS.
+2025-02-13 16:33:30,339 - INFO - Worker worker1, instance 0, info: status of messages has been updated on the server.
+2025-02-13 16:33:30,340 - INFO - Worker worker1, info: messages were processed, all threads are finished.
+2025-02-13 16:33:30,340 - INFO - Worker worker1, info: requesting new messages from server.
+2025-02-13 16:33:30,584 - INFO - Worker worker1, info: where obtained 10 messages from server.
+2025-02-13 16:33:30,585 - INFO - Worker worker1, instance 0, info: actual chunk length is 5.
+2025-02-13 16:33:30,585 - INFO - Worker worker1, instance 0, phone 5511984817822, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:33:30,586 - INFO - Worker worker1, instance 1, info: actual chunk length is 5.
+2025-02-13 16:33:30,586 - INFO - Worker worker1, instance 1, phone 5513981113801, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:33:30,999 - INFO - Worker worker1, instance 0, phone 5511984817822, info: new conversation page loaded.
+2025-02-13 16:33:31,025 - INFO - Worker worker1, instance 1, phone 5513981113801, info: new conversation page loaded.
+2025-02-13 16:33:34,572 - INFO - Worker worker1, instance 0, phone 5511984817822, info: recipient entered.
+2025-02-13 16:33:34,580 - INFO - Worker worker1, instance 1, phone 5513981113801, info: recipient entered.
+2025-02-13 16:33:37,132 - INFO - Worker worker1, instance 1, phone 5513981113801, info: unable to send RCS to this contact *********.
+2025-02-13 16:33:42,137 - INFO - Worker worker1, instance 1, phone 5513981113801, info: message 232040 will be tryied as SMS.
+2025-02-13 16:33:42,137 - INFO - Worker worker1, instance 1, phone 5511982791866, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:33:42,536 - INFO - Worker worker1, instance 1, phone 5511982791866, info: new conversation page loaded.
+2025-02-13 16:33:46,122 - INFO - Worker worker1, instance 1, phone 5511982791866, info: recipient entered.
+2025-02-13 16:33:48,164 - INFO - Worker worker1, instance 1, phone 5511982791866, info: unable to send RCS to this contact *********.
+2025-02-13 16:33:49,604 - INFO - Worker worker1, instance 0, phone 5511984817822, info: message 232039 was sended as RCS.
+2025-02-13 16:33:49,604 - INFO - Worker worker1, instance 0, phone 5512997998093, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:33:50,024 - INFO - Worker worker1, instance 0, phone 5512997998093, info: new conversation page loaded.
+2025-02-13 16:33:53,169 - INFO - Worker worker1, instance 1, phone 5511982791866, info: message 232042 will be tryied as SMS.
+2025-02-13 16:33:53,169 - INFO - Worker worker1, instance 1, phone 5512991854143, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:33:53,522 - INFO - Worker worker1, instance 0, phone 5512997998093, info: recipient entered.
+2025-02-13 16:33:53,575 - INFO - Worker worker1, instance 1, phone 5512991854143, info: new conversation page loaded.
+2025-02-13 16:33:57,041 - INFO - Worker worker1, instance 1, phone 5512991854143, info: recipient entered.
+2025-02-13 16:33:59,085 - INFO - Worker worker1, instance 1, phone 5512991854143, info: unable to send RCS to this contact *********.
+2025-02-13 16:34:04,090 - INFO - Worker worker1, instance 1, phone 5512991854143, info: message 232044 will be tryied as SMS.
+2025-02-13 16:34:04,090 - INFO - Worker worker1, instance 1, phone 5512997999562, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:34:04,467 - INFO - Worker worker1, instance 1, phone 5512997999562, info: new conversation page loaded.
+2025-02-13 16:34:07,976 - INFO - Worker worker1, instance 1, phone 5512997999562, info: recipient entered.
+2025-02-13 16:34:08,732 - INFO - Worker worker1, instance 0, phone 5512997998093, info: message 232041 was sended as RCS.
+2025-02-13 16:34:08,732 - INFO - Worker worker1, instance 0, phone 5511984819282, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:34:09,169 - INFO - Worker worker1, instance 0, phone 5511984819282, info: new conversation page loaded.
+2025-02-13 16:34:10,003 - INFO - Worker worker1, instance 1, phone 5512997999562, info: unable to send RCS to this contact *********.
+2025-02-13 16:34:12,604 - INFO - Worker worker1, instance 0, phone 5511984819282, info: recipient entered.
+2025-02-13 16:34:15,008 - INFO - Worker worker1, instance 1, phone 5512997999562, info: message 232046 will be tryied as SMS.
+2025-02-13 16:34:15,008 - INFO - Worker worker1, instance 1, phone 5514997791465, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:34:15,391 - INFO - Worker worker1, instance 1, phone 5514997791465, info: new conversation page loaded.
+2025-02-13 16:34:18,823 - INFO - Worker worker1, instance 1, phone 5514997791465, info: recipient entered.
+2025-02-13 16:34:33,907 - INFO - Worker worker1, instance 1, phone 5514997791465, info: message 232048 was sended as RCS.
+2025-02-13 16:34:34,157 - INFO - Worker worker1, instance 1, info: status of messages has been updated on the server.
+2025-02-13 16:34:44,754 - ERROR - Worker worker1, instance 0, phone 5511984819282, info: UNABLE_FIND_TEXTAREA by CSS_SELECTOR. Execption is: Message: 
+Stacktrace:
+#0 0x590f6f70453a <unknown>
+#1 0x590f6f1fff00 <unknown>
+#2 0x590f6f24fc0c <unknown>
+#3 0x590f6f24fe31 <unknown>
+#4 0x590f6f295bd4 <unknown>
+#5 0x590f6f2745cd <unknown>
+#6 0x590f6f292f84 <unknown>
+#7 0x590f6f274343 <unknown>
+#8 0x590f6f24178a <unknown>
+#9 0x590f6f2429de <unknown>
+#10 0x590f6f6ce2cb <unknown>
+#11 0x590f6f6d2242 <unknown>
+#12 0x590f6f6bb7ac <unknown>
+#13 0x590f6f6d2df7 <unknown>
+#14 0x590f6f69fb2f <unknown>
+#15 0x590f6f6f31a8 <unknown>
+#16 0x590f6f6f3370 <unknown>
+#17 0x590f6f7033b6 <unknown>
+#18 0x7601f2e9caa4 <unknown>
+#19 0x7601f2f29c3c <unknown>
+
+2025-02-13 16:34:44,984 - INFO - Worker worker1, instance 0, info: status of messages has been updated on the server.
+2025-02-13 16:34:44,985 - INFO - Worker worker1, info: messages were processed, all threads are finished.
+2025-02-13 16:34:44,985 - INFO - Worker worker1, info: requesting new messages from server.
+2025-02-13 16:34:45,256 - INFO - Worker worker1, info: where obtained 10 messages from server.
+2025-02-13 16:34:45,257 - INFO - Worker worker1, instance 1, info: actual chunk length is 5.
+2025-02-13 16:34:45,257 - INFO - Worker worker1, instance 1, phone 5511982163646, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:34:45,623 - INFO - Worker worker1, instance 1, phone 5511982163646, info: new conversation page loaded.
+2025-02-13 16:34:49,103 - INFO - Worker worker1, instance 1, phone 5511982163646, info: recipient entered.
+2025-02-13 16:34:51,150 - INFO - Worker worker1, instance 1, phone 5511982163646, info: unable to send RCS to this contact *********.
+2025-02-13 16:34:56,155 - INFO - Worker worker1, instance 1, phone 5511982163646, info: message 232050 will be tryied as SMS.
+2025-02-13 16:34:56,155 - INFO - Worker worker1, instance 1, phone 5511982598689, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:34:56,551 - INFO - Worker worker1, instance 1, phone 5511982598689, info: new conversation page loaded.
+2025-02-13 16:34:59,990 - INFO - Worker worker1, instance 1, phone 5511982598689, info: recipient entered.
+2025-02-13 16:35:15,069 - INFO - Worker worker1, instance 1, phone 5511982598689, info: message 232052 was sended as RCS.
+2025-02-13 16:35:15,070 - INFO - Worker worker1, instance 1, phone 5511982793552, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:35:15,455 - INFO - Worker worker1, instance 1, phone 5511982793552, info: new conversation page loaded.
+2025-02-13 16:35:18,960 - INFO - Worker worker1, instance 1, phone 5511982793552, info: recipient entered.
+2025-02-13 16:35:21,004 - INFO - Worker worker1, instance 1, phone 5511982793552, info: unable to send RCS to this contact *********.
+2025-02-13 16:35:26,009 - INFO - Worker worker1, instance 1, phone 5511982793552, info: message 232054 will be tryied as SMS.
+2025-02-13 16:35:26,009 - INFO - Worker worker1, instance 1, phone 5514997792501, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:35:26,405 - INFO - Worker worker1, instance 1, phone 5514997792501, info: new conversation page loaded.
+2025-02-13 16:35:29,916 - INFO - Worker worker1, instance 1, phone 5514997792501, info: recipient entered.
+2025-02-13 16:35:44,928 - INFO - Worker worker1, instance 1, phone 5514997792501, info: message 232056 was sended as RCS.
+2025-02-13 16:35:44,928 - INFO - Worker worker1, instance 1, phone 5511982600153, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:35:45,342 - INFO - Worker worker1, instance 1, phone 5511982600153, info: new conversation page loaded.
+2025-02-13 16:35:48,817 - INFO - Worker worker1, instance 1, phone 5511982600153, info: recipient entered.
+2025-02-13 16:35:50,855 - INFO - Worker worker1, instance 1, phone 5511982600153, info: unable to send RCS to this contact *********.
+2025-02-13 16:35:55,860 - INFO - Worker worker1, instance 1, phone 5511982600153, info: message 232058 will be tryied as SMS.
+2025-02-13 16:35:56,096 - INFO - Worker worker1, instance 1, info: status of messages has been updated on the server.
+2025-02-13 16:35:56,096 - INFO - Worker worker1, info: messages were processed, all threads are finished.
+2025-02-13 16:35:56,097 - INFO - Worker worker1, info: requesting new messages from server.
+2025-02-13 16:35:56,338 - INFO - Worker worker1, info: where obtained 10 messages from server.
+2025-02-13 16:35:56,339 - INFO - Worker worker1, instance 1, info: actual chunk length is 5.
+2025-02-13 16:35:56,339 - INFO - Worker worker1, instance 1, phone 5511982630003, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:35:56,707 - INFO - Worker worker1, instance 1, phone 5511982630003, info: new conversation page loaded.
+2025-02-13 16:36:00,218 - INFO - Worker worker1, instance 1, phone 5511982630003, info: recipient entered.
+2025-02-13 16:36:02,261 - INFO - Worker worker1, instance 1, phone 5511982630003, info: unable to send RCS to this contact *********.
+2025-02-13 16:36:07,266 - INFO - Worker worker1, instance 1, phone 5511982630003, info: message 232060 will be tryied as SMS.
+2025-02-13 16:36:07,266 - INFO - Worker worker1, instance 1, phone 5513974013318, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:36:07,630 - INFO - Worker worker1, instance 1, phone 5513974013318, info: new conversation page loaded.
+2025-02-13 16:36:11,107 - INFO - Worker worker1, instance 1, phone 5513974013318, info: recipient entered.
+2025-02-13 16:36:13,148 - INFO - Worker worker1, instance 1, phone 5513974013318, info: unable to send RCS to this contact *********.
+2025-02-13 16:36:18,153 - INFO - Worker worker1, instance 1, phone 5513974013318, info: message 232062 will be tryied as SMS.
+2025-02-13 16:36:18,153 - INFO - Worker worker1, instance 1, phone 5511982631305, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:36:18,530 - INFO - Worker worker1, instance 1, phone 5511982631305, info: new conversation page loaded.
+2025-02-13 16:36:22,119 - INFO - Worker worker1, instance 1, phone 5511982631305, info: recipient entered.
+2025-02-13 16:36:24,152 - INFO - Worker worker1, instance 1, phone 5511982631305, info: unable to send RCS to this contact *********.
+2025-02-13 16:36:29,156 - INFO - Worker worker1, instance 1, phone 5511982631305, info: message 232064 will be tryied as SMS.
+2025-02-13 16:36:29,156 - INFO - Worker worker1, instance 1, phone 5514997796781, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:36:29,531 - INFO - Worker worker1, instance 1, phone 5514997796781, info: new conversation page loaded.
+2025-02-13 16:36:33,013 - INFO - Worker worker1, instance 1, phone 5514997796781, info: recipient entered.
+2025-02-13 16:36:48,121 - INFO - Worker worker1, instance 1, phone 5514997796781, info: message 232066 was sended as RCS.
+2025-02-13 16:36:48,121 - INFO - Worker worker1, instance 1, phone 5513974011528, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:36:48,540 - INFO - Worker worker1, instance 1, phone 5513974011528, info: new conversation page loaded.
+2025-02-13 16:36:51,967 - INFO - Worker worker1, instance 1, phone 5513974011528, info: recipient entered.
+2025-02-13 16:36:54,017 - INFO - Worker worker1, instance 1, phone 5513974011528, info: unable to send RCS to this contact *********.
+2025-02-13 16:36:59,022 - INFO - Worker worker1, instance 1, phone 5513974011528, info: message 232068 will be tryied as SMS.
+2025-02-13 16:36:59,265 - INFO - Worker worker1, instance 1, info: status of messages has been updated on the server.
+2025-02-13 16:36:59,265 - INFO - Worker worker1, info: messages were processed, all threads are finished.
+2025-02-13 16:36:59,265 - INFO - Worker worker1, info: requesting new messages from server.
+2025-02-13 16:36:59,518 - INFO - Worker worker1, info: where obtained 10 messages from server.
+2025-02-13 16:36:59,519 - INFO - Worker worker1, instance 1, info: actual chunk length is 5.
+2025-02-13 16:36:59,520 - INFO - Worker worker1, instance 1, phone 5514997795441, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:36:59,886 - INFO - Worker worker1, instance 1, phone 5514997795441, info: new conversation page loaded.
+2025-02-13 16:37:03,414 - INFO - Worker worker1, instance 1, phone 5514997795441, info: recipient entered.
+2025-02-13 16:37:05,471 - INFO - Worker worker1, instance 1, phone 5514997795441, info: unable to send RCS to this contact *********.
+2025-02-13 16:37:10,476 - INFO - Worker worker1, instance 1, phone 5514997795441, info: message 232070 will be tryied as SMS.
+2025-02-13 16:37:10,476 - INFO - Worker worker1, instance 1, phone 5514997797986, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:37:10,873 - INFO - Worker worker1, instance 1, phone 5514997797986, info: new conversation page loaded.
+2025-02-13 16:37:14,421 - INFO - Worker worker1, instance 1, phone 5514997797986, info: recipient entered.
+2025-02-13 16:37:16,454 - INFO - Worker worker1, instance 1, phone 5514997797986, info: unable to send RCS to this contact *********.
+2025-02-13 16:37:21,458 - INFO - Worker worker1, instance 1, phone 5514997797986, info: message 232072 will be tryied as SMS.
+2025-02-13 16:37:21,458 - INFO - Worker worker1, instance 1, phone 5511982601764, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:37:21,866 - INFO - Worker worker1, instance 1, phone 5511982601764, info: new conversation page loaded.
+2025-02-13 16:37:25,315 - INFO - Worker worker1, instance 1, phone 5511982601764, info: recipient entered.
+2025-02-13 16:37:40,333 - INFO - Worker worker1, instance 1, phone 5511982601764, info: message 232074 was sended as RCS.
+2025-02-13 16:37:40,333 - INFO - Worker worker1, instance 1, phone 5511982632551, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:37:40,719 - INFO - Worker worker1, instance 1, phone 5511982632551, info: new conversation page loaded.
+2025-02-13 16:37:44,252 - INFO - Worker worker1, instance 1, phone 5511982632551, info: recipient entered.
+2025-02-13 16:37:46,293 - INFO - Worker worker1, instance 1, phone 5511982632551, info: unable to send RCS to this contact *********.
+2025-02-13 16:37:51,298 - INFO - Worker worker1, instance 1, phone 5511982632551, info: message 232076 will be tryied as SMS.
+2025-02-13 16:37:51,298 - INFO - Worker worker1, instance 1, phone 5513981119906, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:37:51,717 - INFO - Worker worker1, instance 1, phone 5513981119906, info: new conversation page loaded.
+2025-02-13 16:37:55,229 - INFO - Worker worker1, instance 1, phone 5513981119906, info: recipient entered.
+2025-02-13 16:38:10,296 - INFO - Worker worker1, instance 1, phone 5513981119906, info: message 232078 was sended as RCS.
+2025-02-13 16:38:10,542 - INFO - Worker worker1, instance 1, info: status of messages has been updated on the server.
+2025-02-13 16:38:10,542 - INFO - Worker worker1, info: messages were processed, all threads are finished.
+2025-02-13 16:38:10,543 - INFO - Worker worker1, info: requesting new messages from server.
+2025-02-13 16:38:10,812 - INFO - Worker worker1, info: where obtained 10 messages from server.
+2025-02-13 16:38:10,813 - INFO - Worker worker1, instance 1, info: actual chunk length is 5.
+2025-02-13 16:38:10,813 - INFO - Worker worker1, instance 1, phone 5511984822644, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:38:11,207 - INFO - Worker worker1, instance 1, phone 5511984822644, info: new conversation page loaded.
+2025-02-13 16:38:14,709 - INFO - Worker worker1, instance 1, phone 5511984822644, info: recipient entered.
+2025-02-13 16:38:29,828 - INFO - Worker worker1, instance 1, phone 5511984822644, info: message 232080 was sended as RCS.
+2025-02-13 16:38:29,828 - INFO - Worker worker1, instance 1, phone 5511984824022, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:38:30,284 - INFO - Worker worker1, instance 1, phone 5511984824022, info: new conversation page loaded.
+2025-02-13 16:38:33,747 - INFO - Worker worker1, instance 1, phone 5511984824022, info: recipient entered.
+2025-02-13 16:38:35,792 - INFO - Worker worker1, instance 1, phone 5511984824022, info: unable to send RCS to this contact *********.
+2025-02-13 16:38:40,797 - INFO - Worker worker1, instance 1, phone 5511984824022, info: message 232082 will be tryied as SMS.
+2025-02-13 16:38:40,797 - INFO - Worker worker1, instance 1, phone 5511982603431, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:38:41,222 - INFO - Worker worker1, instance 1, phone 5511982603431, info: new conversation page loaded.
+2025-02-13 16:38:44,733 - INFO - Worker worker1, instance 1, phone 5511982603431, info: recipient entered.
+2025-02-13 16:38:46,775 - INFO - Worker worker1, instance 1, phone 5511982603431, info: unable to send RCS to this contact *********.
+2025-02-13 16:38:51,780 - INFO - Worker worker1, instance 1, phone 5511982603431, info: message 232084 will be tryied as SMS.
+2025-02-13 16:38:51,780 - INFO - Worker worker1, instance 1, phone 5513981121688, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:38:52,165 - INFO - Worker worker1, instance 1, phone 5513981121688, info: new conversation page loaded.
+2025-02-13 16:38:55,755 - INFO - Worker worker1, instance 1, phone 5513981121688, info: recipient entered.
+2025-02-13 16:38:57,807 - INFO - Worker worker1, instance 1, phone 5513981121688, info: unable to send RCS to this contact *********.
+2025-02-13 16:39:02,812 - INFO - Worker worker1, instance 1, phone 5513981121688, info: message 232086 will be tryied as SMS.
+2025-02-13 16:39:02,812 - INFO - Worker worker1, instance 1, phone 5517988028806, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:39:03,208 - INFO - Worker worker1, instance 1, phone 5517988028806, info: new conversation page loaded.
+2025-02-13 16:39:06,712 - INFO - Worker worker1, instance 1, phone 5517988028806, info: recipient entered.
+2025-02-13 16:39:21,839 - INFO - Worker worker1, instance 1, phone 5517988028806, info: message 232088 was sended as RCS.
+2025-02-13 16:39:22,099 - INFO - Worker worker1, instance 1, info: status of messages has been updated on the server.
+2025-02-13 16:39:22,099 - INFO - Worker worker1, info: messages were processed, all threads are finished.
+2025-02-13 16:39:22,100 - INFO - Worker worker1, info: requesting new messages from server.
+2025-02-13 16:39:22,329 - INFO - Worker worker1, info: where obtained 10 messages from server.
+2025-02-13 16:39:22,329 - INFO - Worker worker1, instance 1, info: actual chunk length is 5.
+2025-02-13 16:39:22,329 - INFO - Worker worker1, instance 1, phone 5513981124269, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:39:22,712 - INFO - Worker worker1, instance 1, phone 5513981124269, info: new conversation page loaded.
+2025-02-13 16:39:26,239 - INFO - Worker worker1, instance 1, phone 5513981124269, info: recipient entered.
+2025-02-13 16:39:28,284 - INFO - Worker worker1, instance 1, phone 5513981124269, info: unable to send RCS to this contact *********.
+2025-02-13 16:39:33,289 - INFO - Worker worker1, instance 1, phone 5513981124269, info: message 232090 will be tryied as SMS.
+2025-02-13 16:39:33,289 - INFO - Worker worker1, instance 1, phone 5517988030873, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:39:33,656 - INFO - Worker worker1, instance 1, phone 5517988030873, info: new conversation page loaded.
+2025-02-13 16:39:36,722 - INFO - Worker worker1, instance 1, phone 5517988030873, info: recipient entered.
+2025-02-13 16:39:51,853 - INFO - Worker worker1, instance 1, phone 5517988030873, info: message 232092 was sended as RCS.
+2025-02-13 16:39:51,854 - INFO - Worker worker1, instance 1, phone 5514997799465, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:39:52,248 - INFO - Worker worker1, instance 1, phone 5514997799465, info: new conversation page loaded.
+2025-02-13 16:39:55,803 - INFO - Worker worker1, instance 1, phone 5514997799465, info: recipient entered.
+2025-02-13 16:39:57,850 - INFO - Worker worker1, instance 1, phone 5514997799465, info: unable to send RCS to this contact *********.
+2025-02-13 16:40:02,851 - INFO - Worker worker1, instance 1, phone 5514997799465, info: message 232094 will be tryied as SMS.
+2025-02-13 16:40:02,851 - INFO - Worker worker1, instance 1, phone 5517988032496, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:40:03,230 - INFO - Worker worker1, instance 1, phone 5517988032496, info: new conversation page loaded.
+2025-02-13 16:40:06,831 - INFO - Worker worker1, instance 1, phone 5517988032496, info: recipient entered.
+2025-02-13 16:40:08,870 - INFO - Worker worker1, instance 1, phone 5517988032496, info: unable to send RCS to this contact *********.
+2025-02-13 16:40:13,874 - INFO - Worker worker1, instance 1, phone 5517988032496, info: message 232096 will be tryied as SMS.
+2025-02-13 16:40:13,874 - INFO - Worker worker1, instance 1, phone 5513981129518, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:40:14,242 - INFO - Worker worker1, instance 1, phone 5513981129518, info: new conversation page loaded.
+2025-02-13 16:40:17,744 - INFO - Worker worker1, instance 1, phone 5513981129518, info: recipient entered.
+2025-02-13 16:40:32,818 - INFO - Worker worker1, instance 1, phone 5513981129518, info: message 232098 was sended as RCS.
+2025-02-13 16:40:33,067 - INFO - Worker worker1, instance 1, info: status of messages has been updated on the server.
+2025-02-13 16:40:33,068 - INFO - Worker worker1, info: messages were processed, all threads are finished.
+2025-02-13 16:40:33,068 - INFO - Worker worker1, info: requesting new messages from server.
+2025-02-13 16:40:33,303 - INFO - Worker worker1, info: where obtained 10 messages from server.
+2025-02-13 16:40:33,304 - INFO - Worker worker1, instance 1, info: actual chunk length is 5.
+2025-02-13 16:40:33,304 - INFO - Worker worker1, instance 1, phone 5511982638471, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:40:33,708 - INFO - Worker worker1, instance 1, phone 5511982638471, info: new conversation page loaded.
+2025-02-13 16:40:37,178 - INFO - Worker worker1, instance 1, phone 5511982638471, info: recipient entered.
+2025-02-13 16:40:52,282 - INFO - Worker worker1, instance 1, phone 5511982638471, info: message 232100 was sended as RCS.
+2025-02-13 16:40:52,282 - INFO - Worker worker1, instance 1, phone 5511982801233, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:40:52,650 - INFO - Worker worker1, instance 1, phone 5511982801233, info: new conversation page loaded.
+2025-02-13 16:40:56,138 - INFO - Worker worker1, instance 1, phone 5511982801233, info: recipient entered.
+2025-02-13 16:41:11,190 - INFO - Worker worker1, instance 1, phone 5511982801233, info: message 232102 was sended as RCS.
+2025-02-13 16:41:11,190 - INFO - Worker worker1, instance 1, phone 5511982802879, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:41:11,583 - INFO - Worker worker1, instance 1, phone 5511982802879, info: new conversation page loaded.
+2025-02-13 16:41:15,048 - INFO - Worker worker1, instance 1, phone 5511982802879, info: recipient entered.
+2025-02-13 16:41:17,101 - INFO - Worker worker1, instance 1, phone 5511982802879, info: unable to send RCS to this contact *********.
+2025-02-13 16:41:22,107 - INFO - Worker worker1, instance 1, phone 5511982802879, info: message 232104 will be tryied as SMS.
+2025-02-13 16:41:22,107 - INFO - Worker worker1, instance 1, phone 5511984828467, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:41:22,465 - INFO - Worker worker1, instance 1, phone 5511984828467, info: new conversation page loaded.
+2025-02-13 16:41:26,053 - INFO - Worker worker1, instance 1, phone 5511984828467, info: recipient entered.
+2025-02-13 16:41:28,106 - INFO - Worker worker1, instance 1, phone 5511984828467, info: unable to send RCS to this contact *********.
+2025-02-13 16:41:33,111 - INFO - Worker worker1, instance 1, phone 5511984828467, info: message 232106 will be tryied as SMS.
+2025-02-13 16:41:33,111 - INFO - Worker worker1, instance 1, phone 5512991857532, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:41:33,490 - INFO - Worker worker1, instance 1, phone 5512991857532, info: new conversation page loaded.
+2025-02-13 16:41:36,987 - INFO - Worker worker1, instance 1, phone 5512991857532, info: recipient entered.
+2025-02-13 16:41:52,016 - INFO - Worker worker1, instance 1, phone 5512991857532, info: message 232108 was sended as RCS.
+2025-02-13 16:41:52,659 - INFO - Worker worker1, instance 1, info: status of messages has been updated on the server.
+2025-02-13 16:41:52,660 - INFO - Worker worker1, info: messages were processed, all threads are finished.
+2025-02-13 16:41:52,661 - INFO - Worker worker1, info: requesting new messages from server.
+2025-02-13 16:41:52,930 - INFO - Worker worker1, info: where obtained 10 messages from server.
+2025-02-13 16:41:52,931 - INFO - Worker worker1, instance 1, info: actual chunk length is 5.
+2025-02-13 16:41:52,931 - INFO - Worker worker1, instance 1, phone 5517988036363, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:41:53,329 - INFO - Worker worker1, instance 1, phone 5517988036363, info: new conversation page loaded.
+2025-02-13 16:41:56,795 - INFO - Worker worker1, instance 1, phone 5517988036363, info: recipient entered.
+2025-02-13 16:41:58,830 - INFO - Worker worker1, instance 1, phone 5517988036363, info: unable to send RCS to this contact *********.
+2025-02-13 16:42:03,835 - INFO - Worker worker1, instance 1, phone 5517988036363, info: message 232110 will be tryied as SMS.
+2025-02-13 16:42:03,835 - INFO - Worker worker1, instance 1, phone 5513974020501, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:42:04,207 - INFO - Worker worker1, instance 1, phone 5513974020501, info: new conversation page loaded.
+2025-02-13 16:42:07,720 - INFO - Worker worker1, instance 1, phone 5513974020501, info: recipient entered.
+2025-02-13 16:42:22,782 - INFO - Worker worker1, instance 1, phone 5513974020501, info: message 232112 was sended as RCS.
+2025-02-13 16:42:22,783 - INFO - Worker worker1, instance 1, phone 5514997811437, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:42:23,161 - INFO - Worker worker1, instance 1, phone 5514997811437, info: new conversation page loaded.
+2025-02-13 16:42:26,612 - INFO - Worker worker1, instance 1, phone 5514997811437, info: recipient entered.
+2025-02-13 16:42:28,665 - INFO - Worker worker1, instance 1, phone 5514997811437, info: unable to send RCS to this contact *********.
+2025-02-13 16:42:33,669 - INFO - Worker worker1, instance 1, phone 5514997811437, info: message 232114 will be tryied as SMS.
+2025-02-13 16:42:33,670 - INFO - Worker worker1, instance 1, phone 5511982639935, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:42:34,041 - INFO - Worker worker1, instance 1, phone 5511982639935, info: new conversation page loaded.
+2025-02-13 16:42:37,548 - INFO - Worker worker1, instance 1, phone 5511982639935, info: recipient entered.
+2025-02-13 16:42:39,594 - INFO - Worker worker1, instance 1, phone 5511982639935, info: unable to send RCS to this contact *********.
+2025-02-13 16:42:44,598 - INFO - Worker worker1, instance 1, phone 5511982639935, info: message 232116 will be tryied as SMS.
+2025-02-13 16:42:44,598 - INFO - Worker worker1, instance 1, phone 5511984819282, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:42:45,015 - INFO - Worker worker1, instance 1, phone 5511984819282, info: new conversation page loaded.
+2025-02-13 16:42:48,012 - INFO - Worker worker1, instance 1, phone 5511984819282, info: recipient entered.
+2025-02-13 16:43:03,096 - INFO - Worker worker1, instance 1, phone 5511984819282, info: message 232043 was sended as RCS.
+2025-02-13 16:43:03,336 - INFO - Worker worker1, instance 1, info: status of messages has been updated on the server.
+2025-02-13 16:43:03,337 - INFO - Worker worker1, info: messages were processed, all threads are finished.
+2025-02-13 16:43:03,337 - INFO - Worker worker1, info: requesting new messages from server.
+2025-02-13 16:43:03,578 - INFO - Worker worker1, info: where obtained 10 messages from server.
+2025-02-13 16:43:03,578 - INFO - Worker worker1, instance 1, info: actual chunk length is 5.
+2025-02-13 16:43:03,578 - INFO - Worker worker1, instance 1, phone 5517988020488, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:43:03,978 - INFO - Worker worker1, instance 1, phone 5517988020488, info: new conversation page loaded.
+2025-02-13 16:43:07,544 - INFO - Worker worker1, instance 1, phone 5517988020488, info: recipient entered.
+2025-02-13 16:43:22,616 - INFO - Worker worker1, instance 1, phone 5517988020488, info: message 232047 was sended as RCS.
+2025-02-13 16:43:22,616 - INFO - Worker worker1, instance 1, phone 5511982902103, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:43:22,996 - INFO - Worker worker1, instance 1, phone 5511982902103, info: new conversation page loaded.
+2025-02-13 16:43:26,491 - INFO - Worker worker1, instance 1, phone 5511982902103, info: recipient entered.
+2025-02-13 16:43:28,540 - INFO - Worker worker1, instance 1, phone 5511982902103, info: unable to send RCS to this contact *********.
+2025-02-13 16:43:33,545 - INFO - Worker worker1, instance 1, phone 5511982902103, info: message 232120 will be tryied as SMS.
+2025-02-13 16:43:33,545 - INFO - Worker worker1, instance 1, phone 5512991859017, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:43:33,929 - INFO - Worker worker1, instance 1, phone 5512991859017, info: new conversation page loaded.
+2025-02-13 16:43:37,320 - INFO - Worker worker1, instance 1, phone 5512991859017, info: recipient entered.
+2025-02-13 16:43:52,434 - INFO - Worker worker1, instance 1, phone 5512991859017, info: message 232126 was sended as RCS.
+2025-02-13 16:43:52,434 - INFO - Worker worker1, instance 1, phone 5517981180180, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:43:52,832 - INFO - Worker worker1, instance 1, phone 5517981180180, info: new conversation page loaded.
+2025-02-13 16:43:56,337 - INFO - Worker worker1, instance 1, phone 5517981180180, info: recipient entered.
+2025-02-13 16:43:58,384 - INFO - Worker worker1, instance 1, phone 5517981180180, info: unable to send RCS to this contact *********.
+2025-02-13 16:44:03,388 - INFO - Worker worker1, instance 1, phone 5517981180180, info: message 232131 will be tryied as SMS.
+2025-02-13 16:44:03,389 - INFO - Worker worker1, instance 1, phone 5511982644577, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:44:03,802 - INFO - Worker worker1, instance 1, phone 5511982644577, info: new conversation page loaded.
+2025-02-13 16:44:07,224 - INFO - Worker worker1, instance 1, phone 5511982644577, info: recipient entered.
+2025-02-13 16:44:22,269 - INFO - Worker worker1, instance 1, phone 5511982644577, info: message 232137 was sended as RCS.
+2025-02-13 16:44:22,524 - INFO - Worker worker1, instance 1, info: status of messages has been updated on the server.
+2025-02-13 16:44:22,524 - INFO - Worker worker1, info: messages were processed, all threads are finished.
+2025-02-13 16:44:22,525 - INFO - Worker worker1, info: requesting new messages from server.
+2025-02-13 16:44:22,779 - INFO - Worker worker1, info: where obtained 10 messages from server.
+2025-02-13 16:44:22,780 - INFO - Worker worker1, instance 1, info: actual chunk length is 5.
+2025-02-13 16:44:22,780 - INFO - Worker worker1, instance 1, phone 5511982903569, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:44:23,151 - INFO - Worker worker1, instance 1, phone 5511982903569, info: new conversation page loaded.
+2025-02-13 16:44:26,665 - INFO - Worker worker1, instance 1, phone 5511982903569, info: recipient entered.
+2025-02-13 16:44:28,705 - INFO - Worker worker1, instance 1, phone 5511982903569, info: unable to send RCS to this contact *********.
+2025-02-13 16:44:33,710 - INFO - Worker worker1, instance 1, phone 5511982903569, info: message 232142 will be tryied as SMS.
+2025-02-13 16:44:33,710 - INFO - Worker worker1, instance 1, phone 5517981189824, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:44:34,096 - INFO - Worker worker1, instance 1, phone 5517981189824, info: new conversation page loaded.
+2025-02-13 16:44:37,639 - INFO - Worker worker1, instance 1, phone 5517981189824, info: recipient entered.
+2025-02-13 16:44:52,632 - INFO - Worker worker1, instance 1, phone 5517981189824, info: message 232148 was sended as RCS.
+2025-02-13 16:44:52,632 - INFO - Worker worker1, instance 1, phone 5513974033395, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:44:53,021 - INFO - Worker worker1, instance 1, phone 5513974033395, info: new conversation page loaded.
+2025-02-13 16:44:56,503 - INFO - Worker worker1, instance 1, phone 5513974033395, info: recipient entered.
+2025-02-13 16:45:11,520 - INFO - Worker worker1, instance 1, phone 5513974033395, info: message 232153 was sended as RCS.
+2025-02-13 16:45:11,520 - INFO - Worker worker1, instance 1, phone 5517981334639, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:45:11,897 - INFO - Worker worker1, instance 1, phone 5517981334639, info: new conversation page loaded.
+2025-02-13 16:45:15,467 - INFO - Worker worker1, instance 1, phone 5517981334639, info: recipient entered.
+2025-02-13 16:45:30,438 - INFO - Worker worker1, instance 1, phone 5517981334639, info: message 232159 was sended as RCS.
+2025-02-13 16:45:30,438 - INFO - Worker worker1, instance 1, phone 5517981195059, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:45:30,797 - INFO - Worker worker1, instance 1, phone 5517981195059, info: new conversation page loaded.
+2025-02-13 16:45:34,288 - INFO - Worker worker1, instance 1, phone 5517981195059, info: recipient entered.
+2025-02-13 16:45:36,324 - INFO - Worker worker1, instance 1, phone 5517981195059, info: unable to send RCS to this contact *********.
+2025-02-13 16:45:41,327 - INFO - Worker worker1, instance 1, phone 5517981195059, info: message 232164 will be tryied as SMS.
+2025-02-13 16:45:41,600 - INFO - Worker worker1, instance 1, info: status of messages has been updated on the server.
+2025-02-13 16:45:41,601 - INFO - Worker worker1, info: messages were processed, all threads are finished.
+2025-02-13 16:45:41,601 - INFO - Worker worker1, info: requesting new messages from server.
+2025-02-13 16:45:41,896 - INFO - Worker worker1, info: where obtained 10 messages from server.
+2025-02-13 16:45:41,897 - INFO - Worker worker1, instance 1, info: actual chunk length is 5.
+2025-02-13 16:45:41,897 - INFO - Worker worker1, instance 1, phone 5511982648479, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:45:42,258 - INFO - Worker worker1, instance 1, phone 5511982648479, info: new conversation page loaded.
+2025-02-13 16:45:45,732 - INFO - Worker worker1, instance 1, phone 5511982648479, info: recipient entered.
+2025-02-13 16:45:47,773 - INFO - Worker worker1, instance 1, phone 5511982648479, info: unable to send RCS to this contact *********.
+2025-02-13 16:45:52,776 - INFO - Worker worker1, instance 1, phone 5511982648479, info: message 232170 will be tryied as SMS.
+2025-02-13 16:45:52,777 - INFO - Worker worker1, instance 1, phone 5511982814797, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:45:53,165 - INFO - Worker worker1, instance 1, phone 5511982814797, info: new conversation page loaded.
+2025-02-13 16:45:56,654 - INFO - Worker worker1, instance 1, phone 5511982814797, info: recipient entered.
+2025-02-13 16:46:11,691 - INFO - Worker worker1, instance 1, phone 5511982814797, info: message 232174 was sended as RCS.
+2025-02-13 16:46:11,691 - INFO - Worker worker1, instance 1, phone 5511982649896, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:46:12,104 - INFO - Worker worker1, instance 1, phone 5511982649896, info: new conversation page loaded.
+2025-02-13 16:46:15,537 - INFO - Worker worker1, instance 1, phone 5511982649896, info: recipient entered.
+2025-02-13 16:46:30,657 - INFO - Worker worker1, instance 1, phone 5511982649896, info: message 232178 was sended as RCS.
+2025-02-13 16:46:30,657 - INFO - Worker worker1, instance 1, phone 5517981211118, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:46:31,034 - INFO - Worker worker1, instance 1, phone 5517981211118, info: new conversation page loaded.
+2025-02-13 16:46:34,506 - INFO - Worker worker1, instance 1, phone 5517981211118, info: recipient entered.
+2025-02-13 16:46:49,558 - INFO - Worker worker1, instance 1, phone 5517981211118, info: message 232182 was sended as RCS.
+2025-02-13 16:46:49,558 - INFO - Worker worker1, instance 1, phone 5511982652383, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:46:49,945 - INFO - Worker worker1, instance 1, phone 5511982652383, info: new conversation page loaded.
+2025-02-13 16:46:53,447 - INFO - Worker worker1, instance 1, phone 5511982652383, info: recipient entered.
+2025-02-13 16:47:08,508 - INFO - Worker worker1, instance 1, phone 5511982652383, info: message 232192 was sended as RCS.
+2025-02-13 16:47:08,762 - INFO - Worker worker1, instance 1, info: status of messages has been updated on the server.
+2025-02-13 16:47:08,763 - INFO - Worker worker1, info: messages were processed, all threads are finished.
+2025-02-13 16:47:08,763 - INFO - Worker worker1, info: requesting new messages from server.
+2025-02-13 16:47:08,990 - INFO - Worker worker1, info: where obtained 10 messages from server.
+2025-02-13 16:47:08,991 - INFO - Worker worker1, instance 1, info: actual chunk length is 5.
+2025-02-13 16:47:08,991 - INFO - Worker worker1, instance 1, phone 5513974042855, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:47:09,376 - INFO - Worker worker1, instance 1, phone 5513974042855, info: new conversation page loaded.
+2025-02-13 16:47:12,388 - INFO - Worker worker1, instance 1, phone 5513974042855, info: recipient entered.
+2025-02-13 16:47:14,441 - INFO - Worker worker1, instance 1, phone 5513974042855, info: unable to send RCS to this contact *********.
+2025-02-13 16:47:19,446 - INFO - Worker worker1, instance 1, phone 5513974042855, info: message 232196 will be tryied as SMS.
+2025-02-13 16:47:19,446 - INFO - Worker worker1, instance 1, phone 5512991864192, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:47:19,834 - INFO - Worker worker1, instance 1, phone 5512991864192, info: new conversation page loaded.
+2025-02-13 16:47:23,301 - INFO - Worker worker1, instance 1, phone 5512991864192, info: recipient entered.
+2025-02-13 16:47:38,420 - INFO - Worker worker1, instance 1, phone 5512991864192, info: message 232200 was sended as RCS.
+2025-02-13 16:47:38,420 - INFO - Worker worker1, instance 1, phone 5511982819628, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:47:38,825 - INFO - Worker worker1, instance 1, phone 5511982819628, info: new conversation page loaded.
+2025-02-13 16:47:42,327 - INFO - Worker worker1, instance 1, phone 5511982819628, info: recipient entered.
+2025-02-13 16:47:57,374 - INFO - Worker worker1, instance 1, phone 5511982819628, info: message 232204 was sended as RCS.
+2025-02-13 16:47:57,374 - INFO - Worker worker1, instance 1, phone 5513974045060, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:47:57,788 - INFO - Worker worker1, instance 1, phone 5513974045060, info: new conversation page loaded.
+2025-02-13 16:48:01,240 - INFO - Worker worker1, instance 1, phone 5513974045060, info: recipient entered.
+2025-02-13 16:48:03,291 - INFO - Worker worker1, instance 1, phone 5513974045060, info: unable to send RCS to this contact *********.
+2025-02-13 16:48:08,296 - INFO - Worker worker1, instance 1, phone 5513974045060, info: message 232208 will be tryied as SMS.
+2025-02-13 16:48:08,296 - INFO - Worker worker1, instance 1, phone 5511982912911, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:48:08,705 - INFO - Worker worker1, instance 1, phone 5511982912911, info: new conversation page loaded.
+2025-02-13 16:48:12,197 - INFO - Worker worker1, instance 1, phone 5511982912911, info: recipient entered.
+2025-02-13 16:48:27,270 - INFO - Worker worker1, instance 1, phone 5511982912911, info: message 232212 was sended as RCS.
+2025-02-13 16:48:27,542 - INFO - Worker worker1, instance 1, info: status of messages has been updated on the server.
+2025-02-13 16:48:27,543 - INFO - Worker worker1, info: messages were processed, all threads are finished.
+2025-02-13 16:48:27,543 - INFO - Worker worker1, info: requesting new messages from server.
+2025-02-13 16:48:27,801 - INFO - Worker worker1, info: where obtained 10 messages from server.
+2025-02-13 16:48:27,802 - INFO - Worker worker1, instance 1, info: actual chunk length is 5.
+2025-02-13 16:48:27,803 - INFO - Worker worker1, instance 1, phone 5513974046295, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:48:28,204 - INFO - Worker worker1, instance 1, phone 5513974046295, info: new conversation page loaded.
+2025-02-13 16:48:31,764 - INFO - Worker worker1, instance 1, phone 5513974046295, info: recipient entered.
+2025-02-13 16:48:46,857 - INFO - Worker worker1, instance 1, phone 5513974046295, info: message 232216 was sended as RCS.
+2025-02-13 16:48:46,857 - INFO - Worker worker1, instance 1, phone 5511982656222, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:48:47,264 - INFO - Worker worker1, instance 1, phone 5511982656222, info: new conversation page loaded.
+2025-02-13 16:48:50,770 - INFO - Worker worker1, instance 1, phone 5511982656222, info: recipient entered.
+2025-02-13 16:49:05,779 - INFO - Worker worker1, instance 1, phone 5511982656222, info: message 232220 was sended as RCS.
+2025-02-13 16:49:05,779 - INFO - Worker worker1, instance 1, phone 5511981876655, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:49:06,165 - INFO - Worker worker1, instance 1, phone 5511981876655, info: new conversation page loaded.
+2025-02-13 16:49:09,633 - INFO - Worker worker1, instance 1, phone 5511981876655, info: recipient entered.
+2025-02-13 16:49:11,677 - INFO - Worker worker1, instance 1, phone 5511981876655, info: unable to send RCS to this contact *********.
+2025-02-13 16:49:16,682 - INFO - Worker worker1, instance 1, phone 5511981876655, info: message 232224 will be tryied as SMS.
+2025-02-13 16:49:16,682 - INFO - Worker worker1, instance 1, phone 5517981359809, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:49:17,052 - INFO - Worker worker1, instance 1, phone 5517981359809, info: new conversation page loaded.
+2025-02-13 16:49:20,436 - INFO - Worker worker1, instance 1, phone 5517981359809, info: recipient entered.
+2025-02-13 16:49:35,550 - INFO - Worker worker1, instance 1, phone 5517981359809, info: message 232229 was sended as RCS.
+2025-02-13 16:49:35,550 - INFO - Worker worker1, instance 1, phone 5512991865178, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:49:35,935 - INFO - Worker worker1, instance 1, phone 5512991865178, info: new conversation page loaded.
+2025-02-13 16:49:39,437 - INFO - Worker worker1, instance 1, phone 5512991865178, info: recipient entered.
+2025-02-13 16:49:41,467 - INFO - Worker worker1, instance 1, phone 5512991865178, info: unable to send RCS to this contact *********.
+2025-02-13 16:49:46,472 - INFO - Worker worker1, instance 1, phone 5512991865178, info: message 232233 will be tryied as SMS.
+2025-02-13 16:49:46,707 - INFO - Worker worker1, instance 1, info: status of messages has been updated on the server.
+2025-02-13 16:49:46,707 - INFO - Worker worker1, info: messages were processed, all threads are finished.
+2025-02-13 16:49:46,708 - INFO - Worker worker1, info: requesting new messages from server.
+2025-02-13 16:49:46,958 - INFO - Worker worker1, info: where obtained 10 messages from server.
+2025-02-13 16:49:46,958 - INFO - Worker worker1, instance 1, info: actual chunk length is 5.
+2025-02-13 16:49:46,958 - INFO - Worker worker1, instance 1, phone 5511982919894, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:49:47,333 - INFO - Worker worker1, instance 1, phone 5511982919894, info: new conversation page loaded.
+2025-02-13 16:49:50,829 - INFO - Worker worker1, instance 1, phone 5511982919894, info: recipient entered.
+2025-02-13 16:50:05,962 - INFO - Worker worker1, instance 1, phone 5511982919894, info: message 232237 was sended as RCS.
+2025-02-13 16:50:05,963 - INFO - Worker worker1, instance 1, phone 5511981878008, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:50:06,392 - INFO - Worker worker1, instance 1, phone 5511981878008, info: new conversation page loaded.
+2025-02-13 16:50:09,962 - INFO - Worker worker1, instance 1, phone 5511981878008, info: recipient entered.
+2025-02-13 16:50:12,007 - INFO - Worker worker1, instance 1, phone 5511981878008, info: unable to send RCS to this contact *********.
+2025-02-13 16:50:17,009 - INFO - Worker worker1, instance 1, phone 5511981878008, info: message 232242 will be tryied as SMS.
+2025-02-13 16:50:17,009 - INFO - Worker worker1, instance 1, phone 5512991867270, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:50:17,394 - INFO - Worker worker1, instance 1, phone 5512991867270, info: new conversation page loaded.
+2025-02-13 16:50:20,936 - INFO - Worker worker1, instance 1, phone 5512991867270, info: recipient entered.
+2025-02-13 16:50:22,975 - INFO - Worker worker1, instance 1, phone 5512991867270, info: unable to send RCS to this contact *********.
+2025-02-13 16:50:27,980 - INFO - Worker worker1, instance 1, phone 5512991867270, info: message 232246 will be tryied as SMS.
+2025-02-13 16:50:27,980 - INFO - Worker worker1, instance 1, phone 5513974050223, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:50:28,376 - INFO - Worker worker1, instance 1, phone 5513974050223, info: new conversation page loaded.
+2025-02-13 16:50:31,932 - INFO - Worker worker1, instance 1, phone 5513974050223, info: recipient entered.
+2025-02-13 16:50:47,034 - INFO - Worker worker1, instance 1, phone 5513974050223, info: message 232250 was sended as RCS.
+2025-02-13 16:50:47,034 - INFO - Worker worker1, instance 1, phone 5511981879437, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:50:47,410 - INFO - Worker worker1, instance 1, phone 5511981879437, info: new conversation page loaded.
+2025-02-13 16:50:50,919 - INFO - Worker worker1, instance 1, phone 5511981879437, info: recipient entered.
+2025-02-13 16:50:52,954 - INFO - Worker worker1, instance 1, phone 5511981879437, info: unable to send RCS to this contact *********.
+2025-02-13 16:50:57,959 - INFO - Worker worker1, instance 1, phone 5511981879437, info: message 232253 will be tryied as SMS.
+2025-02-13 16:50:58,247 - INFO - Worker worker1, instance 1, info: status of messages has been updated on the server.
+2025-02-13 16:50:58,247 - INFO - Worker worker1, info: messages were processed, all threads are finished.
+2025-02-13 16:50:58,248 - INFO - Worker worker1, info: requesting new messages from server.
+2025-02-13 16:50:58,486 - INFO - Worker worker1, info: where obtained 10 messages from server.
+2025-02-13 16:50:58,487 - INFO - Worker worker1, instance 1, info: actual chunk length is 5.
+2025-02-13 16:50:58,487 - INFO - Worker worker1, instance 1, phone 5511981881087, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:50:58,869 - INFO - Worker worker1, instance 1, phone 5511981881087, info: new conversation page loaded.
+2025-02-13 16:51:02,417 - INFO - Worker worker1, instance 1, phone 5511981881087, info: recipient entered.
+2025-02-13 16:51:04,455 - INFO - Worker worker1, instance 1, phone 5511981881087, info: unable to send RCS to this contact *********.
+2025-02-13 16:51:09,460 - INFO - Worker worker1, instance 1, phone 5511981881087, info: message 232256 will be tryied as SMS.
+2025-02-13 16:51:09,460 - INFO - Worker worker1, instance 1, phone 5517981373374, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:51:09,832 - INFO - Worker worker1, instance 1, phone 5517981373374, info: new conversation page loaded.
+2025-02-13 16:51:13,303 - INFO - Worker worker1, instance 1, phone 5517981373374, info: recipient entered.
+2025-02-13 16:51:15,362 - INFO - Worker worker1, instance 1, phone 5517981373374, info: unable to send RCS to this contact *********.
+2025-02-13 16:51:20,367 - INFO - Worker worker1, instance 1, phone 5517981373374, info: message 232260 will be tryied as SMS.
+2025-02-13 16:51:20,367 - INFO - Worker worker1, instance 1, phone 5511982922976, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:51:20,767 - INFO - Worker worker1, instance 1, phone 5511982922976, info: new conversation page loaded.
+2025-02-13 16:51:24,281 - INFO - Worker worker1, instance 1, phone 5511982922976, info: recipient entered.
+2025-02-13 16:51:26,313 - INFO - Worker worker1, instance 1, phone 5511982922976, info: unable to send RCS to this contact *********.
+2025-02-13 16:51:31,318 - INFO - Worker worker1, instance 1, phone 5511982922976, info: message 232264 will be tryied as SMS.
+2025-02-13 16:51:31,318 - INFO - Worker worker1, instance 1, phone 5511982926171, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:51:31,718 - INFO - Worker worker1, instance 1, phone 5511982926171, info: new conversation page loaded.
+2025-02-13 16:51:35,211 - INFO - Worker worker1, instance 1, phone 5511982926171, info: recipient entered.
+2025-02-13 16:51:50,293 - INFO - Worker worker1, instance 1, phone 5511982926171, info: message 232268 was sended as RCS.
+2025-02-13 16:51:50,293 - INFO - Worker worker1, instance 1, phone 5513974053564, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:51:50,685 - INFO - Worker worker1, instance 1, phone 5513974053564, info: new conversation page loaded.
+2025-02-13 16:51:54,200 - INFO - Worker worker1, instance 1, phone 5513974053564, info: recipient entered.
+2025-02-13 16:52:09,266 - INFO - Worker worker1, instance 1, phone 5513974053564, info: message 232272 was sended as RCS.
+2025-02-13 16:52:09,969 - INFO - Worker worker1, instance 1, info: status of messages has been updated on the server.
+2025-02-13 16:52:09,970 - INFO - Worker worker1, info: messages were processed, all threads are finished.
+2025-02-13 16:52:09,970 - INFO - Worker worker1, info: requesting new messages from server.
+2025-02-13 16:52:10,220 - INFO - Worker worker1, info: where obtained 10 messages from server.
+2025-02-13 16:52:10,221 - INFO - Worker worker1, instance 1, info: actual chunk length is 5.
+2025-02-13 16:52:10,221 - INFO - Worker worker1, instance 1, phone 5517981246620, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:52:10,605 - INFO - Worker worker1, instance 1, phone 5517981246620, info: new conversation page loaded.
+2025-02-13 16:52:14,023 - INFO - Worker worker1, instance 1, phone 5517981246620, info: recipient entered.
+2025-02-13 16:52:29,157 - INFO - Worker worker1, instance 1, phone 5517981246620, info: message 232276 was sended as RCS.
+2025-02-13 16:52:29,157 - INFO - Worker worker1, instance 1, phone 5513974056271, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:52:29,546 - INFO - Worker worker1, instance 1, phone 5513974056271, info: new conversation page loaded.
+2025-02-13 16:52:33,073 - INFO - Worker worker1, instance 1, phone 5513974056271, info: recipient entered.
+2025-02-13 16:52:48,143 - INFO - Worker worker1, instance 1, phone 5513974056271, info: message 232280 was sended as RCS.
+2025-02-13 16:52:48,143 - INFO - Worker worker1, instance 1, phone 5512991870220, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:52:48,555 - INFO - Worker worker1, instance 1, phone 5512991870220, info: new conversation page loaded.
+2025-02-13 16:52:52,075 - INFO - Worker worker1, instance 1, phone 5512991870220, info: recipient entered.
+2025-02-13 16:53:07,120 - INFO - Worker worker1, instance 1, phone 5512991870220, info: message 232284 was sended as RCS.
+2025-02-13 16:53:07,121 - INFO - Worker worker1, instance 1, phone 5511981886851, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:53:07,481 - INFO - Worker worker1, instance 1, phone 5511981886851, info: new conversation page loaded.
+2025-02-13 16:53:10,921 - INFO - Worker worker1, instance 1, phone 5511981886851, info: recipient entered.
+2025-02-13 16:53:12,976 - INFO - Worker worker1, instance 1, phone 5511981886851, info: unable to send RCS to this contact *********.
+2025-02-13 16:53:17,982 - INFO - Worker worker1, instance 1, phone 5511981886851, info: message 232288 will be tryied as SMS.
+2025-02-13 16:53:17,982 - INFO - Worker worker1, instance 1, phone 5511984860112, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:53:18,378 - INFO - Worker worker1, instance 1, phone 5511984860112, info: new conversation page loaded.
+2025-02-13 16:53:21,863 - INFO - Worker worker1, instance 1, phone 5511984860112, info: recipient entered.
+2025-02-13 16:53:36,897 - INFO - Worker worker1, instance 1, phone 5511984860112, info: message 232292 was sended as RCS.
+2025-02-13 16:53:37,154 - INFO - Worker worker1, instance 1, info: status of messages has been updated on the server.
+2025-02-13 16:53:37,154 - INFO - Worker worker1, info: messages were processed, all threads are finished.
+2025-02-13 16:53:37,154 - INFO - Worker worker1, info: requesting new messages from server.
+2025-02-13 16:53:37,423 - INFO - Worker worker1, info: where obtained 10 messages from server.
+2025-02-13 16:53:37,424 - INFO - Worker worker1, instance 1, info: actual chunk length is 5.
+2025-02-13 16:53:37,424 - INFO - Worker worker1, instance 1, phone 5512991874124, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:53:37,807 - INFO - Worker worker1, instance 1, phone 5512991874124, info: new conversation page loaded.
+2025-02-13 16:53:41,221 - INFO - Worker worker1, instance 1, phone 5512991874124, info: recipient entered.
+2025-02-13 16:53:43,263 - INFO - Worker worker1, instance 1, phone 5512991874124, info: unable to send RCS to this contact *********.
+2025-02-13 16:53:48,268 - INFO - Worker worker1, instance 1, phone 5512991874124, info: message 232294 will be tryied as SMS.
+2025-02-13 16:53:48,269 - INFO - Worker worker1, instance 1, phone 5513981195317, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:53:48,653 - INFO - Worker worker1, instance 1, phone 5513981195317, info: new conversation page loaded.
+2025-02-13 16:53:52,115 - INFO - Worker worker1, instance 1, phone 5513981195317, info: recipient entered.
+2025-02-13 16:54:07,269 - INFO - Worker worker1, instance 1, phone 5513981195317, info: message 232296 was sended as RCS.
+2025-02-13 16:54:07,269 - INFO - Worker worker1, instance 1, phone 5517981385280, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:54:07,661 - INFO - Worker worker1, instance 1, phone 5517981385280, info: new conversation page loaded.
+2025-02-13 16:54:11,142 - INFO - Worker worker1, instance 1, phone 5517981385280, info: recipient entered.
+2025-02-13 16:54:13,178 - INFO - Worker worker1, instance 1, phone 5517981385280, info: unable to send RCS to this contact *********.
+2025-02-13 16:54:18,182 - INFO - Worker worker1, instance 1, phone 5517981385280, info: message 232298 will be tryied as SMS.
+2025-02-13 16:54:18,182 - INFO - Worker worker1, instance 1, phone 5511984861730, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:54:18,578 - INFO - Worker worker1, instance 1, phone 5511984861730, info: new conversation page loaded.
+2025-02-13 16:54:22,083 - INFO - Worker worker1, instance 1, phone 5511984861730, info: recipient entered.
+2025-02-13 16:54:24,141 - INFO - Worker worker1, instance 1, phone 5511984861730, info: unable to send RCS to this contact *********.
+2025-02-13 16:54:29,146 - INFO - Worker worker1, instance 1, phone 5511984861730, info: message 232300 will be tryied as SMS.
+2025-02-13 16:54:29,146 - INFO - Worker worker1, instance 1, phone 5513981198162, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:54:29,520 - INFO - Worker worker1, instance 1, phone 5513981198162, info: new conversation page loaded.
+2025-02-13 16:54:33,002 - INFO - Worker worker1, instance 1, phone 5513981198162, info: recipient entered.
+2025-02-13 16:54:35,048 - INFO - Worker worker1, instance 1, phone 5513981198162, info: unable to send RCS to this contact *********.
+2025-02-13 16:54:40,053 - INFO - Worker worker1, instance 1, phone 5513981198162, info: message 232302 will be tryied as SMS.
+2025-02-13 16:54:40,288 - INFO - Worker worker1, instance 1, info: status of messages has been updated on the server.
+2025-02-13 16:54:40,289 - INFO - Worker worker1, info: messages were processed, all threads are finished.
+2025-02-13 16:54:40,289 - INFO - Worker worker1, info: requesting new messages from server.
+2025-02-13 16:54:40,546 - INFO - Worker worker1, info: where obtained 10 messages from server.
+2025-02-13 16:54:40,547 - INFO - Worker worker1, instance 1, info: actual chunk length is 5.
+2025-02-13 16:54:40,547 - INFO - Worker worker1, instance 1, phone 5516994533664, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:54:40,924 - INFO - Worker worker1, instance 1, phone 5516994533664, info: new conversation page loaded.
+2025-02-13 16:54:44,481 - INFO - Worker worker1, instance 1, phone 5516994533664, info: recipient entered.
+2025-02-13 16:54:46,540 - INFO - Worker worker1, instance 1, phone 5516994533664, info: unable to send RCS to this contact *********.
+2025-02-13 16:54:51,545 - INFO - Worker worker1, instance 1, phone 5516994533664, info: message 232304 will be tryied as SMS.
+2025-02-13 16:54:51,545 - INFO - Worker worker1, instance 1, phone 5511982102385, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:54:51,904 - INFO - Worker worker1, instance 1, phone 5511982102385, info: new conversation page loaded.
+2025-02-13 16:54:55,496 - INFO - Worker worker1, instance 1, phone 5511982102385, info: recipient entered.
+2025-02-13 16:55:10,548 - INFO - Worker worker1, instance 1, phone 5511982102385, info: message 232306 was sended as RCS.
+2025-02-13 16:55:10,548 - INFO - Worker worker1, instance 1, phone 5511981982524, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:55:10,964 - INFO - Worker worker1, instance 1, phone 5511981982524, info: new conversation page loaded.
+2025-02-13 16:55:14,490 - INFO - Worker worker1, instance 1, phone 5511981982524, info: recipient entered.
+2025-02-13 16:55:16,542 - INFO - Worker worker1, instance 1, phone 5511981982524, info: unable to send RCS to this contact *********.
+2025-02-13 16:55:21,547 - INFO - Worker worker1, instance 1, phone 5511981982524, info: message 232308 will be tryied as SMS.
+2025-02-13 16:55:21,547 - INFO - Worker worker1, instance 1, phone 5513981201350, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:55:21,939 - INFO - Worker worker1, instance 1, phone 5513981201350, info: new conversation page loaded.
+2025-02-13 16:55:25,410 - INFO - Worker worker1, instance 1, phone 5513981201350, info: recipient entered.
+2025-02-13 16:55:40,494 - INFO - Worker worker1, instance 1, phone 5513981201350, info: message 232310 was sended as RCS.
+2025-02-13 16:55:40,494 - INFO - Worker worker1, instance 1, phone 5513974025002, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:55:40,862 - INFO - Worker worker1, instance 1, phone 5513974025002, info: new conversation page loaded.
+2025-02-13 16:55:44,295 - INFO - Worker worker1, instance 1, phone 5513974025002, info: recipient entered.
+2025-02-13 16:55:46,346 - INFO - Worker worker1, instance 1, phone 5513974025002, info: unable to send RCS to this contact *********.
+2025-02-13 16:55:51,351 - INFO - Worker worker1, instance 1, phone 5513974025002, info: message 232119 will be tryied as SMS.
+2025-02-13 16:55:51,618 - INFO - Worker worker1, instance 1, info: status of messages has been updated on the server.
+2025-02-13 16:55:51,618 - INFO - Worker worker1, info: messages were processed, all threads are finished.
+2025-02-13 16:55:51,618 - INFO - Worker worker1, info: requesting new messages from server.
+2025-02-13 16:55:51,857 - INFO - Worker worker1, info: where obtained 10 messages from server.
+2025-02-13 16:55:51,858 - INFO - Worker worker1, instance 1, info: actual chunk length is 5.
+2025-02-13 16:55:51,858 - INFO - Worker worker1, instance 1, phone 5513981141517, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:55:52,233 - INFO - Worker worker1, instance 1, phone 5513981141517, info: new conversation page loaded.
+2025-02-13 16:55:55,746 - INFO - Worker worker1, instance 1, phone 5513981141517, info: recipient entered.
+2025-02-13 16:55:57,785 - INFO - Worker worker1, instance 1, phone 5513981141517, info: unable to send RCS to this contact *********.
+2025-02-13 16:56:02,790 - INFO - Worker worker1, instance 1, phone 5513981141517, info: message 232125 will be tryied as SMS.
+2025-02-13 16:56:02,790 - INFO - Worker worker1, instance 1, phone 5511982806410, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:56:03,166 - INFO - Worker worker1, instance 1, phone 5511982806410, info: new conversation page loaded.
+2025-02-13 16:56:06,632 - INFO - Worker worker1, instance 1, phone 5511982806410, info: recipient entered.
+2025-02-13 16:56:08,690 - INFO - Worker worker1, instance 1, phone 5511982806410, info: unable to send RCS to this contact *********.
+2025-02-13 16:56:13,695 - INFO - Worker worker1, instance 1, phone 5511982806410, info: message 232130 will be tryied as SMS.
+2025-02-13 16:56:13,695 - INFO - Worker worker1, instance 1, phone 5517981183954, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:56:14,094 - INFO - Worker worker1, instance 1, phone 5517981183954, info: new conversation page loaded.
+2025-02-13 16:56:17,607 - INFO - Worker worker1, instance 1, phone 5517981183954, info: recipient entered.
+2025-02-13 16:56:19,653 - INFO - Worker worker1, instance 1, phone 5517981183954, info: unable to send RCS to this contact *********.
+2025-02-13 16:56:24,658 - INFO - Worker worker1, instance 1, phone 5517981183954, info: message 232136 will be tryied as SMS.
+2025-02-13 16:56:24,658 - INFO - Worker worker1, instance 1, phone 5511982807880, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:56:25,047 - INFO - Worker worker1, instance 1, phone 5511982807880, info: new conversation page loaded.
+2025-02-13 16:56:28,489 - INFO - Worker worker1, instance 1, phone 5511982807880, info: recipient entered.
+2025-02-13 16:56:43,543 - INFO - Worker worker1, instance 1, phone 5511982807880, info: message 232141 was sended as RCS.
+2025-02-13 16:56:43,544 - INFO - Worker worker1, instance 1, phone 5511982809844, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:56:43,938 - INFO - Worker worker1, instance 1, phone 5511982809844, info: new conversation page loaded.
+2025-02-13 16:56:47,419 - INFO - Worker worker1, instance 1, phone 5511982809844, info: recipient entered.
+2025-02-13 16:56:49,461 - INFO - Worker worker1, instance 1, phone 5511982809844, info: unable to send RCS to this contact *********.
+2025-02-13 16:56:54,466 - INFO - Worker worker1, instance 1, phone 5511982809844, info: message 232147 will be tryied as SMS.
+2025-02-13 16:56:54,677 - INFO - Worker worker1, instance 1, info: status of messages has been updated on the server.
+2025-02-13 16:56:54,678 - INFO - Worker worker1, info: messages were processed, all threads are finished.
+2025-02-13 16:56:54,678 - INFO - Worker worker1, info: requesting new messages from server.
+2025-02-13 16:56:54,916 - INFO - Worker worker1, info: where obtained 10 messages from server.
+2025-02-13 16:56:54,917 - INFO - Worker worker1, instance 1, info: actual chunk length is 5.
+2025-02-13 16:56:54,917 - INFO - Worker worker1, instance 1, phone 5511982811717, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:56:55,323 - INFO - Worker worker1, instance 1, phone 5511982811717, info: new conversation page loaded.
+2025-02-13 16:56:58,834 - INFO - Worker worker1, instance 1, phone 5511982811717, info: recipient entered.
+2025-02-13 16:57:00,878 - INFO - Worker worker1, instance 1, phone 5511982811717, info: unable to send RCS to this contact *********.
+2025-02-13 16:57:05,883 - INFO - Worker worker1, instance 1, phone 5511982811717, info: message 232152 will be tryied as SMS.
+2025-02-13 16:57:05,883 - INFO - Worker worker1, instance 1, phone 5513981146547, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:57:06,286 - INFO - Worker worker1, instance 1, phone 5513981146547, info: new conversation page loaded.
+2025-02-13 16:57:09,796 - INFO - Worker worker1, instance 1, phone 5513981146547, info: recipient entered.
+2025-02-13 16:57:24,802 - INFO - Worker worker1, instance 1, phone 5513981146547, info: message 232157 was sended as RCS.
+2025-02-13 16:57:24,802 - INFO - Worker worker1, instance 1, phone 5513974034830, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:57:25,228 - INFO - Worker worker1, instance 1, phone 5513974034830, info: new conversation page loaded.
+2025-02-13 16:57:28,671 - INFO - Worker worker1, instance 1, phone 5513974034830, info: recipient entered.
+2025-02-13 16:57:43,734 - INFO - Worker worker1, instance 1, phone 5513974034830, info: message 232163 was sended as RCS.
+2025-02-13 16:57:43,734 - INFO - Worker worker1, instance 1, phone 5511984840102, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:57:44,168 - INFO - Worker worker1, instance 1, phone 5511984840102, info: new conversation page loaded.
+2025-02-13 16:57:47,707 - INFO - Worker worker1, instance 1, phone 5511984840102, info: recipient entered.
+2025-02-13 16:57:49,756 - INFO - Worker worker1, instance 1, phone 5511984840102, info: unable to send RCS to this contact *********.
+2025-02-13 16:57:54,761 - INFO - Worker worker1, instance 1, phone 5511984840102, info: message 232168 will be tryied as SMS.
+2025-02-13 16:57:54,762 - INFO - Worker worker1, instance 1, phone 5512997571262, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:57:55,163 - INFO - Worker worker1, instance 1, phone 5512997571262, info: new conversation page loaded.
+2025-02-13 16:57:58,654 - INFO - Worker worker1, instance 1, phone 5512997571262, info: recipient entered.
+2025-02-13 16:58:13,708 - INFO - Worker worker1, instance 1, phone 5512997571262, info: message 233643 was sended as RCS.
+2025-02-13 16:58:13,943 - INFO - Worker worker1, instance 1, info: status of messages has been updated on the server.
+2025-02-13 16:58:13,944 - INFO - Worker worker1, info: messages were processed, all threads are finished.
+2025-02-13 16:58:13,945 - INFO - Worker worker1, info: requesting new messages from server.
+2025-02-13 16:58:14,210 - INFO - Worker worker1, info: where obtained 10 messages from server.
+2025-02-13 16:58:14,211 - INFO - Worker worker1, instance 1, info: actual chunk length is 5.
+2025-02-13 16:58:14,211 - INFO - Worker worker1, instance 1, phone 5511983995113, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:58:14,585 - INFO - Worker worker1, instance 1, phone 5511983995113, info: new conversation page loaded.
+2025-02-13 16:58:18,115 - INFO - Worker worker1, instance 1, phone 5511983995113, info: recipient entered.
+2025-02-13 16:58:20,157 - INFO - Worker worker1, instance 1, phone 5511983995113, info: unable to send RCS to this contact *********.
+2025-02-13 16:58:25,162 - INFO - Worker worker1, instance 1, phone 5511983995113, info: message 233652 will be tryied as SMS.
+2025-02-13 16:58:25,162 - INFO - Worker worker1, instance 1, phone 5513978102583, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:58:25,575 - INFO - Worker worker1, instance 1, phone 5513978102583, info: new conversation page loaded.
+2025-02-13 16:58:29,019 - INFO - Worker worker1, instance 1, phone 5513978102583, info: recipient entered.
+2025-02-13 16:58:31,060 - INFO - Worker worker1, instance 1, phone 5513978102583, info: unable to send RCS to this contact *********.
+2025-02-13 16:58:36,065 - INFO - Worker worker1, instance 1, phone 5513978102583, info: message 233660 will be tryied as SMS.
+2025-02-13 16:58:36,065 - INFO - Worker worker1, instance 1, phone 5512997577173, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:58:36,447 - INFO - Worker worker1, instance 1, phone 5512997577173, info: new conversation page loaded.
+2025-02-13 16:58:39,891 - INFO - Worker worker1, instance 1, phone 5512997577173, info: recipient entered.
+2025-02-13 16:58:54,958 - INFO - Worker worker1, instance 1, phone 5512997577173, info: message 233669 was sended as RCS.
+2025-02-13 16:58:54,958 - INFO - Worker worker1, instance 1, phone 5511982126309, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:58:55,354 - INFO - Worker worker1, instance 1, phone 5511982126309, info: new conversation page loaded.
+2025-02-13 16:58:58,879 - INFO - Worker worker1, instance 1, phone 5511982126309, info: recipient entered.
+2025-02-13 16:59:13,947 - INFO - Worker worker1, instance 1, phone 5511982126309, info: message 233678 was sended as RCS.
+2025-02-13 16:59:13,948 - INFO - Worker worker1, instance 1, phone 5511982127449, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:59:14,312 - INFO - Worker worker1, instance 1, phone 5511982127449, info: new conversation page loaded.
+2025-02-13 16:59:17,826 - INFO - Worker worker1, instance 1, phone 5511982127449, info: recipient entered.
+2025-02-13 16:59:19,875 - INFO - Worker worker1, instance 1, phone 5511982127449, info: unable to send RCS to this contact *********.
+2025-02-13 16:59:24,881 - INFO - Worker worker1, instance 1, phone 5511982127449, info: message 233686 will be tryied as SMS.
+2025-02-13 16:59:25,123 - INFO - Worker worker1, instance 1, info: status of messages has been updated on the server.
+2025-02-13 16:59:25,125 - INFO - Worker worker1, info: messages were processed, all threads are finished.
+2025-02-13 16:59:25,125 - INFO - Worker worker1, info: requesting new messages from server.
+2025-02-13 16:59:25,400 - INFO - Worker worker1, info: where obtained 10 messages from server.
+2025-02-13 16:59:25,401 - INFO - Worker worker1, instance 1, info: actual chunk length is 5.
+2025-02-13 16:59:25,401 - INFO - Worker worker1, instance 1, phone 5511982496492, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:59:25,794 - INFO - Worker worker1, instance 1, phone 5511982496492, info: new conversation page loaded.
+2025-02-13 16:59:29,355 - INFO - Worker worker1, instance 1, phone 5511982496492, info: recipient entered.
+2025-02-13 16:59:44,458 - INFO - Worker worker1, instance 1, phone 5511982496492, info: message 233696 was sended as RCS.
+2025-02-13 16:59:44,458 - INFO - Worker worker1, instance 1, phone 5512996558539, info: starting sending message -------------------------------------------------------.
+2025-02-13 16:59:44,907 - INFO - Worker worker1, instance 1, phone 5512996558539, info: new conversation page loaded.
+2025-02-13 16:59:48,326 - INFO - Worker worker1, instance 1, phone 5512996558539, info: recipient entered.
+2025-02-13 17:00:03,299 - INFO - Worker worker1, instance 1, phone 5512996558539, info: message 233706 was sended as RCS.
+2025-02-13 17:00:03,299 - INFO - Worker worker1, instance 1, phone 5511982499918, info: starting sending message -------------------------------------------------------.
+2025-02-13 17:00:03,667 - INFO - Worker worker1, instance 1, phone 5511982499918, info: new conversation page loaded.
+2025-02-13 17:00:07,129 - INFO - Worker worker1, instance 1, phone 5511982499918, info: recipient entered.
+2025-02-13 17:00:09,182 - INFO - Worker worker1, instance 1, phone 5511982499918, info: unable to send RCS to this contact *********.
+2025-02-13 17:00:14,187 - INFO - Worker worker1, instance 1, phone 5511982499918, info: message 233715 will be tryied as SMS.
+2025-02-13 17:00:14,187 - INFO - Worker worker1, instance 1, phone 5512997593382, info: starting sending message -------------------------------------------------------.
+2025-02-13 17:00:14,559 - INFO - Worker worker1, instance 1, phone 5512997593382, info: new conversation page loaded.
+2025-02-13 17:00:18,007 - INFO - Worker worker1, instance 1, phone 5512997593382, info: recipient entered.
+2025-02-13 17:00:20,055 - INFO - Worker worker1, instance 1, phone 5512997593382, info: unable to send RCS to this contact *********.
+2025-02-13 17:00:25,060 - INFO - Worker worker1, instance 1, phone 5512997593382, info: message 233724 will be tryied as SMS.
+2025-02-13 17:00:25,061 - INFO - Worker worker1, instance 1, phone 5511982129723, info: starting sending message -------------------------------------------------------.
+2025-02-13 17:00:25,545 - INFO - Worker worker1, instance 1, phone 5511982129723, info: new conversation page loaded.
+2025-02-13 17:00:29,069 - INFO - Worker worker1, instance 1, phone 5511982129723, info: recipient entered.
+2025-02-13 17:00:31,132 - INFO - Worker worker1, instance 1, phone 5511982129723, info: unable to send RCS to this contact *********.
+2025-02-13 17:00:36,137 - INFO - Worker worker1, instance 1, phone 5511982129723, info: message 233734 will be tryied as SMS.
+2025-02-13 17:00:36,403 - INFO - Worker worker1, instance 1, info: status of messages has been updated on the server.
+2025-02-13 17:00:36,404 - INFO - Worker worker1, info: messages were processed, all threads are finished.
+2025-02-13 17:00:36,405 - INFO - Worker worker1, info: requesting new messages from server.
+2025-02-13 17:00:36,672 - INFO - Worker worker1, info: where obtained 10 messages from server.
+2025-02-13 17:00:36,672 - INFO - Worker worker1, instance 1, info: actual chunk length is 5.
+2025-02-13 17:00:36,673 - INFO - Worker worker1, instance 1, phone 5511982130673, info: starting sending message -------------------------------------------------------.
+2025-02-13 17:00:37,113 - INFO - Worker worker1, instance 1, phone 5511982130673, info: new conversation page loaded.
+2025-02-13 17:00:40,689 - INFO - Worker worker1, instance 1, phone 5511982130673, info: recipient entered.
+2025-02-13 17:00:55,726 - INFO - Worker worker1, instance 1, phone 5511982130673, info: message 233743 was sended as RCS.
+2025-02-13 17:00:55,726 - INFO - Worker worker1, instance 1, phone 5517988036071, info: starting sending message -------------------------------------------------------.
+2025-02-13 17:00:56,090 - INFO - Worker worker1, instance 1, phone 5517988036071, info: new conversation page loaded.
+2025-02-13 17:00:59,529 - INFO - Worker worker1, instance 1, phone 5517988036071, info: recipient entered.
+2025-02-13 17:01:14,546 - INFO - Worker worker1, instance 1, phone 5517988036071, info: message 233752 was sended as RCS.
+2025-02-13 17:01:14,547 - INFO - Worker worker1, instance 1, phone 5512996567295, info: starting sending message -------------------------------------------------------.
+2025-02-13 17:01:14,940 - INFO - Worker worker1, instance 1, phone 5512996567295, info: new conversation page loaded.
+2025-02-13 17:01:18,388 - INFO - Worker worker1, instance 1, phone 5512996567295, info: recipient entered.
+2025-02-13 17:01:33,400 - INFO - Worker worker1, instance 1, phone 5512996567295, info: message 233761 was sended as RCS.
+2025-02-13 17:01:33,401 - INFO - Worker worker1, instance 1, phone 5511982509390, info: starting sending message -------------------------------------------------------.
+2025-02-13 17:01:33,848 - INFO - Worker worker1, instance 1, phone 5511982509390, info: new conversation page loaded.
+2025-02-13 17:01:37,431 - INFO - Worker worker1, instance 1, phone 5511982509390, info: recipient entered.
+2025-02-13 17:01:52,502 - INFO - Worker worker1, instance 1, phone 5511982509390, info: message 233771 was sended as RCS.
+2025-02-13 17:01:52,503 - INFO - Worker worker1, instance 1, phone 5511984871825, info: starting sending message -------------------------------------------------------.
+2025-02-13 17:01:52,879 - INFO - Worker worker1, instance 1, phone 5511984871825, info: new conversation page loaded.
+2025-02-13 17:01:56,388 - INFO - Worker worker1, instance 1, phone 5511984871825, info: recipient entered.
+2025-02-13 17:02:11,403 - INFO - Worker worker1, instance 1, phone 5511984871825, info: message 233781 was sended as RCS.
+2025-02-13 17:02:11,754 - INFO - Worker worker1, instance 1, info: status of messages has been updated on the server.
+2025-02-13 17:02:11,756 - INFO - Worker worker1, info: messages were processed, all threads are finished.
+2025-02-13 17:02:11,756 - INFO - Worker worker1, info: requesting new messages from server.
+2025-02-13 17:02:12,015 - INFO - Worker worker1, info: where obtained 10 messages from server.
+2025-02-13 17:02:12,016 - INFO - Worker worker1, instance 1, info: actual chunk length is 5.
+2025-02-13 17:02:12,016 - INFO - Worker worker1, instance 1, phone 5511984873738, info: starting sending message -------------------------------------------------------.
+2025-02-13 17:02:12,372 - INFO - Worker worker1, instance 1, phone 5511984873738, info: new conversation page loaded.
+2025-02-13 17:02:15,916 - INFO - Worker worker1, instance 1, phone 5511984873738, info: recipient entered.
+2025-02-13 17:02:17,956 - INFO - Worker worker1, instance 1, phone 5511984873738, info: unable to send RCS to this contact *********.
+2025-02-13 17:02:22,961 - INFO - Worker worker1, instance 1, phone 5511984873738, info: message 233790 will be tryied as SMS.
+2025-02-13 17:02:22,961 - INFO - Worker worker1, instance 1, phone 5513981994423, info: starting sending message -------------------------------------------------------.
+2025-02-13 17:02:23,312 - INFO - Worker worker1, instance 1, phone 5513981994423, info: new conversation page loaded.
+2025-02-13 17:02:26,870 - INFO - Worker worker1, instance 1, phone 5513981994423, info: recipient entered.
+2025-02-13 17:02:28,917 - INFO - Worker worker1, instance 1, phone 5513981994423, info: unable to send RCS to this contact *********.
+2025-02-13 17:02:33,918 - INFO - Worker worker1, instance 1, phone 5513981994423, info: message 233800 will be tryied as SMS.
+2025-02-13 17:02:33,918 - INFO - Worker worker1, instance 1, phone 5511984877277, info: starting sending message -------------------------------------------------------.
+2025-02-13 17:02:34,388 - INFO - Worker worker1, instance 1, phone 5511984877277, info: new conversation page loaded.
+2025-02-13 17:02:37,841 - INFO - Worker worker1, instance 1, phone 5511984877277, info: recipient entered.
+2025-02-13 17:02:52,879 - INFO - Worker worker1, instance 1, phone 5511984877277, info: message 233808 was sended as RCS.
+2025-02-13 17:02:52,879 - INFO - Worker worker1, instance 1, phone 5511984880647, info: starting sending message -------------------------------------------------------.
+2025-02-13 17:02:53,224 - INFO - Worker worker1, instance 1, phone 5511984880647, info: new conversation page loaded.
+2025-02-13 17:02:56,608 - INFO - Worker worker1, instance 1, phone 5511984880647, info: recipient entered.
+2025-02-13 17:02:58,642 - INFO - Worker worker1, instance 1, phone 5511984880647, info: unable to send RCS to this contact *********.
+2025-02-13 17:03:03,645 - INFO - Worker worker1, instance 1, phone 5511984880647, info: message 233817 will be tryied as SMS.
+2025-02-13 17:03:03,646 - INFO - Worker worker1, instance 1, phone 5517981348956, info: starting sending message -------------------------------------------------------.
+2025-02-13 17:03:04,042 - INFO - Worker worker1, instance 1, phone 5517981348956, info: new conversation page loaded.
+2025-02-13 17:03:07,492 - INFO - Worker worker1, instance 1, phone 5517981348956, info: recipient entered.
+2025-02-13 17:03:09,544 - INFO - Worker worker1, instance 1, phone 5517981348956, info: unable to send RCS to this contact *********.
+2025-02-13 17:03:14,550 - INFO - Worker worker1, instance 1, phone 5517981348956, info: message 233823 will be tryied as SMS.
+2025-02-13 17:03:14,818 - INFO - Worker worker1, instance 1, info: status of messages has been updated on the server.
+2025-02-13 17:03:14,819 - INFO - Worker worker1, info: messages were processed, all threads are finished.
+2025-02-13 17:03:14,820 - INFO - Worker worker1, info: requesting new messages from server.
+2025-02-13 17:03:15,059 - INFO - Worker worker1, info: where obtained 10 messages from server.
+2025-02-13 17:03:15,060 - INFO - Worker worker1, instance 1, info: actual chunk length is 5.
+2025-02-13 17:03:15,060 - INFO - Worker worker1, instance 1, phone 5511984882258, info: starting sending message -------------------------------------------------------.
+2025-02-13 17:03:15,374 - INFO - Worker worker1, instance 1, phone 5511984882258, info: new conversation page loaded.
+2025-02-13 17:03:18,878 - INFO - Worker worker1, instance 1, phone 5511984882258, info: recipient entered.
+2025-02-13 17:03:33,914 - INFO - Worker worker1, instance 1, phone 5511984882258, info: message 233827 was sended as RCS.
+2025-02-13 17:03:33,915 - INFO - Worker worker1, instance 1, phone 5511982137843, info: starting sending message -------------------------------------------------------.
+2025-02-13 17:03:34,249 - INFO - Worker worker1, instance 1, phone 5511982137843, info: new conversation page loaded.
+2025-02-13 17:03:37,737 - INFO - Worker worker1, instance 1, phone 5511982137843, info: recipient entered.
+2025-02-13 17:04:05,878 - INFO - Worker worker1, instance 1, phone 5511982137843, info: unable to send RCS to this contact *********.
+2025-02-13 17:04:10,883 - INFO - Worker worker1, instance 1, phone 5511982137843, info: message 233830 will be tryied as SMS.
+2025-02-13 17:04:10,884 - INFO - Worker worker1, instance 1, phone 5517981356922, info: starting sending message -------------------------------------------------------.
+2025-02-13 17:04:11,219 - INFO - Worker worker1, instance 1, phone 5517981356922, info: new conversation page loaded.
+2025-02-13 17:04:14,723 - INFO - Worker worker1, instance 1, phone 5517981356922, info: recipient entered.
+2025-02-13 17:04:16,773 - INFO - Worker worker1, instance 1, phone 5517981356922, info: unable to send RCS to this contact *********.
+2025-02-13 17:04:21,778 - INFO - Worker worker1, instance 1, phone 5517981356922, info: message 233834 will be tryied as SMS.
+2025-02-13 17:04:21,778 - INFO - Worker worker1, instance 1, phone 5512996580479, info: starting sending message -------------------------------------------------------.
+2025-02-13 17:04:22,127 - INFO - Worker worker1, instance 1, phone 5512996580479, info: new conversation page loaded.
+2025-02-13 17:04:25,622 - INFO - Worker worker1, instance 1, phone 5512996580479, info: recipient entered.
+2025-02-13 17:04:40,663 - INFO - Worker worker1, instance 1, phone 5512996580479, info: message 233838 was sended as RCS.
+2025-02-13 17:04:40,663 - INFO - Worker worker1, instance 1, phone 5511982522251, info: starting sending message -------------------------------------------------------.
+2025-02-13 17:04:41,014 - INFO - Worker worker1, instance 1, phone 5511982522251, info: new conversation page loaded.
+2025-02-13 17:04:44,448 - INFO - Worker worker1, instance 1, phone 5511982522251, info: recipient entered.
+2025-02-13 17:04:46,478 - INFO - Worker worker1, instance 1, phone 5511982522251, info: unable to send RCS to this contact *********.
+2025-02-13 17:04:51,483 - INFO - Worker worker1, instance 1, phone 5511982522251, info: message 233841 will be tryied as SMS.
+2025-02-13 17:04:51,791 - INFO - Worker worker1, instance 1, info: status of messages has been updated on the server.
+2025-02-13 17:04:51,792 - INFO - Worker worker1, info: messages were processed, all threads are finished.
+2025-02-13 17:04:51,793 - INFO - Worker worker1, info: requesting new messages from server.
+2025-02-13 17:04:52,039 - INFO - Worker worker1, info: where obtained 10 messages from server.
+2025-02-13 17:04:52,039 - INFO - Worker worker1, instance 1, info: actual chunk length is 5.
+2025-02-13 17:04:52,039 - INFO - Worker worker1, instance 1, phone 5517988016401, info: starting sending message -------------------------------------------------------.
+2025-02-13 17:04:52,422 - INFO - Worker worker1, instance 1, phone 5517988016401, info: new conversation page loaded.
+2025-02-13 17:04:55,934 - INFO - Worker worker1, instance 1, phone 5517988016401, info: recipient entered.
+2025-02-13 17:05:10,910 - INFO - Worker worker1, instance 1, phone 5517988016401, info: message 235451 was sended as RCS.
+2025-02-13 17:05:10,910 - INFO - Worker worker1, instance 1, phone 5511982857408, info: starting sending message -------------------------------------------------------.
+2025-02-13 17:05:11,290 - INFO - Worker worker1, instance 1, phone 5511982857408, info: new conversation page loaded.
+2025-02-13 17:05:14,671 - INFO - Worker worker1, instance 1, phone 5511982857408, info: recipient entered.
+2025-02-13 17:05:16,699 - INFO - Worker worker1, instance 1, phone 5511982857408, info: unable to send RCS to this contact *********.
+2025-02-13 17:05:21,702 - INFO - Worker worker1, instance 1, phone 5511982857408, info: message 235453 will be tryied as SMS.
+2025-02-13 17:05:21,702 - INFO - Worker worker1, instance 1, phone 5512996878715, info: starting sending message -------------------------------------------------------.
+2025-02-13 17:05:22,020 - INFO - Worker worker1, instance 1, phone 5512996878715, info: new conversation page loaded.
+2025-02-13 17:05:25,526 - INFO - Worker worker1, instance 1, phone 5512996878715, info: recipient entered.
+2025-02-13 17:05:27,569 - INFO - Worker worker1, instance 1, phone 5512996878715, info: unable to send RCS to this contact *********.
+2025-02-13 17:05:32,575 - INFO - Worker worker1, instance 1, phone 5512996878715, info: message 235455 will be tryied as SMS.
+2025-02-13 17:05:32,575 - INFO - Worker worker1, instance 1, phone 5512996265381, info: starting sending message -------------------------------------------------------.
+2025-02-13 17:05:32,928 - INFO - Worker worker1, instance 1, phone 5512996265381, info: new conversation page loaded.
+2025-02-13 17:05:36,476 - INFO - Worker worker1, instance 1, phone 5512996265381, info: recipient entered.
+2025-02-13 17:05:38,530 - INFO - Worker worker1, instance 1, phone 5512996265381, info: unable to send RCS to this contact *********.
+2025-02-13 17:05:43,535 - INFO - Worker worker1, instance 1, phone 5512996265381, info: message 235457 will be tryied as SMS.
+2025-02-13 17:05:43,535 - INFO - Worker worker1, instance 1, phone 5511982142451, info: starting sending message -------------------------------------------------------.
+2025-02-13 17:05:43,869 - INFO - Worker worker1, instance 1, phone 5511982142451, info: new conversation page loaded.
+2025-02-13 17:05:47,318 - INFO - Worker worker1, instance 1, phone 5511982142451, info: recipient entered.
+2025-02-13 17:05:49,383 - INFO - Worker worker1, instance 1, phone 5511982142451, info: unable to send RCS to this contact *********.
+2025-02-13 17:05:54,387 - INFO - Worker worker1, instance 1, phone 5511982142451, info: message 235459 will be tryied as SMS.
+2025-02-13 17:05:54,666 - INFO - Worker worker1, instance 1, info: status of messages has been updated on the server.
+2025-02-13 17:05:54,667 - INFO - Worker worker1, info: messages were processed, all threads are finished.
+2025-02-13 17:05:54,668 - INFO - Worker worker1, info: requesting new messages from server.
+2025-02-13 17:05:54,975 - INFO - Worker worker1, info: where obtained 10 messages from server.
+2025-02-13 17:05:54,976 - INFO - Worker worker1, instance 1, info: actual chunk length is 5.
+2025-02-13 17:05:54,976 - INFO - Worker worker1, instance 1, phone 5513974061813, info: starting sending message -------------------------------------------------------.
+2025-02-13 17:05:55,301 - INFO - Worker worker1, instance 1, phone 5513974061813, info: new conversation page loaded.
+2025-02-13 17:05:58,833 - INFO - Worker worker1, instance 1, phone 5513974061813, info: recipient entered.
+2025-02-13 17:06:00,864 - INFO - Worker worker1, instance 1, phone 5513974061813, info: unable to send RCS to this contact *********.
+2025-02-13 17:06:05,869 - INFO - Worker worker1, instance 1, phone 5513974061813, info: message 235461 will be tryied as SMS.
+2025-02-13 17:06:05,870 - INFO - Worker worker1, instance 1, phone 5517988100702, info: starting sending message -------------------------------------------------------.
+2025-02-13 17:06:06,223 - INFO - Worker worker1, instance 1, phone 5517988100702, info: new conversation page loaded.
+2025-02-13 17:06:09,681 - INFO - Worker worker1, instance 1, phone 5517988100702, info: recipient entered.
+2025-02-13 17:06:11,709 - INFO - Worker worker1, instance 1, phone 5517988100702, info: unable to send RCS to this contact *********.
+2025-02-13 17:06:16,714 - INFO - Worker worker1, instance 1, phone 5517988100702, info: message 235463 will be tryied as SMS.
+2025-02-13 17:06:16,714 - INFO - Worker worker1, instance 1, phone 5512996266749, info: starting sending message -------------------------------------------------------.
+2025-02-13 17:06:17,051 - INFO - Worker worker1, instance 1, phone 5512996266749, info: new conversation page loaded.
+2025-02-13 17:06:20,548 - INFO - Worker worker1, instance 1, phone 5512996266749, info: recipient entered.
+2025-02-13 17:06:35,511 - INFO - Worker worker1, instance 1, phone 5512996266749, info: message 235465 was sended as RCS.
+2025-02-13 17:06:35,511 - INFO - Worker worker1, instance 1, phone 5511982144210, info: starting sending message -------------------------------------------------------.
+2025-02-13 17:06:35,846 - INFO - Worker worker1, instance 1, phone 5511982144210, info: new conversation page loaded.
+2025-02-13 17:06:39,364 - INFO - Worker worker1, instance 1, phone 5511982144210, info: recipient entered.
+2025-02-13 17:06:41,403 - INFO - Worker worker1, instance 1, phone 5511982144210, info: unable to send RCS to this contact *********.
+2025-02-13 17:06:46,408 - INFO - Worker worker1, instance 1, phone 5511982144210, info: message 235467 will be tryied as SMS.
+2025-02-13 17:06:46,408 - INFO - Worker worker1, instance 1, phone 5517981829539, info: starting sending message -------------------------------------------------------.
+2025-02-13 17:06:46,741 - INFO - Worker worker1, instance 1, phone 5517981829539, info: new conversation page loaded.
+2025-02-13 17:06:50,218 - INFO - Worker worker1, instance 1, phone 5517981829539, info: recipient entered.
+2025-02-13 17:06:52,251 - INFO - Worker worker1, instance 1, phone 5517981829539, info: unable to send RCS to this contact *********.
+2025-02-13 17:06:57,256 - INFO - Worker worker1, instance 1, phone 5517981829539, info: message 235469 will be tryied as SMS.
+2025-02-13 17:06:57,539 - INFO - Worker worker1, instance 1, info: status of messages has been updated on the server.
+2025-02-13 17:06:57,540 - INFO - Worker worker1, info: messages were processed, all threads are finished.
+2025-02-13 17:06:57,540 - INFO - Worker worker1, info: requesting new messages from server.
+2025-02-13 17:06:57,848 - INFO - Worker worker1, info: where obtained 10 messages from server.
+2025-02-13 17:06:57,849 - INFO - Worker worker1, instance 1, info: actual chunk length is 5.
+2025-02-13 17:06:57,849 - INFO - Worker worker1, instance 1, phone 5511982860061, info: starting sending message -------------------------------------------------------.
+2025-02-13 17:06:58,180 - INFO - Worker worker1, instance 1, phone 5511982860061, info: new conversation page loaded.
+2025-02-13 17:07:01,734 - INFO - Worker worker1, instance 1, phone 5511982860061, info: recipient entered.
+2025-02-13 17:07:03,794 - INFO - Worker worker1, instance 1, phone 5511982860061, info: unable to send RCS to this contact *********.
+2025-02-13 17:07:08,799 - INFO - Worker worker1, instance 1, phone 5511982860061, info: message 235471 will be tryied as SMS.
+2025-02-13 17:07:08,800 - INFO - Worker worker1, instance 1, phone 5512996268855, info: starting sending message -------------------------------------------------------.
+2025-02-13 17:07:09,159 - INFO - Worker worker1, instance 1, phone 5512996268855, info: new conversation page loaded.
+2025-02-13 17:07:12,629 - INFO - Worker worker1, instance 1, phone 5512996268855, info: recipient entered.
+2025-02-13 17:07:27,626 - INFO - Worker worker1, instance 1, phone 5512996268855, info: message 235473 was sended as RCS.
+2025-02-13 17:07:27,626 - INFO - Worker worker1, instance 1, phone 5511982145497, info: starting sending message -------------------------------------------------------.
+2025-02-13 17:07:27,972 - INFO - Worker worker1, instance 1, phone 5511982145497, info: new conversation page loaded.
+2025-02-13 17:07:31,535 - INFO - Worker worker1, instance 1, phone 5511982145497, info: recipient entered.
+2025-02-13 17:07:46,569 - INFO - Worker worker1, instance 1, phone 5511982145497, info: message 235475 was sended as RCS.
+2025-02-13 17:07:46,569 - INFO - Worker worker1, instance 1, phone 5517981176291, info: starting sending message -------------------------------------------------------.
+2025-02-13 17:07:46,903 - INFO - Worker worker1, instance 1, phone 5517981176291, info: new conversation page loaded.
+2025-02-13 17:07:50,345 - INFO - Worker worker1, instance 1, phone 5517981176291, info: recipient entered.
+2025-02-13 17:08:05,287 - INFO - Worker worker1, instance 1, phone 5517981176291, info: message 232124 was sended as RCS.
+2025-02-13 17:08:05,287 - INFO - Worker worker1, instance 1, phone 5511984831281, info: starting sending message -------------------------------------------------------.
+2025-02-13 17:08:05,625 - INFO - Worker worker1, instance 1, phone 5511984831281, info: new conversation page loaded.
+2025-02-13 17:08:09,139 - INFO - Worker worker1, instance 1, phone 5511984831281, info: recipient entered.
+2025-02-13 17:08:11,198 - INFO - Worker worker1, instance 1, phone 5511984831281, info: unable to send RCS to this contact *********.
+2025-02-13 17:08:16,204 - INFO - Worker worker1, instance 1, phone 5511984831281, info: message 232132 will be tryied as SMS.
+2025-02-13 17:08:16,490 - INFO - Worker worker1, instance 1, info: status of messages has been updated on the server.
+2025-02-13 17:08:16,491 - INFO - Worker worker1, info: messages were processed, all threads are finished.
+2025-02-13 17:08:16,492 - INFO - Worker worker1, info: requesting new messages from server.
+2025-02-13 17:08:16,742 - INFO - Worker worker1, info: where obtained 10 messages from server.
+2025-02-13 17:08:16,743 - INFO - Worker worker1, instance 1, info: actual chunk length is 5.
+2025-02-13 17:08:16,743 - INFO - Worker worker1, instance 1, phone 5511984834321, info: starting sending message -------------------------------------------------------.
+2025-02-13 17:08:17,097 - INFO - Worker worker1, instance 1, phone 5511984834321, info: new conversation page loaded.
+2025-02-13 17:08:20,120 - INFO - Worker worker1, instance 1, phone 5511984834321, info: recipient entered.
+2025-02-13 17:08:35,134 - INFO - Worker worker1, instance 1, phone 5511984834321, info: message 232140 was sended as RCS.
+2025-02-13 17:08:35,135 - INFO - Worker worker1, instance 1, phone 5513974030578, info: starting sending message -------------------------------------------------------.
+2025-02-13 17:08:35,531 - INFO - Worker worker1, instance 1, phone 5513974030578, info: new conversation page loaded.
+2025-02-13 17:08:38,981 - INFO - Worker worker1, instance 1, phone 5513974030578, info: recipient entered.
+2025-02-13 17:08:53,974 - INFO - Worker worker1, instance 1, phone 5513974030578, info: message 232146 was sended as RCS.
+2025-02-13 17:08:53,975 - INFO - Worker worker1, instance 1, phone 5513974032083, info: starting sending message -------------------------------------------------------.
+2025-02-13 17:08:54,310 - INFO - Worker worker1, instance 1, phone 5513974032083, info: new conversation page loaded.
+2025-02-13 17:08:57,794 - INFO - Worker worker1, instance 1, phone 5513974032083, info: recipient entered.
+2025-02-13 17:08:59,830 - INFO - Worker worker1, instance 1, phone 5513974032083, info: unable to send RCS to this contact *********.
+2025-02-13 17:09:04,836 - INFO - Worker worker1, instance 1, phone 5513974032083, info: message 232154 will be tryied as SMS.
+2025-02-13 17:09:04,836 - INFO - Worker worker1, instance 1, phone 5511982645915, info: starting sending message -------------------------------------------------------.
+2025-02-13 17:09:05,168 - INFO - Worker worker1, instance 1, phone 5511982645915, info: new conversation page loaded.
+2025-02-13 17:09:08,711 - INFO - Worker worker1, instance 1, phone 5511982645915, info: recipient entered.
+2025-02-13 17:09:10,769 - INFO - Worker worker1, instance 1, phone 5511982645915, info: unable to send RCS to this contact *********.
+2025-02-13 17:09:15,775 - INFO - Worker worker1, instance 1, phone 5511982645915, info: message 232161 will be tryied as SMS.
+2025-02-13 17:09:15,775 - INFO - Worker worker1, instance 1, phone 5511984838617, info: starting sending message -------------------------------------------------------.
+2025-02-13 17:09:16,150 - INFO - Worker worker1, instance 1, phone 5511984838617, info: new conversation page loaded.
+2025-02-13 17:09:19,665 - INFO - Worker worker1, instance 1, phone 5511984838617, info: recipient entered.
+2025-02-13 17:09:34,667 - INFO - Worker worker1, instance 1, phone 5511984838617, info: message 232169 was sended as RCS.
+2025-02-13 17:09:34,908 - INFO - Worker worker1, instance 1, info: status of messages has been updated on the server.
+2025-02-13 17:09:34,909 - INFO - Worker worker1, info: messages were processed, all threads are finished.
+2025-02-13 17:09:34,909 - INFO - Worker worker1, info: requesting new messages from server.
+2025-02-13 17:09:35,148 - INFO - Worker worker1, info: where obtained 10 messages from server.
+2025-02-13 17:09:35,148 - INFO - Worker worker1, instance 1, info: actual chunk length is 5.
+2025-02-13 17:09:35,149 - INFO - Worker worker1, instance 1, phone 5517981207574, info: starting sending message -------------------------------------------------------.
+2025-02-13 17:09:35,480 - INFO - Worker worker1, instance 1, phone 5517981207574, info: new conversation page loaded.
+2025-02-13 17:09:38,962 - INFO - Worker worker1, instance 1, phone 5517981207574, info: recipient entered.
+2025-02-13 17:09:53,927 - INFO - Worker worker1, instance 1, phone 5517981207574, info: message 232175 was sended as RCS.
+2025-02-13 17:09:53,928 - INFO - Worker worker1, instance 1, phone 5512991862809, info: starting sending message -------------------------------------------------------.
+2025-02-13 17:09:54,344 - INFO - Worker worker1, instance 1, phone 5512991862809, info: new conversation page loaded.
+2025-02-13 17:09:57,822 - INFO - Worker worker1, instance 1, phone 5512991862809, info: recipient entered.
+2025-02-13 17:09:59,874 - INFO - Worker worker1, instance 1, phone 5512991862809, info: unable to send RCS to this contact *********.
+2025-02-13 17:10:04,879 - INFO - Worker worker1, instance 1, phone 5512991862809, info: message 232179 will be tryied as SMS.
+2025-02-13 17:10:04,879 - INFO - Worker worker1, instance 1, phone 5511982816402, info: starting sending message -------------------------------------------------------.
+2025-02-13 17:10:05,215 - INFO - Worker worker1, instance 1, phone 5511982816402, info: new conversation page loaded.
+2025-02-13 17:10:08,734 - INFO - Worker worker1, instance 1, phone 5511982816402, info: recipient entered.
+2025-02-13 17:10:23,725 - INFO - Worker worker1, instance 1, phone 5511982816402, info: message 232183 was sended as RCS.
+2025-02-13 17:10:23,725 - INFO - Worker worker1, instance 1, phone 5513974038747, info: starting sending message -------------------------------------------------------.
+2025-02-13 17:10:24,143 - INFO - Worker worker1, instance 1, phone 5513974038747, info: new conversation page loaded.
+2025-02-13 17:10:27,601 - INFO - Worker worker1, instance 1, phone 5513974038747, info: recipient entered.
+2025-02-13 17:10:42,591 - INFO - Worker worker1, instance 1, phone 5513974038747, info: message 232185 was sended as RCS.
+2025-02-13 17:10:42,592 - INFO - Worker worker1, instance 1, phone 5511982651134, info: starting sending message -------------------------------------------------------.
+2025-02-13 17:10:43,004 - INFO - Worker worker1, instance 1, phone 5511982651134, info: new conversation page loaded.
+2025-02-13 17:10:46,450 - INFO - Worker worker1, instance 1, phone 5511982651134, info: recipient entered.
+2025-02-13 17:11:01,480 - INFO - Worker worker1, instance 1, phone 5511982651134, info: message 232187 was sended as RCS.
+2025-02-13 17:11:01,765 - INFO - Worker worker1, instance 1, info: status of messages has been updated on the server.
+2025-02-13 17:11:01,766 - INFO - Worker worker1, info: messages were processed, all threads are finished.
+2025-02-13 17:11:01,766 - INFO - Worker worker1, info: requesting new messages from server.
+2025-02-13 17:11:02,006 - INFO - Worker worker1, info: where obtained 10 messages from server.
+2025-02-13 17:11:02,007 - INFO - Worker worker1, instance 1, info: actual chunk length is 5.
+2025-02-13 17:11:02,007 - INFO - Worker worker1, instance 1, phone 5517981214346, info: starting sending message -------------------------------------------------------.
+2025-02-13 17:11:02,338 - INFO - Worker worker1, instance 1, phone 5517981214346, info: new conversation page loaded.
+2025-02-13 17:11:05,891 - INFO - Worker worker1, instance 1, phone 5517981214346, info: recipient entered.
+2025-02-13 17:11:20,864 - INFO - Worker worker1, instance 1, phone 5517981214346, info: message 233642 was sended as RCS.
+2025-02-13 17:11:20,864 - INFO - Worker worker1, instance 1, phone 5513978096229, info: starting sending message -------------------------------------------------------.
+2025-02-13 17:11:21,185 - INFO - Worker worker1, instance 1, phone 5513978096229, info: new conversation page loaded.
+2025-02-13 17:11:24,710 - INFO - Worker worker1, instance 1, phone 5513978096229, info: recipient entered.
+2025-02-13 17:11:26,767 - INFO - Worker worker1, instance 1, phone 5513978096229, info: unable to send RCS to this contact *********.
+2025-02-13 17:11:31,772 - INFO - Worker worker1, instance 1, phone 5513978096229, info: message 233649 will be tryied as SMS.
+2025-02-13 17:11:31,772 - INFO - Worker worker1, instance 1, phone 5517988119211, info: starting sending message -------------------------------------------------------.
+2025-02-13 17:11:32,128 - INFO - Worker worker1, instance 1, phone 5517988119211, info: new conversation page loaded.
+2025-02-13 17:11:35,630 - INFO - Worker worker1, instance 1, phone 5517988119211, info: recipient entered.
+2025-02-13 17:11:50,623 - INFO - Worker worker1, instance 1, phone 5517988119211, info: message 233657 was sended as RCS.
+2025-02-13 17:11:50,624 - INFO - Worker worker1, instance 1, phone 5511984000211, info: starting sending message -------------------------------------------------------.
+2025-02-13 17:11:50,966 - INFO - Worker worker1, instance 1, phone 5511984000211, info: new conversation page loaded.
+2025-02-13 17:11:54,488 - INFO - Worker worker1, instance 1, phone 5511984000211, info: recipient entered.
+2025-02-13 17:12:09,527 - INFO - Worker worker1, instance 1, phone 5511984000211, info: message 233665 was sended as RCS.
+2025-02-13 17:12:09,527 - INFO - Worker worker1, instance 1, phone 5517988012205, info: starting sending message -------------------------------------------------------.
+2025-02-13 17:12:09,852 - INFO - Worker worker1, instance 1, phone 5517988012205, info: new conversation page loaded.
+2025-02-13 17:12:13,279 - INFO - Worker worker1, instance 1, phone 5517988012205, info: recipient entered.
+2025-02-13 17:12:15,331 - INFO - Worker worker1, instance 1, phone 5517988012205, info: unable to send RCS to this contact *********.
+2025-02-13 17:12:20,335 - INFO - Worker worker1, instance 1, phone 5517988012205, info: message 233671 will be tryied as SMS.
+2025-02-13 17:12:20,820 - INFO - Worker worker1, instance 1, info: status of messages has been updated on the server.
+2025-02-13 17:12:20,821 - INFO - Worker worker1, info: messages were processed, all threads are finished.
+2025-02-13 17:12:20,821 - INFO - Worker worker1, info: requesting new messages from server.
+2025-02-13 17:12:21,084 - INFO - Worker worker1, info: where obtained 10 messages from server.
+2025-02-13 17:12:21,085 - INFO - Worker worker1, instance 1, info: actual chunk length is 5.
+2025-02-13 17:12:21,085 - INFO - Worker worker1, instance 1, phone 5511984003639, info: starting sending message -------------------------------------------------------.
+2025-02-13 17:12:21,406 - INFO - Worker worker1, instance 1, phone 5511984003639, info: new conversation page loaded.
+2025-02-13 17:12:24,952 - INFO - Worker worker1, instance 1, phone 5511984003639, info: recipient entered.
+2025-02-13 17:12:26,987 - INFO - Worker worker1, instance 1, phone 5511984003639, info: unable to send RCS to this contact *********.
+2025-02-13 17:12:31,993 - INFO - Worker worker1, instance 1, phone 5511984003639, info: message 233679 will be tryied as SMS.
+2025-02-13 17:12:31,993 - INFO - Worker worker1, instance 1, phone 5513981953866, info: starting sending message -------------------------------------------------------.
+2025-02-13 17:12:32,328 - INFO - Worker worker1, instance 1, phone 5513981953866, info: new conversation page loaded.
+2025-02-13 17:12:35,760 - INFO - Worker worker1, instance 1, phone 5513981953866, info: recipient entered.
+2025-02-13 17:12:37,790 - INFO - Worker worker1, instance 1, phone 5513981953866, info: unable to send RCS to this contact *********.
+2025-02-13 17:12:42,796 - INFO - Worker worker1, instance 1, phone 5513981953866, info: message 233688 will be tryied as SMS.
+2025-02-13 17:12:42,796 - INFO - Worker worker1, instance 1, phone 5517988018434, info: starting sending message -------------------------------------------------------.
+2025-02-13 17:12:43,129 - INFO - Worker worker1, instance 1, phone 5517988018434, info: new conversation page loaded.
+2025-02-13 17:12:46,644 - INFO - Worker worker1, instance 1, phone 5517988018434, info: recipient entered.
+2025-02-13 17:13:01,682 - INFO - Worker worker1, instance 1, phone 5517988018434, info: message 233694 was sended as RCS.
+2025-02-13 17:13:01,682 - INFO - Worker worker1, instance 1, phone 5511982498195, info: starting sending message -------------------------------------------------------.
+2025-02-13 17:13:02,016 - INFO - Worker worker1, instance 1, phone 5511982498195, info: new conversation page loaded.
+2025-02-13 17:13:05,504 - INFO - Worker worker1, instance 1, phone 5511982498195, info: recipient entered.
+2025-02-13 17:13:20,550 - INFO - Worker worker1, instance 1, phone 5511982498195, info: message 233699 was sended as RCS.
+2025-02-13 17:13:20,550 - INFO - Worker worker1, instance 1, phone 5513978123929, info: starting sending message -------------------------------------------------------.
+2025-02-13 17:13:20,971 - INFO - Worker worker1, instance 1, phone 5513978123929, info: new conversation page loaded.
+2025-02-13 17:13:24,494 - INFO - Worker worker1, instance 1, phone 5513978123929, info: recipient entered.
+2025-02-13 17:13:26,543 - INFO - Worker worker1, instance 1, phone 5513978123929, info: unable to send RCS to this contact *********.
+2025-02-13 17:13:31,548 - INFO - Worker worker1, instance 1, phone 5513978123929, info: message 233707 will be tryied as SMS.
+2025-02-13 17:13:31,787 - INFO - Worker worker1, instance 1, info: status of messages has been updated on the server.
+2025-02-13 17:13:31,788 - INFO - Worker worker1, info: messages were processed, all threads are finished.
+2025-02-13 17:13:31,788 - INFO - Worker worker1, info: requesting new messages from server.
+2025-02-13 17:13:32,033 - INFO - Worker worker1, info: where obtained 10 messages from server.
+2025-02-13 17:13:32,034 - INFO - Worker worker1, instance 1, info: actual chunk length is 5.
+2025-02-13 17:13:32,034 - INFO - Worker worker1, instance 1, phone 5511982128485, info: starting sending message -------------------------------------------------------.
+2025-02-13 17:13:32,371 - INFO - Worker worker1, instance 1, phone 5511982128485, info: new conversation page loaded.
+2025-02-13 17:13:35,343 - INFO - Worker worker1, instance 1, phone 5511982128485, info: recipient entered.
+2025-02-13 17:13:37,391 - INFO - Worker worker1, instance 1, phone 5511982128485, info: unable to send RCS to this contact *********.
+2025-02-13 17:13:42,396 - INFO - Worker worker1, instance 1, phone 5511982128485, info: message 233713 will be tryied as SMS.
+2025-02-13 17:13:42,396 - INFO - Worker worker1, instance 1, phone 5517988126441, info: starting sending message -------------------------------------------------------.
+2025-02-13 17:13:42,781 - INFO - Worker worker1, instance 1, phone 5517988126441, info: new conversation page loaded.
+2025-02-13 17:13:45,737 - INFO - Worker worker1, instance 1, phone 5517988126441, info: recipient entered.
+2025-02-13 17:13:47,795 - INFO - Worker worker1, instance 1, phone 5517988126441, info: unable to send RCS to this contact *********.
+2025-02-13 17:13:52,800 - INFO - Worker worker1, instance 1, phone 5517988126441, info: message 233720 will be tryied as SMS.
+2025-02-13 17:13:52,801 - INFO - Worker worker1, instance 1, phone 5511984013387, info: starting sending message -------------------------------------------------------.
+2025-02-13 17:13:53,137 - INFO - Worker worker1, instance 1, phone 5511984013387, info: new conversation page loaded.
+2025-02-13 17:13:56,614 - INFO - Worker worker1, instance 1, phone 5511984013387, info: recipient entered.
+2025-02-13 17:14:11,620 - INFO - Worker worker1, instance 1, phone 5511984013387, info: message 233725 was sended as RCS.
+2025-02-13 17:14:11,620 - INFO - Worker worker1, instance 1, phone 5512997600065, info: starting sending message -------------------------------------------------------.
+2025-02-13 17:14:11,958 - INFO - Worker worker1, instance 1, phone 5512997600065, info: new conversation page loaded.
+2025-02-13 17:14:15,518 - INFO - Worker worker1, instance 1, phone 5512997600065, info: recipient entered.
+2025-02-13 17:14:30,554 - INFO - Worker worker1, instance 1, phone 5512997600065, info: message 233732 was sended as RCS.
+2025-02-13 17:14:30,555 - INFO - Worker worker1, instance 1, phone 5517988128338, info: starting sending message -------------------------------------------------------.
+2025-02-13 17:14:30,910 - INFO - Worker worker1, instance 1, phone 5517988128338, info: new conversation page loaded.
+2025-02-13 17:14:33,863 - INFO - Worker worker1, instance 1, phone 5517988128338, info: recipient entered.
+2025-02-13 17:14:35,901 - INFO - Worker worker1, instance 1, phone 5517988128338, info: unable to send RCS to this contact *********.
+2025-02-13 17:14:40,906 - INFO - Worker worker1, instance 1, phone 5517988128338, info: message 233738 will be tryied as SMS.
+2025-02-13 17:14:41,145 - INFO - Worker worker1, instance 1, info: status of messages has been updated on the server.
+2025-02-13 17:14:41,146 - INFO - Worker worker1, info: messages were processed, all threads are finished.
+2025-02-13 17:14:41,146 - INFO - Worker worker1, info: requesting new messages from server.
+2025-02-13 17:14:41,413 - INFO - Worker worker1, info: where obtained 10 messages from server.
+2025-02-13 17:14:41,413 - INFO - Worker worker1, instance 1, info: actual chunk length is 5.
+2025-02-13 17:14:41,414 - INFO - Worker worker1, instance 1, phone 5513981973176, info: starting sending message -------------------------------------------------------.
+2025-02-13 17:14:41,752 - INFO - Worker worker1, instance 1, phone 5513981973176, info: new conversation page loaded.
+2025-02-13 17:14:45,215 - INFO - Worker worker1, instance 1, phone 5513981973176, info: recipient entered.
+2025-02-13 17:14:47,262 - INFO - Worker worker1, instance 1, phone 5513981973176, info: unable to send RCS to this contact *********.
+2025-02-13 17:14:52,267 - INFO - Worker worker1, instance 1, phone 5513981973176, info: message 233745 will be tryied as SMS.
+2025-02-13 17:14:52,268 - INFO - Worker worker1, instance 1, phone 5513978147162, info: starting sending message -------------------------------------------------------.
+2025-02-13 17:14:52,597 - INFO - Worker worker1, instance 1, phone 5513978147162, info: new conversation page loaded.
+2025-02-13 17:14:56,025 - INFO - Worker worker1, instance 1, phone 5513978147162, info: recipient entered.
+2025-02-13 17:15:10,973 - INFO - Worker worker1, instance 1, phone 5513978147162, info: message 233751 was sended as RCS.
+2025-02-13 17:15:10,973 - INFO - Worker worker1, instance 1, phone 5511984024898, info: starting sending message -------------------------------------------------------.
+2025-02-13 17:15:11,328 - INFO - Worker worker1, instance 1, phone 5511984024898, info: new conversation page loaded.
+2025-02-13 17:15:14,839 - INFO - Worker worker1, instance 1, phone 5511984024898, info: recipient entered.
+2025-02-13 17:15:29,848 - INFO - Worker worker1, instance 1, phone 5511984024898, info: message 233759 was sended as RCS.
+2025-02-13 17:15:29,848 - INFO - Worker worker1, instance 1, phone 5513978149858, info: starting sending message -------------------------------------------------------.
+2025-02-13 17:15:30,191 - INFO - Worker worker1, instance 1, phone 5513978149858, info: new conversation page loaded.
+2025-02-13 17:15:33,664 - INFO - Worker worker1, instance 1, phone 5513978149858, info: recipient entered.
+2025-02-13 17:15:35,718 - INFO - Worker worker1, instance 1, phone 5513978149858, info: unable to send RCS to this contact *********.
+2025-02-13 17:15:40,723 - INFO - Worker worker1, instance 1, phone 5513978149858, info: message 233765 will be tryied as SMS.
+2025-02-13 17:15:40,724 - INFO - Worker worker1, instance 1, phone 5512997609424, info: starting sending message -------------------------------------------------------.
+2025-02-13 17:15:41,048 - INFO - Worker worker1, instance 1, phone 5512997609424, info: new conversation page loaded.
+2025-02-13 17:15:44,526 - INFO - Worker worker1, instance 1, phone 5512997609424, info: recipient entered.
+2025-02-13 17:15:46,590 - INFO - Worker worker1, instance 1, phone 5512997609424, info: unable to send RCS to this contact *********.
+2025-02-13 17:15:51,595 - INFO - Worker worker1, instance 1, phone 5512997609424, info: message 233773 will be tryied as SMS.
+2025-02-13 17:15:51,865 - INFO - Worker worker1, instance 1, info: status of messages has been updated on the server.
+2025-02-13 17:15:51,866 - INFO - Worker worker1, info: messages were processed, all threads are finished.
+2025-02-13 17:15:51,866 - INFO - Worker worker1, info: requesting new messages from server.
+2025-02-13 17:15:52,107 - INFO - Worker worker1, info: where obtained 10 messages from server.
+2025-02-13 17:15:52,107 - INFO - Worker worker1, instance 1, info: actual chunk length is 5.
+2025-02-13 17:15:52,107 - INFO - Worker worker1, instance 1, phone 5513978164224, info: starting sending message -------------------------------------------------------.
+2025-02-13 17:15:52,439 - INFO - Worker worker1, instance 1, phone 5513978164224, info: new conversation page loaded.
+2025-02-13 17:15:55,917 - INFO - Worker worker1, instance 1, phone 5513978164224, info: recipient entered.
+2025-02-13 17:16:10,880 - INFO - Worker worker1, instance 1, phone 5513978164224, info: message 233779 was sended as RCS.
+2025-02-13 17:16:10,880 - INFO - Worker worker1, instance 1, phone 5513981450905, info: starting sending message -------------------------------------------------------.
+2025-02-13 17:16:11,219 - INFO - Worker worker1, instance 1, phone 5513981450905, info: new conversation page loaded.
+2025-02-13 17:16:14,746 - INFO - Worker worker1, instance 1, phone 5513981450905, info: recipient entered.
+2025-02-13 17:16:29,771 - INFO - Worker worker1, instance 1, phone 5513981450905, info: message 233788 was sended as RCS.
+2025-02-13 17:16:29,771 - INFO - Worker worker1, instance 1, phone 5513978176287, info: starting sending message -------------------------------------------------------.
+2025-02-13 17:16:30,116 - INFO - Worker worker1, instance 1, phone 5513978176287, info: new conversation page loaded.
+2025-02-13 17:16:33,607 - INFO - Worker worker1, instance 1, phone 5513978176287, info: recipient entered.
+2025-02-13 17:16:35,660 - INFO - Worker worker1, instance 1, phone 5513978176287, info: unable to send RCS to this contact *********.
+2025-02-13 17:16:40,665 - INFO - Worker worker1, instance 1, phone 5513978176287, info: message 233796 will be tryied as SMS.
+2025-02-13 17:16:40,665 - INFO - Worker worker1, instance 1, phone 5511982515371, info: starting sending message -------------------------------------------------------.
+2025-02-13 17:16:40,994 - INFO - Worker worker1, instance 1, phone 5511982515371, info: new conversation page loaded.
+2025-02-13 17:16:44,553 - INFO - Worker worker1, instance 1, phone 5511982515371, info: recipient entered.
+2025-02-13 17:16:46,596 - INFO - Worker worker1, instance 1, phone 5511982515371, info: unable to send RCS to this contact *********.
+2025-02-13 17:16:51,599 - INFO - Worker worker1, instance 1, phone 5511982515371, info: message 233803 will be tryied as SMS.
+2025-02-13 17:16:51,600 - INFO - Worker worker1, instance 1, phone 5512996572497, info: starting sending message -------------------------------------------------------.
+2025-02-13 17:16:52,028 - INFO - Worker worker1, instance 1, phone 5512996572497, info: new conversation page loaded.
+2025-02-13 17:16:55,044 - INFO - Worker worker1, instance 1, phone 5512996572497, info: recipient entered.
+2025-02-13 17:17:10,070 - INFO - Worker worker1, instance 1, phone 5512996572497, info: message 233811 was sended as RCS.
+2025-02-13 17:17:10,294 - INFO - Worker worker1, instance 1, info: status of messages has been updated on the server.
+2025-02-13 17:17:10,295 - INFO - Worker worker1, info: messages were processed, all threads are finished.
+2025-02-13 17:17:10,295 - INFO - Worker worker1, info: requesting new messages from server.
+2025-02-13 17:17:10,614 - INFO - Worker worker1, info: where obtained 10 messages from server.
+2025-02-13 17:17:10,615 - INFO - Worker worker1, instance 1, info: actual chunk length is 5.
+2025-02-13 17:17:10,616 - INFO - Worker worker1, instance 1, phone 5512996575127, info: starting sending message -------------------------------------------------------.
+2025-02-13 17:17:10,956 - INFO - Worker worker1, instance 1, phone 5512996575127, info: new conversation page loaded.
+2025-02-13 17:17:14,527 - INFO - Worker worker1, instance 1, phone 5512996575127, info: recipient entered.
+2025-02-13 17:17:29,551 - INFO - Worker worker1, instance 1, phone 5512996575127, info: message 233818 was sended as RCS.
+2025-02-13 17:17:29,552 - INFO - Worker worker1, instance 1, phone 5512997619799, info: starting sending message -------------------------------------------------------.
+2025-02-13 17:17:29,914 - INFO - Worker worker1, instance 1, phone 5512997619799, info: new conversation page loaded.
+2025-02-13 17:17:33,387 - INFO - Worker worker1, instance 1, phone 5512997619799, info: recipient entered.
+2025-02-13 17:17:48,386 - INFO - Worker worker1, instance 1, phone 5512997619799, info: message 234988 was sended as RCS.
+2025-02-13 17:17:48,386 - INFO - Worker worker1, instance 1, phone 5512996183098, info: starting sending message -------------------------------------------------------.
+2025-02-13 17:17:48,711 - INFO - Worker worker1, instance 1, phone 5512996183098, info: new conversation page loaded.
+2025-02-13 17:17:52,233 - INFO - Worker worker1, instance 1, phone 5512996183098, info: recipient entered.
+2025-02-13 17:17:54,287 - INFO - Worker worker1, instance 1, phone 5512996183098, info: unable to send RCS to this contact *********.
+2025-02-13 17:17:59,290 - INFO - Worker worker1, instance 1, phone 5512996183098, info: message 235012 will be tryied as SMS.
+2025-02-13 17:17:59,290 - INFO - Worker worker1, instance 1, phone 5512996188342, info: starting sending message -------------------------------------------------------.
+2025-02-13 17:17:59,711 - INFO - Worker worker1, instance 1, phone 5512996188342, info: new conversation page loaded.
+2025-02-13 17:18:03,253 - INFO - Worker worker1, instance 1, phone 5512996188342, info: recipient entered.
+2025-02-13 17:18:05,308 - INFO - Worker worker1, instance 1, phone 5512996188342, info: unable to send RCS to this contact *********.
+2025-02-13 17:18:10,314 - INFO - Worker worker1, instance 1, phone 5512996188342, info: message 235050 will be tryied as SMS.
+2025-02-13 17:18:10,314 - INFO - Worker worker1, instance 1, phone 5511982457877, info: starting sending message -------------------------------------------------------.
+2025-02-13 17:18:10,714 - INFO - Worker worker1, instance 1, phone 5511982457877, info: new conversation page loaded.
+2025-02-13 17:18:14,230 - INFO - Worker worker1, instance 1, phone 5511982457877, info: recipient entered.
+2025-02-13 17:18:16,269 - INFO - Worker worker1, instance 1, phone 5511982457877, info: unable to send RCS to this contact *********.
+2025-02-13 17:18:21,274 - INFO - Worker worker1, instance 1, phone 5511982457877, info: message 235080 will be tryied as SMS.
+2025-02-13 17:18:21,577 - INFO - Worker worker1, instance 1, info: status of messages has been updated on the server.
+2025-02-13 17:18:21,578 - INFO - Worker worker1, info: messages were processed, all threads are finished.
+2025-02-13 17:18:21,578 - INFO - Worker worker1, info: requesting new messages from server.
+2025-02-13 17:18:21,814 - INFO - Worker worker1, info: where obtained 10 messages from server.
+2025-02-13 17:18:21,815 - INFO - Worker worker1, instance 1, info: actual chunk length is 5.
+2025-02-13 17:18:21,815 - INFO - Worker worker1, instance 1, phone 5512997917353, info: starting sending message -------------------------------------------------------.
+2025-02-13 17:18:22,141 - INFO - Worker worker1, instance 1, phone 5512997917353, info: new conversation page loaded.
+2025-02-13 17:18:25,104 - INFO - Worker worker1, instance 1, phone 5512997917353, info: recipient entered.
+2025-02-13 17:18:40,075 - INFO - Worker worker1, instance 1, phone 5512997917353, info: message 235104 was sended as RCS.
+2025-02-13 17:18:40,075 - INFO - Worker worker1, instance 1, phone 5517981086500, info: starting sending message -------------------------------------------------------.
+2025-02-13 17:18:40,489 - INFO - Worker worker1, instance 1, phone 5517981086500, info: new conversation page loaded.
+2025-02-13 17:18:43,959 - INFO - Worker worker1, instance 1, phone 5517981086500, info: recipient entered.
+2025-02-13 17:18:46,010 - INFO - Worker worker1, instance 1, phone 5517981086500, info: unable to send RCS to this contact *********.
+2025-02-13 17:18:51,013 - INFO - Worker worker1, instance 1, phone 5517981086500, info: message 235117 will be tryied as SMS.
+2025-02-13 17:18:51,013 - INFO - Worker worker1, instance 1, phone 5513981461911, info: starting sending message -------------------------------------------------------.
+2025-02-13 17:18:51,339 - INFO - Worker worker1, instance 1, phone 5513981461911, info: new conversation page loaded.
+2025-02-13 17:18:54,309 - INFO - Worker worker1, instance 1, phone 5513981461911, info: recipient entered.
+2025-02-13 17:19:09,274 - INFO - Worker worker1, instance 1, phone 5513981461911, info: message 235138 was sended as RCS.
+2025-02-13 17:19:09,275 - INFO - Worker worker1, instance 1, phone 5512996823528, info: starting sending message -------------------------------------------------------.
+2025-02-13 17:19:09,599 - INFO - Worker worker1, instance 1, phone 5512996823528, info: new conversation page loaded.
+2025-02-13 17:19:13,149 - INFO - Worker worker1, instance 1, phone 5512996823528, info: recipient entered.
+2025-02-13 17:19:28,165 - INFO - Worker worker1, instance 1, phone 5512996823528, info: message 235153 was sended as RCS.
+2025-02-13 17:19:28,165 - INFO - Worker worker1, instance 1, phone 5511982233516, info: starting sending message -------------------------------------------------------.
+2025-02-13 17:19:28,516 - INFO - Worker worker1, instance 1, phone 5511982233516, info: new conversation page loaded.
+2025-02-13 17:19:31,986 - INFO - Worker worker1, instance 1, phone 5511982233516, info: recipient entered.
+2025-02-13 17:19:34,008 - ERROR - Worker worker1, instance 1, phone 5511982233516, info: UNABLE_FIND_TEXTAREA by Aguarde antes de criar mais conversas.
+2025-02-13 17:19:34,277 - INFO - Worker worker1, instance 1, info: status of messages has been updated on the server.
+2025-02-13 17:19:34,277 - INFO - Worker worker1, info: messages were processed, all threads are finished.
+2025-02-13 17:19:34,278 - INFO - Worker worker1, info: requesting new messages from server.
+2025-02-13 17:19:34,515 - INFO - Worker worker1, info: where obtained 10 messages from server.
+2025-02-13 17:19:34,515 - INFO - Worker worker1, info: worker is sleeping 25 minutes because all drivers are unable.
+2025-02-13 17:44:34,607 - INFO - Worker worker1, info: messages were processed, all threads are finished.
+2025-02-13 17:44:34,607 - INFO - Worker worker1, info: requesting new messages from server.
+2025-02-13 17:44:35,386 - INFO - Worker worker1, info: where obtained 10 messages from server.
+2025-02-13 17:44:35,387 - INFO - Worker worker1, info: worker is sleeping 25 minutes because all drivers are unable.
+2025-02-13 18:09:35,487 - INFO - Worker worker1, info: messages were processed, all threads are finished.
+2025-02-13 18:09:35,487 - INFO - Worker worker1, info: requesting new messages from server.
+2025-02-13 18:09:35,836 - INFO - Worker worker1, info: where obtained 10 messages from server.
+2025-02-13 18:09:35,836 - INFO - Worker worker1, info: worker is sleeping 25 minutes because all drivers are unable.
+2025-02-13 18:34:35,936 - INFO - Worker worker1, info: messages were processed, all threads are finished.
+2025-02-13 18:34:35,937 - INFO - Worker worker1, info: requesting new messages from server.
+2025-02-13 18:34:36,301 - INFO - Worker worker1, info: where obtained 10 messages from server.
+2025-02-13 18:34:36,301 - INFO - Worker worker1, info: worker is sleeping 25 minutes because all drivers are unable.
+2025-02-13 18:59:36,401 - INFO - Worker worker1, info: messages were processed, all threads are finished.
+2025-02-13 18:59:36,401 - INFO - Worker worker1, info: requesting new messages from server.

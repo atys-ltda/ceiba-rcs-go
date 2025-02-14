@@ -1,0 +1,69 @@
+2025-02-13 14:53:46,232 - INFO - Worker worker1, instance 1, info: actual chunk length is 0.
+2025-02-13 14:53:46,485 - INFO - Worker worker1, instance 1, info: status of messages has been updated on the server.
+2025-02-13 14:53:52,987 - INFO - Worker worker1, instance 1, info: actual chunk length is 0.
+2025-02-13 14:53:53,212 - INFO - Worker worker1, instance 1, info: status of messages has been updated on the server.
+2025-02-13 14:53:59,421 - INFO - Worker worker1, instance 1, info: actual chunk length is 0.
+2025-02-13 14:53:59,668 - INFO - Worker worker1, instance 1, info: status of messages has been updated on the server.
+2025-02-13 14:54:06,075 - INFO - Worker worker1, instance 1, info: actual chunk length is 0.
+2025-02-13 14:54:06,301 - INFO - Worker worker1, instance 1, info: status of messages has been updated on the server.
+2025-02-13 14:54:12,548 - INFO - Worker worker1, instance 1, info: actual chunk length is 0.
+2025-02-13 14:54:12,767 - INFO - Worker worker1, instance 1, info: status of messages has been updated on the server.
+2025-02-13 14:56:44,332 - INFO - Worker worker1, instance 1, info: actual chunk length is 2.
+2025-02-13 14:56:44,332 - INFO - Worker worker1, instance 1, phone 5513978081953, info: starting sending message -------------------------------------------------------.
+2025-02-13 14:56:44,910 - INFO - Worker worker1, instance 1, phone 5513978081953, info: new conversation page loaded.
+2025-02-13 14:56:48,072 - INFO - Worker worker1, instance 1, phone 5513978081953, info: recipient entered.
+2025-02-13 14:56:50,111 - INFO - Worker worker1, instance 1, phone 5513978081953, info: unable to send RCS to this contact *********.
+2025-02-13 14:56:50,112 - INFO - Worker worker1, instance 1, phone 5513978081953, info: message 233621 will be tryied as SMS.
+2025-02-13 14:56:50,112 - INFO - Worker worker1, instance 1, phone 5512997567665, info: starting sending message -------------------------------------------------------.
+2025-02-13 14:56:50,549 - INFO - Worker worker1, instance 1, phone 5512997567665, info: new conversation page loaded.
+2025-02-13 14:56:54,195 - INFO - Worker worker1, instance 1, phone 5512997567665, info: recipient entered.
+2025-02-13 14:56:57,281 - INFO - Worker worker1, instance 1, phone 5512997567665, info: message 233628 was sended as RCS.
+2025-02-13 14:56:57,525 - INFO - Worker worker1, instance 1, info: status of messages has been updated on the server.
+2025-02-13 14:56:57,765 - INFO - Worker worker1, instance 1, info: actual chunk length is 2.
+2025-02-13 14:56:57,766 - INFO - Worker worker1, instance 1, phone 5517988002846, info: starting sending message -------------------------------------------------------.
+2025-02-13 14:56:58,280 - INFO - Worker worker1, instance 1, phone 5517988002846, info: new conversation page loaded.
+2025-02-13 14:57:01,804 - INFO - Worker worker1, instance 1, phone 5517988002846, info: recipient entered.
+2025-02-13 14:57:04,876 - INFO - Worker worker1, instance 1, phone 5517988002846, info: message 234982 was sended as RCS.
+2025-02-13 14:57:04,876 - INFO - Worker worker1, instance 1, phone 5511982628206, info: starting sending message -------------------------------------------------------.
+2025-02-13 14:57:05,308 - INFO - Worker worker1, instance 1, phone 5511982628206, info: new conversation page loaded.
+2025-02-13 14:57:08,872 - INFO - Worker worker1, instance 1, phone 5511982628206, info: recipient entered.
+2025-02-13 14:57:10,898 - INFO - Worker worker1, instance 1, phone 5511982628206, info: unable to send RCS to this contact *********.
+2025-02-13 14:57:10,898 - INFO - Worker worker1, instance 1, phone 5511982628206, info: message 235009 will be tryied as SMS.
+2025-02-13 14:57:11,117 - INFO - Worker worker1, instance 1, info: status of messages has been updated on the server.
+2025-02-13 14:57:11,362 - INFO - Worker worker1, instance 1, info: actual chunk length is 2.
+2025-02-13 14:57:11,363 - INFO - Worker worker1, instance 1, phone 5512997896163, info: starting sending message -------------------------------------------------------.
+2025-02-13 14:57:11,829 - INFO - Worker worker1, instance 1, phone 5512997896163, info: new conversation page loaded.
+2025-02-13 14:57:15,468 - INFO - Worker worker1, instance 1, phone 5512997896163, info: recipient entered.
+2025-02-13 14:57:18,431 - INFO - Worker worker1, instance 1, phone 5512997896163, info: message 235026 was sended as RCS.
+2025-02-13 14:57:18,432 - INFO - Worker worker1, instance 1, phone 5518997309894, info: starting sending message -------------------------------------------------------.
+2025-02-13 14:57:18,927 - INFO - Worker worker1, instance 1, phone 5518997309894, info: new conversation page loaded.
+2025-02-13 14:57:22,580 - INFO - Worker worker1, instance 1, phone 5518997309894, info: recipient entered.
+2025-02-13 14:57:24,621 - INFO - Worker worker1, instance 1, phone 5518997309894, info: unable to send RCS to this contact *********.
+2025-02-13 14:57:24,621 - INFO - Worker worker1, instance 1, phone 5518997309894, info: message 231454 will be tryied as SMS.
+2025-02-13 14:57:24,854 - INFO - Worker worker1, instance 1, info: status of messages has been updated on the server.
+2025-02-13 14:57:27,061 - INFO - Worker worker1, instance 1, info: actual chunk length is 2.
+2025-02-13 14:57:27,061 - INFO - Worker worker1, instance 1, phone 5517997458636, info: starting sending message -------------------------------------------------------.
+2025-02-13 14:57:27,693 - INFO - Worker worker1, instance 1, phone 5517997458636, info: new conversation page loaded.
+2025-02-13 14:57:31,591 - INFO - Worker worker1, instance 1, phone 5517997458636, info: recipient entered.
+2025-02-13 14:57:33,625 - INFO - Worker worker1, instance 1, phone 5517997458636, info: unable to send RCS to this contact *********.
+2025-02-13 14:57:33,625 - INFO - Worker worker1, instance 1, phone 5517997458636, info: message 231480 will be tryied as SMS.
+2025-02-13 14:57:33,625 - INFO - Worker worker1, instance 1, phone 5512997871199, info: starting sending message -------------------------------------------------------.
+2025-02-13 14:57:34,001 - INFO - Worker worker1, instance 1, phone 5512997871199, info: new conversation page loaded.
+2025-02-13 14:57:37,636 - INFO - Worker worker1, instance 1, phone 5512997871199, info: recipient entered.
+2025-02-13 14:57:39,660 - INFO - Worker worker1, instance 1, phone 5512997871199, info: unable to send RCS to this contact *********.
+2025-02-13 14:57:39,660 - INFO - Worker worker1, instance 1, phone 5512997871199, info: message 231502 will be tryied as SMS.
+2025-02-13 14:57:39,877 - INFO - Worker worker1, instance 1, info: status of messages has been updated on the server.
+2025-02-13 14:57:40,879 - INFO - Worker worker1, instance 1, info: actual chunk length is 2.
+2025-02-13 14:57:40,879 - INFO - Worker worker1, instance 1, phone 5517997467563, info: starting sending message -------------------------------------------------------.
+2025-02-13 14:57:41,781 - INFO - Worker worker1, instance 1, phone 5517997467563, info: new conversation page loaded.
+2025-02-13 14:57:45,456 - INFO - Worker worker1, instance 1, phone 5517997467563, info: recipient entered.
+2025-02-13 14:57:47,494 - INFO - Worker worker1, instance 1, phone 5517997467563, info: unable to send RCS to this contact *********.
+2025-02-13 14:57:47,494 - INFO - Worker worker1, instance 1, phone 5517997467563, info: message 231532 will be tryied as SMS.
+2025-02-13 14:57:47,494 - INFO - Worker worker1, instance 1, phone 5513978115625, info: starting sending message -------------------------------------------------------.
+2025-02-13 14:57:47,978 - INFO - Worker worker1, instance 1, phone 5513978115625, info: new conversation page loaded.
+2025-02-13 14:57:51,619 - INFO - Worker worker1, instance 1, phone 5513978115625, info: recipient entered.
+2025-02-13 14:57:54,632 - INFO - Worker worker1, instance 1, phone 5513978115625, info: message 231554 was sended as RCS.
+2025-02-13 14:57:54,853 - INFO - Worker worker1, instance 1, info: status of messages has been updated on the server.
+2025-02-13 14:57:55,266 - INFO - Worker worker1, instance 1, info: actual chunk length is 2.
+2025-02-13 14:57:55,266 - INFO - Worker worker1, instance 1, phone 5512991817727, info: starting sending message -------------------------------------------------------.
+2025-02-13 14:57:55,779 - INFO - Worker worker1, instance 1, phone 5512991817727, info: new conversation page loaded.

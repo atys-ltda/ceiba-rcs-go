@@ -1,0 +1,9 @@
+2025/02/13-16:19:12.030 9ce9 Reusing MANIFEST /var/www/html/rcs/ceiba-rcs-go/python/google_messages_sessions/instance_0/Default/Service Worker/Database/MANIFEST-000001
+2025/02/13-16:19:12.031 9ce9 Recovering log #7
+2025/02/13-16:19:12.031 9ce9 Reusing old log /var/www/html/rcs/ceiba-rcs-go/python/google_messages_sessions/instance_0/Default/Service Worker/Database/000007.log 
+2025/02/13-16:24:21.181 9ce9 Compacting 1@1 + 1@2 files
+2025/02/13-16:24:21.192 9ce9 Generated table #10@1: 13 keys, 883 bytes
+2025/02/13-16:24:21.193 9ce9 Compacted 1@1 + 1@2 files => 883 bytes
+2025/02/13-16:24:21.194 9ce9 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/02/13-16:24:21.194 9ce9 Delete type=2 #5
+2025/02/13-16:24:21.194 9ce9 Delete type=2 #8

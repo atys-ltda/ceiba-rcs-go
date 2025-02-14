@@ -1,0 +1,10 @@
+2025/02/13-16:19:12.434 9ce8 Reusing MANIFEST /var/www/html/rcs/ceiba-rcs-go/python/google_messages_sessions/instance_0/Default/IndexedDB/https_messages.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/02/13-16:19:12.434 9ce8 Recovering log #15
+2025/02/13-16:19:12.453 9ce8 Reusing old log /var/www/html/rcs/ceiba-rcs-go/python/google_messages_sessions/instance_0/Default/IndexedDB/https_messages.google.com_0.indexeddb.leveldb/000015.log 
+2025/02/13-16:29:28.141 9cea Level-0 table #20: started
+2025/02/13-16:29:28.156 9cea Level-0 table #20: 1329405 bytes OK
+2025/02/13-16:29:28.158 9cea Delete type=0 #15
+2025/02/13-16:29:46.895 9cea Compacting 1@1 + 1@2 files
+2025/02/13-16:29:46.908 9cea Generated table #21@1: 1018 keys, 25456 bytes
+2025/02/13-16:29:46.908 9cea Compacted 1@1 + 1@2 files => 25456 bytes
+2025/02/13-16:29:46.910 9cea compacted to: files[ 0 0 1 0 0 0 0 ]
