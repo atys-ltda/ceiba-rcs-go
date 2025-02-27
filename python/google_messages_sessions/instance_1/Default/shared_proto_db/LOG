@@ -1,3 +1,2 @@
-2025/02/13-16:19:20.668 9dae Reusing MANIFEST /var/www/html/rcs/ceiba-rcs-go/python/google_messages_sessions/instance_1/Default/shared_proto_db/MANIFEST-000001
-2025/02/13-16:19:20.668 9dae Recovering log #3
-2025/02/13-16:19:20.668 9dae Reusing old log /var/www/html/rcs/ceiba-rcs-go/python/google_messages_sessions/instance_1/Default/shared_proto_db/000003.log 
+2025/02/17-11:57:29.649 4d96 Creating DB /var/www/html/rcs/ceiba-rcs-go/python/google_messages_sessions/instance_1/Default/shared_proto_db since it was missing.
+2025/02/17-11:57:29.662 4d96 Reusing MANIFEST /var/www/html/rcs/ceiba-rcs-go/python/google_messages_sessions/instance_1/Default/shared_proto_db/MANIFEST-000001

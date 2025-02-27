@@ -1,3 +1,2 @@
-2025/02/13-16:19:20.481 9daf Reusing MANIFEST /var/www/html/rcs/ceiba-rcs-go/python/google_messages_sessions/instance_1/Default/Site Characteristics Database/MANIFEST-000001
-2025/02/13-16:19:20.481 9daf Recovering log #3
-2025/02/13-16:19:20.481 9daf Reusing old log /var/www/html/rcs/ceiba-rcs-go/python/google_messages_sessions/instance_1/Default/Site Characteristics Database/000003.log 
+2025/02/17-11:57:29.318 4da4 Creating DB /var/www/html/rcs/ceiba-rcs-go/python/google_messages_sessions/instance_1/Default/Site Characteristics Database since it was missing.
+2025/02/17-11:57:29.332 4da4 Reusing MANIFEST /var/www/html/rcs/ceiba-rcs-go/python/google_messages_sessions/instance_1/Default/Site Characteristics Database/MANIFEST-000001

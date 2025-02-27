@@ -1,3 +1,2 @@
-2025/02/13-16:19:20.478 9dae Reusing MANIFEST /var/www/html/rcs/ceiba-rcs-go/python/google_messages_sessions/instance_1/Default/Sync Data/LevelDB/MANIFEST-000001
-2025/02/13-16:19:20.479 9dae Recovering log #3
-2025/02/13-16:19:20.480 9dae Reusing old log /var/www/html/rcs/ceiba-rcs-go/python/google_messages_sessions/instance_1/Default/Sync Data/LevelDB/000003.log 
+2025/02/17-11:57:29.313 4d97 Creating DB /var/www/html/rcs/ceiba-rcs-go/python/google_messages_sessions/instance_1/Default/Sync Data/LevelDB since it was missing.
+2025/02/17-11:57:29.323 4d97 Reusing MANIFEST /var/www/html/rcs/ceiba-rcs-go/python/google_messages_sessions/instance_1/Default/Sync Data/LevelDB/MANIFEST-000001
