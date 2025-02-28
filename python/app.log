@@ -1,0 +1,52 @@
+2025-02-27 21:36:05,699 - INFO - ====== WebDriver manager ======
+2025-02-27 21:36:05,804 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-27 21:36:05,835 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-27 21:36:05,852 - INFO - There is no [linux64] chromedriver "132.0.6834.159" for browser google-chrome "132.0.6834" in cache
+2025-02-27 21:36:05,852 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-27 21:36:06,056 - INFO - WebDriver version 132.0.6834.159 selected
+2025-02-27 21:36:06,058 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/132.0.6834.159/linux64/chromedriver-linux64.zip
+2025-02-27 21:36:06,058 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/132.0.6834.159/linux64/chromedriver-linux64.zip
+2025-02-27 21:36:06,145 - INFO - Driver downloading response is 200
+2025-02-27 21:36:06,539 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-27 21:36:06,638 - INFO - Driver has been saved in cache [/home/jose/.wdm/drivers/chromedriver/linux64/132.0.6834.159]
+2025-02-27 22:57:59,532 - INFO - ====== WebDriver manager ======
+2025-02-27 22:57:59,575 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-27 22:57:59,612 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-27 22:57:59,643 - INFO - Driver [/home/jose/.wdm/drivers/chromedriver/linux64/132.0.6834.159/chromedriver-linux64/chromedriver] found in cache
+2025-02-27 22:58:25,111 - INFO - Worker worker1, info: there are 1 active instances.
+2025-02-27 22:58:25,111 - INFO - Worker worker1, info: requesting new messages from server.
+2025-02-27 22:58:25,347 - INFO - Worker worker1, info: where obtained 10 messages from server.
+2025-02-27 22:58:25,347 - INFO - Worker worker1, info: creating and disptching chunks.
+2025-02-27 22:58:25,347 - INFO - Worker worker1, instance 0, info: actual chunk length is 10.
+2025-02-27 22:58:25,347 - INFO - Worker worker1, instance 0, phone 5513997920482, info: starting sending message -------------------------------------------------------.
+2025-02-27 22:58:25,733 - INFO - Worker worker1, instance 0, phone 5513997920482, info: new conversation page loaded.
+2025-02-27 22:58:28,413 - INFO - Worker worker1, instance 0, phone 5513997920482, info: recipient entered.
+2025-02-27 22:58:30,450 - INFO - Worker worker1, instance 0, phone 5513997920482, info: find_possible_errors code is 0.
+2025-02-27 22:58:30,457 - INFO - Worker worker1, instance 0, phone 5513997920482, info: unable to send RCS to this contact *********.
+2025-02-27 22:58:35,457 - INFO - Worker worker1, instance 0, phone 5513997920482, info: message 280473 will be tryied as SMS.
+2025-02-27 22:58:35,457 - INFO - Worker worker1, instance 0, phone 5519971418061, info: starting sending message -------------------------------------------------------.
+2025-02-27 22:58:35,814 - INFO - Worker worker1, instance 0, phone 5519971418061, info: new conversation page loaded.
+2025-02-27 22:58:39,035 - INFO - Worker worker1, instance 0, phone 5519971418061, info: recipient entered.
+2025-02-27 22:58:41,064 - INFO - Worker worker1, instance 0, phone 5519971418061, info: find_possible_errors code is 0.
+2025-02-27 22:58:41,069 - INFO - Worker worker1, instance 0, phone 5519971418061, info: unable to send RCS to this contact *********.
+2025-02-27 22:58:46,069 - INFO - Worker worker1, instance 0, phone 5519971418061, info: message 280474 will be tryied as SMS.
+2025-02-27 22:58:46,069 - INFO - Worker worker1, instance 0, phone 5519989072608, info: starting sending message -------------------------------------------------------.
+2025-02-27 22:58:46,441 - INFO - Worker worker1, instance 0, phone 5519989072608, info: new conversation page loaded.
+2025-02-27 22:58:49,722 - INFO - Worker worker1, instance 0, phone 5519989072608, info: recipient entered.
+2025-02-27 22:58:51,750 - INFO - Worker worker1, instance 0, phone 5519989072608, info: find_possible_errors code is 0.
+2025-02-27 22:59:04,499 - INFO - Worker worker1, instance 0, phone 5519989072608, info: message 280475 was sended as RCS.
+2025-02-27 22:59:04,499 - INFO - Worker worker1, instance 0, phone 5517997925360, info: starting sending message -------------------------------------------------------.
+2025-02-27 22:59:04,870 - INFO - Worker worker1, instance 0, phone 5517997925360, info: new conversation page loaded.
+2025-02-27 22:59:08,098 - INFO - Worker worker1, instance 0, phone 5517997925360, info: recipient entered.
+2025-02-27 22:59:10,127 - INFO - Worker worker1, instance 0, phone 5517997925360, info: find_possible_errors code is 0.
+2025-02-27 22:59:10,133 - INFO - Worker worker1, instance 0, phone 5517997925360, info: unable to send RCS to this contact *********.
+2025-02-27 22:59:15,133 - INFO - Worker worker1, instance 0, phone 5517997925360, info: message 280476 will be tryied as SMS.
+2025-02-27 22:59:15,133 - INFO - Worker worker1, instance 0, phone 5516981309757, info: starting sending message -------------------------------------------------------.
+2025-02-27 22:59:15,440 - INFO - Worker worker1, instance 0, phone 5516981309757, info: new conversation page loaded.
+2025-02-27 22:59:18,691 - INFO - Worker worker1, instance 0, phone 5516981309757, info: recipient entered.
+2025-02-27 22:59:20,722 - INFO - Worker worker1, instance 0, phone 5516981309757, info: find_possible_errors code is 0.
+2025-02-27 22:59:33,475 - INFO - Worker worker1, instance 0, phone 5516981309757, info: message 280477 was sended as RCS.
+2025-02-27 22:59:33,475 - INFO - Worker worker1, instance 0, phone 5516991136452, info: starting sending message -------------------------------------------------------.
+2025-02-27 22:59:33,839 - INFO - Worker worker1, instance 0, phone 5516991136452, info: new conversation page loaded.
+2025-02-27 22:59:37,055 - INFO - Worker worker1, instance 0, phone 5516991136452, info: recipient entered.
+2025-02-27 22:59:39,126 - INFO - Worker worker1, instance 0, phone 5516991136452, info: find_possible_errors code is 0.

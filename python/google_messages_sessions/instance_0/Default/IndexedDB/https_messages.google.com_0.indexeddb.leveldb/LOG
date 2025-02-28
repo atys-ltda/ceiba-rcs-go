@@ -1,3 +1,3 @@
-2025/02/17-16:20:02.384 a347 Reusing MANIFEST /var/www/html/rcs/ceiba-rcs-go/python/google_messages_sessions/instance_0/Default/IndexedDB/https_messages.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/02/17-16:20:02.384 a347 Recovering log #7
-2025/02/17-16:20:02.385 a347 Reusing old log /var/www/html/rcs/ceiba-rcs-go/python/google_messages_sessions/instance_0/Default/IndexedDB/https_messages.google.com_0.indexeddb.leveldb/000007.log 
+2025/02/27-22:58:01.177 338f Reusing MANIFEST /var/www/html/rcs/ceiba-rcs-go/python/google_messages_sessions/instance_0/Default/IndexedDB/https_messages.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/02/27-22:58:01.177 338f Recovering log #3
+2025/02/27-22:58:01.178 338f Reusing old log /var/www/html/rcs/ceiba-rcs-go/python/google_messages_sessions/instance_0/Default/IndexedDB/https_messages.google.com_0.indexeddb.leveldb/000003.log 

@@ -20,6 +20,7 @@ import logging
 import requests
 import json
 import asyncio
+import subprocess
 # import win32clipboard
 # from io import BytesIO
 import time
@@ -72,6 +73,7 @@ class GoogleMessagesSender:
         self.image_path = None
         self.access_token = ""
         self.user_data = False
+        self.vpn_number = 1
 
     def setup_messages_tab(self):
         # 1. autenticar a aplicação
@@ -211,6 +213,12 @@ class GoogleMessagesSender:
             time.sleep(self.NOT_MESSAGES_BLOCK_TIME * 60)
             return
         
+        subprocess.call(["python", "mi_fast.py", str(self.vpn_number)])
+        self.vpn_number = self.vpn_number + 1
+        if self.vpn_number == 142:
+            self.vpn_number = 1
+        time.sleep(10)
+        
         self.create_and_dispatch_all_chunks()
 
     def verify_active_instances(self):
@@ -235,7 +243,8 @@ class GoogleMessagesSender:
         else:
             status_id = self.MESSAGE_ONLY_SMS
 
-        url = f"https://rcs-back.atys.pro/api/get-campaign-messages?status_id={status_id}"
+        num_zeros = self.enabled_instances.count(0)
+        url = f"https://rcs-back.atys.pro/api/get-campaign-messages?status_id={status_id}&amount_messages={num_zeros * 10}"
         payload = ""
         headers = {
             "Authorization": f"Bearer {self.access_token}"
