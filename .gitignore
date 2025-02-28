@@ -1,5 +1,11 @@
-python/.ipynb_checkpoints
-
-python/google_messages_sessions
-
-python/app.log
+/nbproject/
+/.idea/*
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+node_modules/
+bin/
+obj/
+.vs/
