@@ -1,5 +1,5 @@
 tk
-Pillow
+pillow
 selenium
 webdriver-manager
 pyautogui

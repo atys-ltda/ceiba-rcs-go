@@ -17,52 +17,150 @@ import random
 import os
 import threading
 import logging
-import pyautogui
+import requests
+import json
+import asyncio
+import subprocess
+# import win32clipboard
+# from io import BytesIO
+import time
+import gi
+gi.require_version("Gtk", "3.0")
+from gi.repository import Gtk, Gdk, GLib, GdkPixbuf
 
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+logging.basicConfig(
+    filename='app.log',
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s'
+)
+
 logger = logging.getLogger(__name__)
 
 class GoogleMessagesSender:
+    MESSAGE_CREATED = 1
+    MESSAGE_TRYING_RCS = 2
+    MESSAGE_SENDED_RCS = 3
+    MESSAGE_ONLY_SMS = 4
+    MESSAGE_TRYING_SMS = 5
+    MESSAGE_SENDED_SMS = 6
+    MESSAGE_FAILED = 7
+    
+    ROLE_WORKER = 3
+
+    INSTANCE_BLOCK_TIME = 10  # minutes
+    WORKER_BLOCK_TIME = 15  # minutes
+    NOT_MESSAGES_BLOCK_TIME = 1  # minutes
+
+    MESSAGE_NOT_SENDED = 0
+    MESSAGE_SENDED = 1
+    UNABLE_NEW_CONVERSATION = 2
+    UNABLE_ENTER_RECIPIENT = 3
+    UNABLE_FIND_TEXTAREA = 4
+    INVALID_CONTACT = 5
+
+    # principal functions
     def __init__(self):
         self.root = tk.Tk()
         self.root.title("Google Messages Sender")
         self.root.geometry("600x600")
-
         self.notebook = ttk.Notebook(self.root)
         self.notebook.pack(expand=1, fill="both")
-
         self.messages_tab = ttk.Frame(self.notebook)
-        self.message_tab = ttk.Frame(self.notebook)
-
         self.notebook.add(self.messages_tab, text="Google Messages")
-        self.notebook.add(self.message_tab, text="Mensagens")
-
+        self.credit = tk.BooleanVar(value=False)
         self.setup_messages_tab()
-        self.setup_message_tab()
-
         self.drivers = []
+        self.enabled_instances = []
+        self.sleep_instances = []
         self.phone_numbers = []
-        self.base_user_data_dir = os.path.join(os.getcwd(), "google_messages_sessions")
-        
+        self.base_user_data_dir = os.path.join(os.getcwd(), "google_messages_sessions")        
         self.image_path = None
-        
-        self.auto_login()
-
-    def auto_login(self):
-        try:
-            self.add_google_messages_instance()
-        except Exception as e:
-            logger.error(f"Erro ao fazer login automático: {str(e)}")
-            messagebox.showerror("Erro de Login Automático", f"Não foi possível fazer o login automático: {str(e)}")
+        self.access_token = ""
+        self.user_data = False
+        self.vpn_number = 1
+        self.campaign = False
 
     def setup_messages_tab(self):
-        add_instance_button = tk.Button(self.messages_tab, text="Conectar Google Messages", command=self.add_google_messages_instance)
-        add_instance_button.pack(pady=5)
-        
+        # 1. autenticar a aplicação
+        first_steep_label = tk.Label(self.messages_tab, text="Passo 1. Autenticar este worker")
+        first_steep_label.pack(pady=5)
+
+        app_email_label = tk.Label(self.messages_tab, text="Email do worker")
+        app_email_label.pack(pady=5)        
+        self.app_email = tk.Entry(self.messages_tab)
+        self.app_email.insert(0, "worker1@gmail.com")
+        self.app_email.pack(pady=1)
+
+        app_password_label = tk.Label(self.messages_tab, text="Senha do worker")
+        app_password_label.pack(pady=5)        
+        self.app_password = tk.Entry(self.messages_tab)
+        self.app_password.insert(0, "12345678")
+        self.app_password.pack(pady=5)
+
+        self.add_login_button = tk.Button(self.messages_tab, text="Login", command=self.app_login)
+        self.add_login_button.pack(pady=5)
+        self.app_login_label = tk.Label(self.messages_tab, text="")
+        self.app_login_label.pack(pady=5)
+
+        # 2. telefones com crédito
+        second_steep_label = tk.Label(self.messages_tab, text="Passo 2. Os chips a usar tem crédito?")
+        second_steep_label.pack(pady=5)
+        radio_nao = tk.Radiobutton(self.messages_tab, text="Não", variable=self.credit, value=False)
+        radio_nao.pack()
+        radio_sim = tk.Radiobutton(self.messages_tab, text="Sim", variable=self.credit, value=True)
+        radio_sim.pack()        
+
+        # 3. conectar com Google
+        second_steep_label = tk.Label(self.messages_tab, text="Passo 3. Conecte várias contas do Google Menssages")
+        second_steep_label.pack(pady=5)
+        self.add_instance_button = tk.Button(self.messages_tab, text="Conectar Google Messages", command=self.add_google_messages_instance)
+        self.add_instance_button.pack(pady=5)        
         self.instances_label = tk.Label(self.messages_tab, text="Instâncias ativas: 0")
         self.instances_label.pack(pady=5)
 
+        # 4. inicie o envio das mensagens
+        third_steep_label = tk.Label(self.messages_tab, text="Passo 4. Inicie o envio das mensagens.")
+        third_steep_label.pack(pady=5)
+        self.send_button = tk.Button(self.messages_tab, text="Enviar Mensagens", command=self.click_send_message_button)
+        self.send_button.pack(pady=10)
+
+         # 5. Adicionar botão de encerramento
+        exit_button = tk.Button(self.messages_tab, text="Encerrar Aplicação", command=self.on_closing)
+        exit_button.pack(pady=10)
+        
+    def app_login(self):
+        self.access_token = ""
+        email = self.app_email.get().strip()
+        password = self.app_password.get().strip()
+        if email == "" or password == "":
+            messagebox.showerror("Atenção", "Digite corretamente o usuário e senha deste Worker")
+            return
+        
+        url = "https://rcs-back.atys.pro/api/oauth/token"
+        payload = json.dumps({"email": email, "password": password, "grant_type": "password"})
+        headers = { 'Content-Type': 'application/json' }
+        response = requests.request("POST", url, headers=headers, data=payload)
+
+        if response.status_code == 200:
+            resposta_json = response.json()
+            self.user_data = resposta_json.get("user_data", {})            
+            if self.user_data.get('role_id') == self.ROLE_WORKER:
+                self.access_token = resposta_json.get("access_token")
+                self.app_email.config(state="disabled")
+                self.app_password.config(state="disabled")
+                self.add_login_button.config(state="disabled")
+                self.worker_name = self.app_email.get().strip().split('@')[0]
+                self.app_login_label.config(text=f"Usuário {self.worker_name} autenticado", fg="green")
+            else:
+                self.app_login_label.config(text="Usuário não autorizado", fg="red")
+        else:
+            self.app_login_label.config(text="Falha no login: credenciais inválidas", fg="red")
+
     def add_google_messages_instance(self):
+        if self.access_token == "":
+            messagebox.showerror("Erro", "Worker não autenticado, realize o login no Passo 1")
+            return
+        
         instance_id = len(self.drivers)
         user_data_dir = os.path.join(self.base_user_data_dir, f"instance_{instance_id}")
     
@@ -75,404 +173,348 @@ class GoogleMessagesSender:
             driver = webdriver.Chrome(service=service, options=chrome_options)
             driver.get("https://messages.google.com/web/")
         
-            messagebox.showinfo("Login", f"Faça login no Google Messages para a instância {instance_id + 1} e pressione OK quando estiver pronto.")
+            messagebox.showinfo("Login", f"Faça login no Google Messages para a instância {instance_id + 1}. \nPressione OK somente quando estiver pronto.")
         
             WebDriverWait(driver, 300).until(
                 EC.presence_of_element_located((By.CSS_SELECTOR, 'mws-conversations-list'))
             )
         
             self.drivers.append(driver)
-            self.update_instances_label()
+            self.enabled_instances.append(0)
+            self.sleep_instances.append(0)
+            self.instances_label.config(text=f"Instâncias ativas: {len(self.drivers)}")
             messagebox.showinfo("Login", f"Login realizado com sucesso para a instância {instance_id + 1}!")
         except Exception as e:
-            logger.error(f"Erro ao iniciar o Google Messages: {str(e)}")
             messagebox.showerror("Erro", f"Erro ao iniciar o Google Messages: {str(e)}")
             if driver:
                 driver.quit()
             raise
 
-    def update_instances_label(self):
-        self.instances_label.config(text=f"Instâncias ativas: {len(self.drivers)}")
-
-    def setup_message_tab(self):
-        excel_button = tk.Button(self.message_tab, text="Carregar Excel", command=self.load_excel)
-        excel_button.pack(pady=10)
-
-        self.message_entry = tk.Text(self.message_tab, height=5, width=40)
-        self.message_entry.pack(pady=10)
-
-        image_button = tk.Button(self.message_tab, text="Selecionar Imagem", command=self.select_image)
-        image_button.pack(pady=5)
-
-        self.image_label = tk.Label(self.message_tab, text="Nenhuma imagem selecionada")
-        self.image_label.pack(pady=5)
-
-        preview_button = tk.Button(self.message_tab, text="Pré-visualizar Mensagem", command=self.preview_message)
-        preview_button.pack(pady=5)
-
-        send_button = tk.Button(self.message_tab, text="Enviar Mensagens", command=self.send_messages)
-        send_button.pack(pady=10)
-
-    def load_excel(self):
-        file_path = filedialog.askopenfilename(filetypes=[("Excel files", "*.xlsx *.xls")])
-        if file_path:
-            workbook = openpyxl.load_workbook(file_path)
-            sheet = workbook.active
-            self.phone_numbers = []
-            for row in sheet.iter_rows(min_row=2, max_col=1):
-                cell_value = row[0].value
-                if cell_value is not None:
-                    phone_number = str(cell_value).rstrip('.0')
-                    phone_number = ''.join(filter(str.isdigit, phone_number))
-                    if phone_number:
-                        self.phone_numbers.append(phone_number)
-            messagebox.showinfo("Excel Carregado", f"{len(self.phone_numbers)} números carregados")
-            logger.info(f"Excel carregado: {len(self.phone_numbers)} números carregados")
-
-    def select_image(self):
-        self.image_path = filedialog.askopenfilename(filetypes=[("Image files", "*.jpg *.jpeg *.png *.gif")])
-        if self.image_path:
-            self.image_label.config(text=f"Imagem selecionada: {os.path.basename(self.image_path)}")
-        else:
-            self.image_label.config(text="Nenhuma imagem selecionada")
-
-    def preview_message(self):
-        message = self.message_entry.get("1.0", tk.END).strip()
-        preview_window = tk.Toplevel(self.root)
-        preview_window.title("Pré-visualização da Mensagem")
-        
-        preview_text = tk.Text(preview_window, height=10, width=50)
-        preview_text.pack(pady=10)
-        preview_text.insert(tk.END, message)
-        preview_text.config(state=tk.DISABLED)
-
-        if self.image_path:
-            try:
-                image = Image.open(self.image_path)
-                image.thumbnail((200, 200))
-                photo = ImageTk.PhotoImage(image)
-                image_label = tk.Label(preview_window, image=photo)
-                image_label.image = photo
-                image_label.pack(pady=10)
-            except Exception as e:
-                logger.error(f"Erro ao carregar a imagem: {str(e)}")
-                tk.Label(preview_window, text="Erro ao carregar a imagem").pack(pady=10)
-
-    def send_messages(self):
+    def click_send_message_button(self):
+        if self.access_token == "":
+            messagebox.showerror("Erro", "Worker não autenticado, realize o login no Passo 1")
+            return
         if not self.drivers:
             messagebox.showerror("Erro", "Conecte-se ao Google Messages primeiro")
             return
-        
-        if not self.phone_numbers:
-            messagebox.showerror("Erro", "Carregue um arquivo Excel primeiro")
-            return
-        
-        message = self.message_entry.get("1.0", tk.END).strip()
-        if not message and not self.image_path:
-            messagebox.showerror("Erro", "Digite uma mensagem ou selecione uma imagem")
+        self.add_instance_button.config(state="disabled")
+        self.send_button.config(state="disabled")
+        self.running = True
+        threading.Thread(target=self.up_parallel_thread, args=(), daemon=True).start()
+
+    def up_parallel_thread(self):
+        while self.running:
+            self.exeute_one_iteration()          
+            if not self.running:
+                break
+
+    def exeute_one_iteration(self):
+        if not self.verify_active_instances():
+            time.sleep(self.WORKER_BLOCK_TIME * 60)
             return
 
-        chunks = [self.phone_numbers[i::len(self.drivers)] for i in range(len(self.drivers))]
+        self.get_messages_form_server()
+
+        if not len(self.messages):
+            time.sleep(self.NOT_MESSAGES_BLOCK_TIME * 60)
+            return
         
+        # subprocess.call(["python", "mi_fast.py", str(self.vpn_number)])
+        # self.vpn_number = self.vpn_number + 1
+        # if self.vpn_number == 142:
+        #     self.vpn_number = 1
+        # time.sleep(10)
+        
+        self.create_and_dispatch_all_chunks()
+
+    def verify_active_instances(self):
+        for i in range(len(self.enabled_instances)):
+            if self.enabled_instances[i] != 0 and (((time.time() - self.enabled_instances[i]) / 60) > self.sleep_instances[i]):
+                logger.info(f"Worker {self.worker_name}, instance {i}, has been unlocked after {self.sleep_instances[i]} minutes.")
+                self.enabled_instances[i] = 0
+
+        num_zeros = self.enabled_instances.count(0)
+        logger.info(f"Worker {self.worker_name}, info: there are {num_zeros} active instances.")
+        
+        if num_zeros == 0:
+            logger.info(f"Worker {self.worker_name}, info: will sleep for {self.WORKER_BLOCK_TIME} min because all drivers are blocked.")
+            return False
+        
+        return True
+
+    def get_messages_form_server(self):
+        logger.info(f"Worker {self.worker_name}, info: requesting new messages from server.")
+        if not self.credit.get():
+            status_id = self.MESSAGE_CREATED
+        else:
+            status_id = self.MESSAGE_ONLY_SMS
+
+        num_zeros = self.enabled_instances.count(0)
+        url = f"https://rcs-back.atys.pro/api/get-campaign-messages?status_id={status_id}&amount_messages={num_zeros * 10}"
+        payload = ""
+        headers = {
+            "Authorization": f"Bearer {self.access_token}"
+        }
+        response = requests.request("GET", url, headers=headers, data=payload)
+
+        self.messages = []
+        if response.status_code == 200:
+            resposta_json = response.json()
+            self.messages = resposta_json.get("messages", {})
+            logger.info(f"Worker {self.worker_name}, info: where obtained {len(self.messages)} messages from server.")
+            self.campaign = resposta_json.get("campaign", {})
+            if self.campaign and self.campaign.get("file"):
+                url = self.campaign.get("file").get("src")
+                logger(f"Url file is {url}")
+                self.image_path = self.download_file(url, "./downloads")
+                logger(f"self.image_path is {self.image_path}")
+        else:        
+            if response.status_code == 401:
+                messagebox.showerror("Erro", "Worker não autenticado, realize o login no Passo 1")
+                logger.error(f"Worker {self.worker_name}, info: worker is unlogged.")
+            else:
+                messagebox.showerror("Erro", f"Erro {response.status_code}: {response.text}")
+                logger.error(f"Worker {self.worker_name}, info: error requesting messages, http code {response.status_code}, server response {response.text}.")
+            
+    def create_and_dispatch_all_chunks(self):
+        logger.info(f"Worker {self.worker_name}, info: creating and disptching chunks.")
+        num_zeros = self.enabled_instances.count(0)
+        messages_chunks = [self.messages[i::num_zeros] for i in range(num_zeros)]
         threads = []
-        for i, chunk in enumerate(chunks):
-            thread = threading.Thread(target=self.send_messages_chunk, args=(self.drivers[i], chunk, message))
-            threads.append(thread)
-            thread.start()
+        has_credit = self.credit.get()
 
-        for thread in threads:
-            thread.join()
+        flag = False
+        j = 0
+        for i in range(len(self.enabled_instances)):
+            if self.enabled_instances[i] == 0:
+                flag = True
+                thread = threading.Thread(target=self.send_messages_chunk, args=(self.drivers[i], messages_chunks[j], has_credit, i))
+                j = j + 1
+                threads.append(thread)
+                thread.start()
+        if flag:
+            for thread in threads:
+                thread.join()
+        if flag:
+            logger.info(f"Worker {self.worker_name}, info: messages were processed, all threads are finished.")
+       
+    def send_messages_chunk(self, driver, messages_chunk, has_credit, i):
+        logger.info(f"Worker {self.worker_name}, instance {i}, info: actual chunk length is {len(messages_chunk)}.")
+        for j, message in enumerate(messages_chunk):
+            resp = self.send_single_message(driver, message, i)
+            
+            if resp == self.INVALID_CONTACT:
+                message['status_id'] = self.MESSAGE_FAILED
+                logger.info(f"Worker {self.worker_name}, instance {i}, phone {message.get('contact').get('phone')}, info: message {message.get('id') } has failed.")
+            elif resp == self.MESSAGE_NOT_SENDED:
+                if not has_credit:
+                    message['status_id'] = self.MESSAGE_ONLY_SMS
+                    logger.info(f"Worker {self.worker_name}, instance {i}, phone {message.get('contact').get('phone')}, info: message {message.get('id') } will be tryied as SMS.")
+                else: 
+                    message['status_id'] = self.MESSAGE_FAILED
+                    logger.error(f"Worker {self.worker_name}, instance {i}, phone {message.get('contact').get('phone')}, info: message {message.get('id') } has failed.")
+            elif resp == self.MESSAGE_SENDED:
+                if not has_credit:
+                    message['status_id'] = self.MESSAGE_SENDED_RCS
+                    logger.info(f"Worker {self.worker_name}, instance {i}, phone {message.get('contact').get('phone')}, info: message {message.get('id') } was sended as RCS.")
+                else: 
+                    message['status_id'] = self.MESSAGE_SENDED_SMS
+                    logger.info(f"Worker {self.worker_name}, instance {i}, phone {message.get('contact').get('phone')}, info: message {message.get('id') } was sended as SMS.")
+            elif resp == self.UNABLE_NEW_CONVERSATION or resp == self.UNABLE_ENTER_RECIPIENT:
+                time.sleep(15) # ainda não sei o que fazer nestes dois caso
+            elif resp == self.UNABLE_FIND_TEXTAREA:
+                self.enabled_instances[i] = time.time()
+                logger.info(f"Worker {self.worker_name}, instance {i}, phone {message.get('contact').get('phone')}, info: message {message.get('id') } this instance will be locked by UNABLE_FIND_TEXTAREA.")
+                for k in range(j, len(messages_chunk)):
+                    messages_chunk[k]['status_id'] = 1
+                break
+        self.sincronize_message_status(messages_chunk, i)
 
-        messagebox.showinfo("Concluído", "Envio de mensagens finalizado")
-
-    def send_messages_chunk(self, driver, phone_numbers, message):
-        failed_numbers = []
-        for phone in phone_numbers:
-            try:
-                self.send_single_message(driver, phone, message)
-                logger.info(f"Mensagem enviada para {phone}")
-                time.sleep(random.uniform(45, 60))
-            except Exception as e:
-                logger.error(f"Erro ao enviar mensagem para {phone}: {str(e)}")
-                failed_numbers.append(phone)
-
-        if failed_numbers:
-            logger.info(f"Tentando reenviar para {len(failed_numbers)} números que falharam...")
-            time.sleep(60)
-            for phone in failed_numbers:
-                try:
-                    self.send_single_message(driver, phone, message)
-                    logger.info(f"Mensagem reenviada com sucesso para {phone}")
-                    time.sleep(random.uniform(45, 60))
-                except Exception as e:
-                    logger.error(f"Falha ao reenviar para {phone}: {str(e)}")
-
-    def send_single_message(self, driver, phone, message):
+    def send_single_message(self, driver, message, i):
+        logger.info(f"Worker {self.worker_name}, instance {i}, phone {message.get('contact').get('phone')}, info: starting sending message -------------------------------------------------------.")
         try:
             self.navigate_to_new_conversation(driver)
-            logger.info(f"Iniciando envio para {phone}")
-            self.enter_recipient(driver, phone)
-            self.check_page_state(driver)
-            if message:
-                self.enter_message(driver, message)
-            if self.image_path:
-                self.attach_image(driver)
-            self.check_page_state(driver)
-            self.click_send_button(driver)
-            if not self.verify_message_sent(driver):
-                raise Exception("Falha na verificação do envio da mensagem")
+        except Exception:
+            logger.error(f"Worker {self.worker_name}, instance {i}, phone {message.get('contact').get('phone')}, info: UNABLE_NEW_CONVERSATION.")
+            self.capture_screenshot(driver, "error_send_single_message")
+            return self.UNABLE_NEW_CONVERSATION
+        logger.info(f"Worker {self.worker_name}, instance {i}, phone {message.get('contact').get('phone')}, info: new conversation page loaded.")
+        
+        try:
+            self.enter_recipient(driver, message.get('contact').get('phone'))
+        except Exception:
+            logger.error(f"Worker {self.worker_name}, instance {i}, phone {message.get('contact').get('phone')}, info: UNABLE_ENTER_RECIPIENT.")
+            self.capture_screenshot(driver, "error_enter_recipient")
+            return self.UNABLE_ENTER_RECIPIENT
+        logger.info(f"Worker {self.worker_name}, instance {i}, phone {message.get('contact').get('phone')}, info: recipient entered.")
+        
+        time.sleep(2)
+        
+        code = self.find_possible_errors(driver, message, i)
+        logger.info(f"Worker {self.worker_name}, instance {i}, phone {message.get('contact').get('phone')}, info: find_possible_errors code is {code}.")
+        if code != 0:
+            return code
+        
+        textarea = driver.find_element(By.CSS_SELECTOR, "textarea.input")
+        text = textarea.get_attribute("aria-label")        
+        logger.info(f"Worker {self.worker_name}, instance {i}, phone {message.get('contact').get('phone')}, info: find_possible_errors code is {code}.")
+        is_rcs = False
+        if "RCS" in text:
+            is_rcs = True
+        
+        if not self.credit.get() and not is_rcs:
+            logger.info(f"Worker {self.worker_name}, instance {i}, phone {message.get('contact').get('phone')}, info: unable to send RCS to this contact *********.")
+            time.sleep(5)
+            return self.MESSAGE_NOT_SENDED
+
+        # if self.image_path:
+        #     asyncio.run(self.send_image(driver, "", self.image_path))
+        #     time.sleep(3)
+        
+        if asyncio.run(self.send_message(driver, message.get('message'))):
+            time.sleep(20)
+            return self.MESSAGE_SENDED
+        else:
+            return self.MESSAGE_NOT_SENDED
+        
+    async def send_message(self, driver, message):
+        try:
+            input_field = driver.find_element(By.CSS_SELECTOR, "textarea.input")
+            lines = message.split('\n')
+            for i, line in enumerate(lines):
+                input_field.send_keys(line)
+                if i < len(lines) - 1:
+                    input_field.send_keys(Keys.SHIFT + Keys.ENTER)
+                # await asyncio.sleep(0.1)
+                time.sleep(0.1)
+            input_field.send_keys(Keys.ENTER)
+            return True
         except Exception as e:
-            logger.error(f"Erro ao enviar mensagem para {phone}: {str(e)}")
-            self.capture_screenshot(driver, f"erro_envio_{phone}")
+            print("Erro", f"send_message -->: {str(e)}")
+            return False
+    '''
+    async def send_image(self, driver, caption, file_path):
+        try:
+            self.copy_file_to_clipboard(file_path)
+            driver.find_element(By.CSS_SELECTOR, "textarea.input").send_keys(Keys.CONTROL, 'v')
+            await asyncio.sleep(5)
+            driver.find_element(By.CSS_SELECTOR, "textarea.input").send_keys(caption + Keys.ENTER)
+            logger.info("Imagem enviada com sucesso")
+        except Exception as e:
+            logger.error(f"Erro ao enviar imagem: {e}")
             raise
+        
+    def copy_file_to_clipboard(self, file_path):
+        image = Image.open(file_path)
+        output = BytesIO()
+        image.convert("RGB").save(output, "BMP")
+        data = output.getvalue()[14:]
+        output.close()
+        win32clipboard.OpenClipboard()
+        win32clipboard.EmptyClipboard()
+        win32clipboard.SetClipboardData(win32clipboard.CF_DIB, data)
+        win32clipboard.CloseClipboard()
+    '''    
 
+    # auxiliar functions
+    def download_file(url, save_path, filename=None):
+        os.makedirs(save_path, exist_ok=True)
+
+        if filename is None:
+            filename = url.split("/")[-1]
+
+        file_path = os.path.join(save_path, filename)
+
+        response = requests.get(url, stream=True)
+        response.raise_for_status()
+
+        with open(file_path, "wb") as file:
+            for chunk in response.iter_content(chunk_size=8192):
+                file.write(chunk)
+        return file_path
+
+    def find_possible_errors(self, driver, message, i):
+        try:
+            driver.find_element(By.XPATH, "//*[contains(text(), 'Aguarde antes de criar mais conversas')]")
+            self.capture_screenshot(driver, "UNABLE_FIND_TEXTAREA_by_Aguarde_antes_de_criar_mais_conversas")
+            self.sleep_instances[i] = self.sleep_instances[i] + 20
+            logger.error(f"Worker {self.worker_name}, instance {i}, phone {message.get('contact').get('phone')}, info: UNABLE_FIND_TEXTAREA by 'Aguarde antes de criar mais conversas' and go to sleep by {self.sleep_instances[i]} minutes.")
+            return self.UNABLE_FIND_TEXTAREA
+        except Exception:
+            pass
+
+        try:
+            driver.find_element(By.XPATH, "//*[contains(text(), 'Nenhum chat em grupo correspondente foi encontrado')]")
+            logger.error(f"Worker {self.worker_name}, instance {i}, phone {message.get('contact').get('phone')}, info: UNABLE_FIND_TEXTAREA by 'Nenhum chat em grupo correspondente foi encontrado'.")
+            # self.capture_screenshot(driver, "UNABLE_FIND_TEXTAREA_by_Nenhum_chat_em_grupo_correspondente_foi_encontrado")
+            # return self.INVALID_CONTACT
+            recipient_input = driver.find_element(By.CSS_SELECTOR, "body > mw-app > mw-bootstrap > div > main > mw-main-container > div > mw-new-conversation-container > mw-new-conversation-sub-header > div > div.input-container > mw-contact-chips-input > div > div > input")
+            recipient_input.send_keys(Keys.ENTER)
+            time.sleep(2)
+            return 0
+        except Exception as e:
+            logger.info(f"error waiting for textarea.input, exception is: {str(e)}")
+            pass
+
+        # try:
+        #     driver.find_element(By.XPATH, "//*[contains(text(), 'Caixa Postal')]")
+        #     logger.error(f"Worker {self.worker_name}, instance {i}, phone {message.get('contact').get('phone')}, info: UNABLE_FIND_TEXTAREA by 'Caixa Postal'.")
+        #     self.capture_screenshot(driver, "UNABLE_FIND_TEXTAREA_by_Caixa_Postal")
+        #     return self.INVALID_CONTACT
+        # except Exception:
+        #     pass
+
+        try:
+            driver.find_element(By.XPATH, "//*[contains(text(), 'Tentando conectar com seu smartphone')]")
+            logger.error(f"Worker {self.worker_name}, instance {i}, phone {message.get('contact').get('phone')}, info: UNABLE_FIND_TEXTAREA by 'Tentando conectar com seu smartphone'.")
+            self.capture_screenshot(driver, "UNABLE_FIND_TEXTAREA_by_Tentando_conectar_com_seu_smartphone")
+            try:
+                self.notify_worker_responsibles(self.worker_name, i)
+            except:
+                pass
+            return self.UNABLE_FIND_TEXTAREA
+        except Exception:
+            pass
+
+        try:
+            WebDriverWait(driver, 30).until(
+                EC.presence_of_element_located((By.CSS_SELECTOR, "textarea.input"))
+            )
+            textarea = driver.find_element(By.CSS_SELECTOR, "textarea.input")
+            text = textarea.get_attribute("aria-label")
+        except Exception as e:
+            self.capture_screenshot(driver, "UNABLE_FIND_TEXTAREA_by_CSS_SELECTOR")
+            logger.error(f"Worker {self.worker_name}, instance {i}, phone {message.get('contact').get('phone')}, info: UNABLE_FIND_TEXTAREA by CSS_SELECTOR.")
+            return self.UNABLE_FIND_TEXTAREA
+        
+        return 0
+    
     def navigate_to_new_conversation(self, driver):
-        logger.info("Navegando para nova conversa")
-        driver.get("https://messages.google.com/web/conversations/new")
-        self.wait_for_page_load(driver)
-        self.capture_screenshot(driver, "nova_conversa")
-        logger.info("Página de nova conversa carregada")
-
-    def wait_for_page_load(self, driver):
-        WebDriverWait(driver, 30).until(
-            EC.presence_of_element_located((By.TAG_NAME, "body"))
+        # driver.get("https://messages.google.com/web/conversations/new")
+        # WebDriverWait(driver, 30).until(
+        #     EC.presence_of_element_located((By.TAG_NAME, "body"))
+        # )
+        elemento = WebDriverWait(driver, 10).until(
+            EC.element_to_be_clickable((By.CSS_SELECTOR, "body > mw-app > mw-bootstrap > div > main > mw-main-container > div > mw-main-nav > div > mw-fab-link > a"))
         )
+        elemento.click()
 
     def enter_recipient(self, driver, phone):
-        logger.info(f"Inserindo destinatário: {phone}")
         try:
             recipient_input = WebDriverWait(driver, 30).until(
-                EC.presence_of_element_located((By.CSS_SELECTOR, 'input[placeholder="Digite um nome, número de telefone ou endereço de e-mail"]'))
+                EC.presence_of_element_located((By.CSS_SELECTOR, 'body > mw-app > mw-bootstrap > div > main > mw-main-container > div > mw-new-conversation-container > mw-new-conversation-sub-header > div > div.input-container > mw-contact-chips-input > div > div > input'))
+                # EC.presence_of_element_located((By.CSS_SELECTOR, 'input[placeholder="Digite um nome, número de telefone ou endereço de e-mail"]'))
             )
-            
             recipient_input.clear()
             
             for digit in phone:
                 recipient_input.send_keys(digit)
                 time.sleep(0.1)
-            
-            time.sleep(2)
-            
             recipient_input.send_keys(Keys.ENTER)
-            
-            time.sleep(2)
-            
-            logger.info("Destinatário inserido com sucesso")
-        except Exception as e:
-            logger.error(f"Erro ao inserir destinatário: {str(e)}")
-            self.capture_screenshot(driver, f"erro_destinatario_{phone}")
-            raise
-
-    def enter_message(self, driver, message):
-        logger.info("Inserindo mensagem")
-        message_input = None
-        try:
-            message_input = self.wait_for_clickable_element(driver, 'textarea[placeholder="Mensagem RCS"], textarea[placeholder="Envio de mensagens"]', timeout=10)
-        except TimeoutException:
-            logger.error("Ambos os seletores falharam. Não foi possível encontrar o campo de mensagem.")
-            self.capture_screenshot(driver, "erro_campo_mensagem")
-            raise Exception("Campo de mensagem não encontrado")
-
-        if message_input:
-            message_input.clear()
-            lines = message.split('\n')
-            for i, line in enumerate(lines):
-                message_input.send_keys(line)
-                if i < len(lines) - 1:
-                    message_input.send_keys(Keys.SHIFT + Keys.ENTER)
-            time.sleep(2)
-            logger.info("Mensagem inserida")
-        else:
-            logger.error("Campo de mensagem não encontrado após tentativas")
-            raise Exception("Campo de mensagem não encontrado")
-
-    def attach_image(self, driver):
-        logger.info("Tentando anexar imagem")
-        try:
-            attach_button = WebDriverWait(driver, 20).until(
-                EC.presence_of_element_located((By.CSS_SELECTOR, 'button[aria-label="Selecionar anexos"][data-e2e-picker-button="ATTACHMENT"]'))
-            )
-
-            self.focus_element(driver, attach_button)
-
-            try:
-                attach_button.click()
-            except Exception:
-                logger.warning("Clique normal falhou, tentando com JavaScript")
-                driver.execute_script("arguments[0].click();", attach_button)
-
-            time.sleep(2)
-            pyautogui.press('esc')
-            time.sleep(1)
-
-            file_input = WebDriverWait(driver, 10).until(
-                EC.presence_of_element_located((By.CSS_SELECTOR, 'input[type="file"]'))
-            )
-            
-            file_input.send_keys(self.image_path)
-            
-            WebDriverWait(driver, 30).until(
-                EC.presence_of_element_located((By.CSS_SELECTOR, 'mws-message-image-preview'))
-            )
-            
-            logger.info("Imagem anexada com sucesso")
-        except TimeoutException:
-            logger.error("Tempo excedido ao tentar anexar a imagem")
-            self.capture_screenshot(driver, "erro_timeout_anexo_imagem")
-            raise Exception("Não foi possível anexar a imagem: tempo excedido")
-        except Exception as e:
-            logger.error(f"Erro ao anexar imagem: {str(e)}")
-            self.capture_screenshot(driver, "erro_anexo_imagem")
-            raise
-
-    def is_button_clickable(self, driver):
-        try:
-            send_button = WebDriverWait(driver, 5).until(
-                EC.element_to_be_clickable((By.CSS_SELECTOR, 'button[data-e2e-send-text-button]'))
-            )
-            return send_button.is_enabled() and send_button.is_displayed()
-        except:
-            return False
-
-    def click_send_button(self, driver):
-        logger.info("Tentando enviar a mensagem")
-        try:
-            self.check_page_state(driver)
-
-            # Verifica se o botão está clicável
-            if not self.is_button_clickable(driver):
-                logger.warning("O botão de envio não está clicável")
-                self.capture_screenshot(driver, "botao_nao_clicavel")
-                raise Exception("Botão de envio não está clicável")
-
-            send_methods = [
-                self.send_with_ripple_effect,
-                self.send_with_selenium_click,
-                self.send_with_javascript,
-                self.send_with_action_click,
-                self.send_with_svg_click,
-                self.send_with_aria_label,
-                self.send_with_pyautogui,
-            ]
-
-            for method in send_methods:
-                try:
-                    method(driver)
-                    if self.verify_message_sent(driver):
-                        logger.info(f"Mensagem enviada com sucesso usando {method.__name__}")
-                        return
-                except Exception as e:
-                    logger.warning(f"Falha ao enviar mensagem com {method.__name__}: {str(e)}")
-
-            raise Exception("Todas as tentativas de envio falharam")
 
         except Exception as e:
-            logger.error(f"Erro ao enviar a mensagem: {str(e)}")
-            self.capture_screenshot(driver, "erro_envio_mensagem")
-            raise
-
-    def send_with_ripple_effect(self, driver):
-        try:
-            # Localiza o botão de envio
-            send_button = WebDriverWait(driver, 10).until(
-                EC.presence_of_element_located((By.CSS_SELECTOR, 'button[data-e2e-send-text-button]'))
-            )
-
-            # Localiza o elemento de ripple dentro do botão
-            ripple_element = send_button.find_element(By.CSS_SELECTOR, '.mat-ripple.mat-mdc-button-ripple')
-
-            # Usa JavaScript para simular o efeito de ripple
-            driver.execute_script("""
-                var ripple = arguments[0];
-                var event = new MouseEvent('mousedown', {
-                    view: window,
-                    bubbles: true,
-                    cancelable: true
-                });
-                ripple.dispatchEvent(event);
-            """, ripple_element)
-
-            # Espera um curto período para o efeito visual
-            time.sleep(0.1)
-
-            # Clica no botão
-            send_button.click()
-
-            logger.info("Botão de envio clicado com sucesso usando simulação de ripple")
-        except Exception as e:
-            logger.error(f"Erro ao clicar no botão de envio com simulação de ripple: {str(e)}")
-            raise
-
-    def send_with_selenium_click(self, driver):
-        try:
-            send_button = WebDriverWait(driver, 10).until(
-                EC.element_to_be_clickable((By.CSS_SELECTOR, 'button[data-e2e-send-text-button].send-button'))
-            )
-            send_button.click()
-            logger.info("Botão de envio clicado com sucesso usando seletor CSS específico")
-        except Exception as e:
-            logger.error(f"Erro ao clicar no botão de envio: {str(e)}")
-            raise
-
-    def send_with_javascript(self, driver):
-        try:
-            driver.execute_script("""
-                var buttons = document.querySelectorAll('button[data-e2e-send-text-button].send-button');
-                if (buttons.length > 0) {
-                    buttons[0].click();
-                } else {
-                    throw new Error('Botão de envio não encontrado');
-                }
-            """)
-            logger.info("Botão de envio clicado com sucesso usando JavaScript")
-        except Exception as e:
-            logger.error(f"Erro ao clicar no botão de envio com JavaScript: {str(e)}")
-            raise
-
-    def send_with_action_click(self, driver):
-        try:
-            send_button = WebDriverWait(driver, 10).until(
-                EC.presence_of_element_located((By.CSS_SELECTOR, 'button[data-e2e-send-text-button].send-button'))
-            )
-            ActionChains(driver).move_to_element(send_button).click().perform()
-            logger.info("Botão de envio clicado com sucesso usando ActionChains")
-        except Exception as e:
-            logger.error(f"Erro ao clicar no botão de envio com ActionChains: {str(e)}")
-            raise
-
-    def send_with_svg_click(self, driver):
-        try:
-            svg = WebDriverWait(driver, 10).until(
-                EC.presence_of_element_located((By.CSS_SELECTOR, 'button[data-e2e-send-text-button] svg'))
-            )
-            svg.click()
-            logger.info("Ícone SVG do botão de envio clicado com sucesso")
-        except Exception as e:
-            logger.error(f"Erro ao clicar no ícone SVG do botão de envio: {str(e)}")
-            raise
-
-    def send_with_aria_label(self, driver):
-        try:
-            send_button = WebDriverWait(driver, 10).until(
-                EC.element_to_be_clickable((By.CSS_SELECTOR, 'button[aria-label="Enviar SMS"]'))
-            )
-            send_button.click()
-            logger.info("Botão de envio clicado com sucesso usando aria-label")
-        except Exception as e:
-            logger.error(f"Erro ao clicar no botão de envio usando aria-label: {str(e)}")
-            raise
-
-    def send_with_pyautogui(self, driver):
-        try:
-            # Pressiona a tecla Enter do teclado numérico
-            pyautogui.press('enter')
-            time.sleep(0.5)
-            pyautogui.press('num enter')
-            logger.info("Tecla Enter do teclado numérico pressionada")
-            time.sleep(1)
-        except Exception as e:
-            logger.error(f"Erro ao pressionar Enter do teclado numérico com PyAutoGUI: {str(e)}")
-            raise
+            logger.info(f"error entering recipient, exception is: {str(e)}")
+            raise Exception(f"error entering recipient, exception is: {str(e)}")
 
     def verify_message_sent(self, driver):
         try:
@@ -482,73 +524,78 @@ class GoogleMessagesSender:
             return True
         except TimeoutException:
             return False
+        
+    def message_was_not_sent_try_again(self, driver):
+        try:
+            WebDriverWait(driver, 5).until(
+                EC.presence_of_element_located((By.CSS_SELECTOR, 'span.failed.ng-star-inserted'))
+            )
+            return True
+        except:
+            return False
 
     def check_page_state(self, driver):
-        logger.info("Verificando o estado da página")
         try:
+
             message_field = driver.find_elements(By.CSS_SELECTOR, 'textarea[placeholder="Mensagem RCS"], textarea[placeholder="Envio de mensagens"]')
-            if message_field:
-                logger.info("Campo de mensagem encontrado")
-            else:
-                logger.warning("Campo de mensagem não encontrado")
+            if not message_field:
+                raise Exception("missing textarea field")
 
             send_button = driver.find_elements(By.CSS_SELECTOR, 'button[data-e2e-send-text-button]')
-            if send_button:
-                logger.info("Botão de envio encontrado")
-            else:
-                logger.warning("Botão de envio não encontrado")
+            if not send_button:
+                raise Exception("missing send-text-button")
 
             overlay = driver.find_elements(By.CSS_SELECTOR, '.modal, .overlay, .dialog')
             if overlay:
-                logger.warning("Possível pop-up ou overlay detectado")
-            else:
-                logger.info("Nenhum pop-up ou overlay detectado")
-
-            self.capture_screenshot(driver, "page_state_check")
-
+                raise Exception("pop-up or overlay detected")
         except Exception as e:
-            logger.error(f"Erro ao verificar o estado da página: {str(e)}")
-
-    def wait_for_element(self, driver, selector, timeout=30):
-        return WebDriverWait(driver, timeout).until(
-            EC.presence_of_element_located((By.CSS_SELECTOR, selector))
-        )
-
-    def wait_for_clickable_element(self, driver, selector, timeout=30):
-        return WebDriverWait(driver, timeout).until(
-            EC.element_to_be_clickable((By.CSS_SELECTOR, selector))
-        )
-
-    def focus_element(self, driver, element):
-        try:
-            driver.execute_script("arguments[0].focus();", element)
-            time.sleep(0.5)
-            actions = ActionChains(driver)
-            actions.move_to_element(element).perform()
-            time.sleep(0.5)
-            driver.execute_script("arguments[0].scrollIntoView(true);", element)
-            time.sleep(0.5)
-            actions.move_to_element(element).click_and_hold().release().perform()
-            time.sleep(0.5)
-            logger.info("Foco dado ao elemento com sucesso")
-        except Exception as e:
-            logger.error(f"Erro ao tentar dar foco ao elemento: {str(e)}")
+            raise e
+    
+    def sincronize_message_status(self, messages_chunk, i):
+        url = "https://rcs-back.atys.pro/api/update-campaign-processed-messages"
+        payload = json.dumps({
+          "messages": messages_chunk
+        })        
+        headers = {
+            "Authorization": f"Bearer {self.access_token}",
+            'Content-Type': 'application/json'
+        }
+        requests.post(url, headers=headers, data=payload)
+        logger.info(f"Worker {self.worker_name}, instance {i}, info: status of messages has been updated on the server.")
 
     def capture_screenshot(self, driver, name):
         screenshot_path = f"{name}_{int(time.time())}.png"
         driver.save_screenshot(screenshot_path)
-        logger.info(f"Screenshot capturada: {screenshot_path}")
+
+    def notify_worker_responsibles(self, worker_name, i):
+        url = "https://rcs-back.atys.pro/api/notify-worker-responsibles"
+        payload = json.dumps({
+          "message": f"Conferir a conectividade a Internet do telefone atribuido à instância *{i}* no worker *{worker_name}*"
+        })        
+        headers = {
+            "Authorization": f"Bearer {self.access_token}",
+            'Content-Type': 'application/json'
+        }
+        requests.post(url, headers=headers, data=payload)
+        logger.info(f"Worker {self.worker_name}, instance {i}, info: notify_worker_responsibles requested.")
 
     def on_closing(self):
         for driver in self.drivers:
             driver.quit()
+        self.running = False
         self.root.destroy()
 
     def run(self):
         self.root.protocol("WM_DELETE_WINDOW", self.on_closing)
         self.root.mainloop()
-
-# Criação e execução da aplicação
+def main():
+    print("Main")
+    clipboard = Gtk.Clipboard.get(Gdk.SELECTION_CLIPBOARD)
+    pixbuf = GdkPixbuf.Pixbuf.new_from_file("img.png")
+    clipboard.set_image(pixbuf)
+    clipboard.store()
+    Gtk.main()
 if __name__ == "__main__":
     app = GoogleMessagesSender()
-    app.run()
+    threading.Thread(target=main, daemon=True).start()
+    app.run() 

@@ -1,0 +1,284 @@
+2025-03-09 13:11:50,392 - INFO - ====== WebDriver manager ======
+2025-03-09 13:11:50,663 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-09 13:11:50,696 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-09 13:11:50,721 - INFO - Driver [/home/ecs/.wdm/drivers/chromedriver/linux64/134.0.6998.35/chromedriver-linux64/chromedriver] found in cache
+2025-03-09 13:15:34,837 - INFO - Worker worker1, info: there are 1 active instances.
+2025-03-09 13:15:34,838 - INFO - Worker worker1, info: requesting new messages from server.
+2025-03-09 13:15:35,335 - INFO - Worker worker1, info: where obtained 10 messages from server.
+2025-03-09 13:15:35,335 - INFO - Worker worker1, info: creating and disptching chunks.
+2025-03-09 13:15:35,336 - INFO - Worker worker1, instance 0, info: actual chunk length is 10.
+2025-03-09 13:15:35,336 - INFO - Worker worker1, instance 0, phone 35984621879, info: starting sending message -------------------------------------------------------.
+2025-03-09 13:15:35,438 - INFO - Worker worker1, instance 0, phone 35984621879, info: new conversation page loaded.
+2025-03-09 13:15:37,115 - INFO - Worker worker1, instance 0, phone 35984621879, info: recipient entered.
+2025-03-09 13:15:39,169 - INFO - error waiting for textarea.input, exception is: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(text(), 'Nenhum chat em grupo correspondente foi encontrado')]"}
+  (Session info: chrome=134.0.6998.35); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x62c608c6346a <unknown>
+#1 0x62c60871ced0 <unknown>
+#2 0x62c60876e935 <unknown>
+#3 0x62c60876eb61 <unknown>
+#4 0x62c6087bd9d4 <unknown>
+#5 0x62c60879488d <unknown>
+#6 0x62c6087baceb <unknown>
+#7 0x62c608794633 <unknown>
+#8 0x62c6087601be <unknown>
+#9 0x62c608761981 <unknown>
+#10 0x62c608c2986b <unknown>
+#11 0x62c608c2d73c <unknown>
+#12 0x62c608c10f12 <unknown>
+#13 0x62c608c2e2b4 <unknown>
+#14 0x62c608bf50af <unknown>
+#15 0x62c608c51ad8 <unknown>
+#16 0x62c608c51cb6 <unknown>
+#17 0x62c608c622e6 <unknown>
+#18 0x7f848ba9caa4 <unknown>
+#19 0x7f848bb29c3c <unknown>
+
+2025-03-09 13:16:07,253 - INFO - Worker worker1, instance 0, phone 35984621879, info: find_possible_errors code is 0.
+2025-03-09 13:16:07,264 - INFO - Worker worker1, instance 0, phone 35984621879, info: find_possible_errors code is 0.
+2025-03-09 13:16:31,484 - INFO - Worker worker1, instance 0, phone 35984621879, info: message 948705 was sended as RCS.
+2025-03-09 13:16:31,486 - INFO - Worker worker1, instance 0, phone 27997257808, info: starting sending message -------------------------------------------------------.
+2025-03-09 13:16:31,772 - INFO - Worker worker1, instance 0, phone 27997257808, info: new conversation page loaded.
+2025-03-09 13:16:33,451 - INFO - Worker worker1, instance 0, phone 27997257808, info: recipient entered.
+2025-03-09 13:16:35,496 - INFO - error waiting for textarea.input, exception is: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(text(), 'Nenhum chat em grupo correspondente foi encontrado')]"}
+  (Session info: chrome=134.0.6998.35); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x62c608c6346a <unknown>
+#1 0x62c60871ced0 <unknown>
+#2 0x62c60876e935 <unknown>
+#3 0x62c60876eb61 <unknown>
+#4 0x62c6087bd9d4 <unknown>
+#5 0x62c60879488d <unknown>
+#6 0x62c6087baceb <unknown>
+#7 0x62c608794633 <unknown>
+#8 0x62c6087601be <unknown>
+#9 0x62c608761981 <unknown>
+#10 0x62c608c2986b <unknown>
+#11 0x62c608c2d73c <unknown>
+#12 0x62c608c10f12 <unknown>
+#13 0x62c608c2e2b4 <unknown>
+#14 0x62c608bf50af <unknown>
+#15 0x62c608c51ad8 <unknown>
+#16 0x62c608c51cb6 <unknown>
+#17 0x62c608c622e6 <unknown>
+#18 0x7f848ba9caa4 <unknown>
+#19 0x7f848bb29c3c <unknown>
+
+2025-03-09 13:16:36,610 - INFO - Worker worker1, instance 0, phone 27997257808, info: find_possible_errors code is 0.
+2025-03-09 13:16:36,625 - INFO - Worker worker1, instance 0, phone 27997257808, info: find_possible_errors code is 0.
+2025-03-09 13:16:36,627 - INFO - Worker worker1, instance 0, phone 27997257808, info: unable to send RCS to this contact *********.
+2025-03-09 13:16:41,636 - INFO - Worker worker1, instance 0, phone 27997257808, info: message 948719 will be tryied as SMS.
+2025-03-09 13:16:41,638 - INFO - Worker worker1, instance 0, phone 61996976363, info: starting sending message -------------------------------------------------------.
+2025-03-09 13:16:41,951 - INFO - Worker worker1, instance 0, phone 61996976363, info: new conversation page loaded.
+2025-03-09 13:16:43,705 - INFO - Worker worker1, instance 0, phone 61996976363, info: recipient entered.
+2025-03-09 13:16:45,773 - INFO - error waiting for textarea.input, exception is: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(text(), 'Nenhum chat em grupo correspondente foi encontrado')]"}
+  (Session info: chrome=134.0.6998.35); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x62c608c6346a <unknown>
+#1 0x62c60871ced0 <unknown>
+#2 0x62c60876e935 <unknown>
+#3 0x62c60876eb61 <unknown>
+#4 0x62c6087bd9d4 <unknown>
+#5 0x62c60879488d <unknown>
+#6 0x62c6087baceb <unknown>
+#7 0x62c608794633 <unknown>
+#8 0x62c6087601be <unknown>
+#9 0x62c608761981 <unknown>
+#10 0x62c608c2986b <unknown>
+#11 0x62c608c2d73c <unknown>
+#12 0x62c608c10f12 <unknown>
+#13 0x62c608c2e2b4 <unknown>
+#14 0x62c608bf50af <unknown>
+#15 0x62c608c51ad8 <unknown>
+#16 0x62c608c51cb6 <unknown>
+#17 0x62c608c622e6 <unknown>
+#18 0x7f848ba9caa4 <unknown>
+#19 0x7f848bb29c3c <unknown>
+
+2025-03-09 13:16:46,841 - INFO - Worker worker1, instance 0, phone 61996976363, info: find_possible_errors code is 0.
+2025-03-09 13:16:46,857 - INFO - Worker worker1, instance 0, phone 61996976363, info: find_possible_errors code is 0.
+2025-03-09 13:16:46,860 - INFO - Worker worker1, instance 0, phone 61996976363, info: unable to send RCS to this contact *********.
+2025-03-09 13:16:51,868 - INFO - Worker worker1, instance 0, phone 61996976363, info: message 948734 will be tryied as SMS.
+2025-03-09 13:16:51,869 - INFO - Worker worker1, instance 0, phone 67999548595, info: starting sending message -------------------------------------------------------.
+2025-03-09 13:16:52,068 - INFO - Worker worker1, instance 0, phone 67999548595, info: new conversation page loaded.
+2025-03-09 13:16:53,841 - INFO - Worker worker1, instance 0, phone 67999548595, info: recipient entered.
+2025-03-09 13:16:55,881 - INFO - error waiting for textarea.input, exception is: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(text(), 'Nenhum chat em grupo correspondente foi encontrado')]"}
+  (Session info: chrome=134.0.6998.35); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x62c608c6346a <unknown>
+#1 0x62c60871ced0 <unknown>
+#2 0x62c60876e935 <unknown>
+#3 0x62c60876eb61 <unknown>
+#4 0x62c6087bd9d4 <unknown>
+#5 0x62c60879488d <unknown>
+#6 0x62c6087baceb <unknown>
+#7 0x62c608794633 <unknown>
+#8 0x62c6087601be <unknown>
+#9 0x62c608761981 <unknown>
+#10 0x62c608c2986b <unknown>
+#11 0x62c608c2d73c <unknown>
+#12 0x62c608c10f12 <unknown>
+#13 0x62c608c2e2b4 <unknown>
+#14 0x62c608bf50af <unknown>
+#15 0x62c608c51ad8 <unknown>
+#16 0x62c608c51cb6 <unknown>
+#17 0x62c608c622e6 <unknown>
+#18 0x7f848ba9caa4 <unknown>
+#19 0x7f848bb29c3c <unknown>
+
+2025-03-09 13:16:56,956 - INFO - Worker worker1, instance 0, phone 67999548595, info: find_possible_errors code is 0.
+2025-03-09 13:16:56,965 - INFO - Worker worker1, instance 0, phone 67999548595, info: find_possible_errors code is 0.
+2025-03-09 13:17:21,229 - INFO - Worker worker1, instance 0, phone 67999548595, info: message 948659 was sended as RCS.
+2025-03-09 13:17:21,230 - INFO - Worker worker1, instance 0, phone 11974568603, info: starting sending message -------------------------------------------------------.
+2025-03-09 13:17:21,484 - INFO - Worker worker1, instance 0, phone 11974568603, info: new conversation page loaded.
+2025-03-09 13:17:23,196 - INFO - Worker worker1, instance 0, phone 11974568603, info: recipient entered.
+2025-03-09 13:17:25,260 - INFO - error waiting for textarea.input, exception is: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(text(), 'Nenhum chat em grupo correspondente foi encontrado')]"}
+  (Session info: chrome=134.0.6998.35); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x62c608c6346a <unknown>
+#1 0x62c60871ced0 <unknown>
+#2 0x62c60876e935 <unknown>
+#3 0x62c60876eb61 <unknown>
+#4 0x62c6087bd9d4 <unknown>
+#5 0x62c60879488d <unknown>
+#6 0x62c6087baceb <unknown>
+#7 0x62c608794633 <unknown>
+#8 0x62c6087601be <unknown>
+#9 0x62c608761981 <unknown>
+#10 0x62c608c2986b <unknown>
+#11 0x62c608c2d73c <unknown>
+#12 0x62c608c10f12 <unknown>
+#13 0x62c608c2e2b4 <unknown>
+#14 0x62c608bf50af <unknown>
+#15 0x62c608c51ad8 <unknown>
+#16 0x62c608c51cb6 <unknown>
+#17 0x62c608c622e6 <unknown>
+#18 0x7f848ba9caa4 <unknown>
+#19 0x7f848bb29c3c <unknown>
+
+2025-03-09 13:17:25,314 - INFO - Worker worker1, instance 0, phone 11974568603, info: find_possible_errors code is 0.
+2025-03-09 13:17:25,325 - INFO - Worker worker1, instance 0, phone 11974568603, info: find_possible_errors code is 0.
+2025-03-09 13:17:25,328 - INFO - Worker worker1, instance 0, phone 11974568603, info: unable to send RCS to this contact *********.
+2025-03-09 13:17:30,335 - INFO - Worker worker1, instance 0, phone 11974568603, info: message 948673 will be tryied as SMS.
+2025-03-09 13:17:30,337 - INFO - Worker worker1, instance 0, phone 11973763766, info: starting sending message -------------------------------------------------------.
+2025-03-09 13:17:30,683 - INFO - Worker worker1, instance 0, phone 11973763766, info: new conversation page loaded.
+2025-03-09 13:17:32,418 - INFO - Worker worker1, instance 0, phone 11973763766, info: recipient entered.
+2025-03-09 13:17:34,516 - INFO - error waiting for textarea.input, exception is: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(text(), 'Nenhum chat em grupo correspondente foi encontrado')]"}
+  (Session info: chrome=134.0.6998.35); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x62c608c6346a <unknown>
+#1 0x62c60871ced0 <unknown>
+#2 0x62c60876e935 <unknown>
+#3 0x62c60876eb61 <unknown>
+#4 0x62c6087bd9d4 <unknown>
+#5 0x62c60879488d <unknown>
+#6 0x62c6087baceb <unknown>
+#7 0x62c608794633 <unknown>
+#8 0x62c6087601be <unknown>
+#9 0x62c608761981 <unknown>
+#10 0x62c608c2986b <unknown>
+#11 0x62c608c2d73c <unknown>
+#12 0x62c608c10f12 <unknown>
+#13 0x62c608c2e2b4 <unknown>
+#14 0x62c608bf50af <unknown>
+#15 0x62c608c51ad8 <unknown>
+#16 0x62c608c51cb6 <unknown>
+#17 0x62c608c622e6 <unknown>
+#18 0x7f848ba9caa4 <unknown>
+#19 0x7f848bb29c3c <unknown>
+
+2025-03-09 13:17:34,556 - INFO - Worker worker1, instance 0, phone 11973763766, info: find_possible_errors code is 0.
+2025-03-09 13:17:34,566 - INFO - Worker worker1, instance 0, phone 11973763766, info: find_possible_errors code is 0.
+2025-03-09 13:17:34,568 - INFO - Worker worker1, instance 0, phone 11973763766, info: unable to send RCS to this contact *********.
+2025-03-09 13:17:39,576 - INFO - Worker worker1, instance 0, phone 11973763766, info: message 948685 will be tryied as SMS.
+2025-03-09 13:17:39,577 - INFO - Worker worker1, instance 0, phone 83991104040, info: starting sending message -------------------------------------------------------.
+2025-03-09 13:17:39,901 - INFO - Worker worker1, instance 0, phone 83991104040, info: new conversation page loaded.
+2025-03-09 13:17:41,647 - INFO - Worker worker1, instance 0, phone 83991104040, info: recipient entered.
+2025-03-09 13:17:43,735 - INFO - error waiting for textarea.input, exception is: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(text(), 'Nenhum chat em grupo correspondente foi encontrado')]"}
+  (Session info: chrome=134.0.6998.35); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x62c608c6346a <unknown>
+#1 0x62c60871ced0 <unknown>
+#2 0x62c60876e935 <unknown>
+#3 0x62c60876eb61 <unknown>
+#4 0x62c6087bd9d4 <unknown>
+#5 0x62c60879488d <unknown>
+#6 0x62c6087baceb <unknown>
+#7 0x62c608794633 <unknown>
+#8 0x62c6087601be <unknown>
+#9 0x62c608761981 <unknown>
+#10 0x62c608c2986b <unknown>
+#11 0x62c608c2d73c <unknown>
+#12 0x62c608c10f12 <unknown>
+#13 0x62c608c2e2b4 <unknown>
+#14 0x62c608bf50af <unknown>
+#15 0x62c608c51ad8 <unknown>
+#16 0x62c608c51cb6 <unknown>
+#17 0x62c608c622e6 <unknown>
+#18 0x7f848ba9caa4 <unknown>
+#19 0x7f848bb29c3c <unknown>
+
+2025-03-09 13:17:43,780 - INFO - Worker worker1, instance 0, phone 83991104040, info: find_possible_errors code is 0.
+2025-03-09 13:17:43,791 - INFO - Worker worker1, instance 0, phone 83991104040, info: find_possible_errors code is 0.
+2025-03-09 13:17:43,793 - INFO - Worker worker1, instance 0, phone 83991104040, info: unable to send RCS to this contact *********.
+2025-03-09 13:17:48,801 - INFO - Worker worker1, instance 0, phone 83991104040, info: message 948700 will be tryied as SMS.
+2025-03-09 13:17:48,802 - INFO - Worker worker1, instance 0, phone 21980177636, info: starting sending message -------------------------------------------------------.
+2025-03-09 13:17:49,142 - INFO - Worker worker1, instance 0, phone 21980177636, info: new conversation page loaded.
+2025-03-09 13:17:51,110 - INFO - Worker worker1, instance 0, phone 21980177636, info: recipient entered.
+2025-03-09 13:17:53,226 - INFO - error waiting for textarea.input, exception is: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(text(), 'Nenhum chat em grupo correspondente foi encontrado')]"}
+  (Session info: chrome=134.0.6998.35); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x62c608c6346a <unknown>
+#1 0x62c60871ced0 <unknown>
+#2 0x62c60876e935 <unknown>
+#3 0x62c60876eb61 <unknown>
+#4 0x62c6087bd9d4 <unknown>
+#5 0x62c60879488d <unknown>
+#6 0x62c6087baceb <unknown>
+#7 0x62c608794633 <unknown>
+#8 0x62c6087601be <unknown>
+#9 0x62c608761981 <unknown>
+#10 0x62c608c2986b <unknown>
+#11 0x62c608c2d73c <unknown>
+#12 0x62c608c10f12 <unknown>
+#13 0x62c608c2e2b4 <unknown>
+#14 0x62c608bf50af <unknown>
+#15 0x62c608c51ad8 <unknown>
+#16 0x62c608c51cb6 <unknown>
+#17 0x62c608c622e6 <unknown>
+#18 0x7f848ba9caa4 <unknown>
+#19 0x7f848bb29c3c <unknown>
+
+2025-03-09 13:17:53,280 - INFO - Worker worker1, instance 0, phone 21980177636, info: find_possible_errors code is 0.
+2025-03-09 13:17:53,298 - INFO - Worker worker1, instance 0, phone 21980177636, info: find_possible_errors code is 0.
+2025-03-09 13:18:23,493 - INFO - Worker worker1, instance 0, phone 21980177636, info: message 948709 was sended as RCS.
+2025-03-09 13:18:23,495 - INFO - Worker worker1, instance 0, phone 11996821998, info: starting sending message -------------------------------------------------------.
+2025-03-09 13:18:23,855 - INFO - Worker worker1, instance 0, phone 11996821998, info: new conversation page loaded.
+2025-03-09 13:18:26,060 - INFO - Worker worker1, instance 0, phone 11996821998, info: recipient entered.
+2025-03-09 13:18:28,180 - INFO - error waiting for textarea.input, exception is: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(text(), 'Nenhum chat em grupo correspondente foi encontrado')]"}
+  (Session info: chrome=134.0.6998.35); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x62c608c6346a <unknown>
+#1 0x62c60871ced0 <unknown>
+#2 0x62c60876e935 <unknown>
+#3 0x62c60876eb61 <unknown>
+#4 0x62c6087bd9d4 <unknown>
+#5 0x62c60879488d <unknown>
+#6 0x62c6087baceb <unknown>
+#7 0x62c608794633 <unknown>
+#8 0x62c6087601be <unknown>
+#9 0x62c608761981 <unknown>
+#10 0x62c608c2986b <unknown>
+#11 0x62c608c2d73c <unknown>
+#12 0x62c608c10f12 <unknown>
+#13 0x62c608c2e2b4 <unknown>
+#14 0x62c608bf50af <unknown>
+#15 0x62c608c51ad8 <unknown>
+#16 0x62c608c51cb6 <unknown>
+#17 0x62c608c622e6 <unknown>
+#18 0x7f848ba9caa4 <unknown>
+#19 0x7f848bb29c3c <unknown>
+
+2025-03-09 13:18:28,273 - INFO - Worker worker1, instance 0, phone 11996821998, info: find_possible_errors code is 0.
+2025-03-09 13:18:28,290 - INFO - Worker worker1, instance 0, phone 11996821998, info: find_possible_errors code is 0.
+2025-03-09 13:18:28,291 - INFO - Worker worker1, instance 0, phone 11996821998, info: unable to send RCS to this contact *********.
